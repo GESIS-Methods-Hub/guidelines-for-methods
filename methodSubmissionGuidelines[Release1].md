@@ -1,5 +1,5 @@
 # Method Submission Guide
-<div text-align='right'>*Version 0.1*</div>
+<div style='text-align:right'>*Version 0.1*</div>
 
 Taimoor Khan, Hajira Jabeen
 
