@@ -1,7 +1,8 @@
 # Method Submission Guide
-:- *Version 0.1*
+-: |
+*Version 0.1*
 
-Taimoor Khan, Hajira Jabeen
+**Taimoor Khan, Hajira Jabeen**
 
 _This document serves as a guide for adding methods to the Methods Hub. It assists in preparing methods for the Methods Hub through workflows, checklists, and guidelines to ensure conformance to the defined standards._
 
