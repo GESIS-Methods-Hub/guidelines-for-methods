@@ -1,5 +1,5 @@
 # Method Submission Guide
-|- *Version 0.1*
+:- *Version 0.1*
 
 Taimoor Khan, Hajira Jabeen
 
