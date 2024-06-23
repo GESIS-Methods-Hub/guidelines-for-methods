@@ -73,7 +73,7 @@ The prominent AI/ML methods that are applicable and of interest in the social sc
 
 *Note: Chapter 6 provides details of what to consider as a method and how to identify methods from research pipelines.*
 
-The remaining document is structured as follows. Chapter 2 provides the checklist for method submission. Chapters 3 discusses scope of the Methods Hub content. Chapter 4 provide guidelines on prepare a method for Methods Hub submission. Chapter 5 discusses the documentation and code quality guidelines for the methods. Chapter 6 assists to determine identifying methods from previous, current, or future research work and how to modularize it for the Methods Hub. Chapter 7 lists additional resources in following the guidelines and preparing the methods for submission.
+The remaining document is structured as follows. Chapter 2 provides checklists for method submission. Chapters 3 discusses scope of the Methods Hub content. Chapter 4 provide guidelines on preparing a method for Methods Hub submission. Chapter 5 discusses the documentation and code quality guidelines for the methods. Chapter 6 assists to identify methods from previous, current, or future research work and how to modularize it for the Methods Hub. Chapter 7 lists additional resources in following the guidelines and preparing the methods for submission.
 
 # 2. Methods Submission Checklist
 
