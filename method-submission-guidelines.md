@@ -88,14 +88,14 @@ Method repo URL: ______________________________________
 ## 2.1. Checklists for Computer science and Social science methods submission
 1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
 |   | Openness criteria|
-|---|---------|
+|---|------------------|
 | ☐ | Open-sourced programming language |
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
 
 2.	Relevance: Method Scope criteria (Chapter 4 in method guidelines) 
 |   | Relevance criteria|
-|---|---------|
+|---|-------------------|
 | ☐ | Providing social science use case(s) or citing social science publications |
 | ☐ | DBD applicability by citing DBD dataset or mentioning type of DBD data |
 | ☐ | Assign the method to appropriate task category(ies) |
@@ -120,14 +120,14 @@ Method repo URL: ______________________________________
 
 1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
 |   | Openness criteria|
-|---|---------|
+|---|------------------|
 | ☐ | Open-sourced programming language |
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
 
 1.	Tutorial: Write a tutorial that elaborate on the use of the method with a social science use case or research questions as easy to follow stepwise guide)
 |   | Alternate for scope and relevance |
-|---|---------|
+|---|-----------------------------------|
 | ☐ | Write a tutorial for the method by following the tutorial guidelines |
 
 
