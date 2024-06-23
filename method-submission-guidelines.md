@@ -103,6 +103,7 @@ Method repo URL: ______________________________________
 | ☐ | Assign the method to appropriate task category(ies) |
 
 3.	Method documentation and code quality (Chapter 5 in method guidelines)
+   
 |   | Method documentation|
 |---|---------------------|
 |   | *3.1. Required documents* |
@@ -121,6 +122,7 @@ Method repo URL: ______________________________________
 ## 2.2. Special case: Methods with established communities (Consult Methods Hub Team first)
 
 1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
+   
 |   | Openness criteria|
 |---|------------------|
 | ☐ | Open-sourced programming language |
@@ -128,6 +130,7 @@ Method repo URL: ______________________________________
 | ☐ | Open license for reuse | 
 
 1.	Tutorial: Write a tutorial that elaborate on the use of the method with a social science use case or research questions as easy to follow stepwise guide)
+   
 |   | Alternate for scope and relevance |
 |---|-----------------------------------|
 | ☐ | Write a tutorial for the method by following the tutorial guidelines |
