@@ -1,4 +1,4 @@
-This repo provides method submission guidelines for Methods Hub. The guidelines are followed for content release 1 [June 2024]. The guidelines will update with the coming releases as need be.
+This repo provides method submission guidelines for Methods Hub. The guidelines are followed for **Methods Hub content release 1 [June 2024]**. The guidelines will update with the coming releases as need be.
 Start with the [method submission guidelines](method-submission-guidelines.md) if you are here for the first time.
 Otherwise, 
 -   For method README use [README template](method-README-template.md)
