@@ -3,4 +3,4 @@ Start with the [method submission guidelines](method-submission-guidelines.md) i
 Otherwise, 
 -   For method README use [README template](method-README-template.md)
 -   For tutorial use [tutorial template](tutorial-template.md)
--   For supporting documentation (also linked within method submission guidelines) read [supporting-documents](/supporting-documents/)
+-   For supporting documentation (also linked within method submission guidelines) read [supporting documents](/supporting-documents/)
