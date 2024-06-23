@@ -87,8 +87,8 @@ Method repo URL: ______________________________________
 
 ## 2.1. Checklists for Computer science and Social science methods submission
 1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
-|   | Openness criteria|
-|---|------------------|
+| checkbox | Openness criteria|
+|----------|------------------|
 | ☐ | Open-sourced programming language |
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
