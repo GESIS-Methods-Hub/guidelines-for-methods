@@ -119,7 +119,7 @@ Method repo URL: ______________________________________
 
 *For detailed structure of the README file consult the README template.*
 
-## 2.2. Special case: Methods with established communities (Consult Methods Hub Team first)
+## 2.2. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
 
 1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
    
