@@ -2,5 +2,5 @@ This repo provides method submission guidelines for Methods Hub. The guidelines 
 Start with the [method submission guidelines](method-submission-guidelines.md) if you are here for the first time.
 Otherwise, 
 -   For method README use [Method README template](method-README-template.md)
--   For tutorial use [Tutorial template](https://github.com/gesiscss/mh_tutorial/blob/v0.0/template.qmd)
+-   For tutorial use [Tutorial template](https://github.com/GESIS-Methods-Hub/mh_tutorial/blob/v0.0/template.qmd)
 -   For supporting documentation (also linked within method submission guidelines) read [supporting documents](/supporting-documents/)
