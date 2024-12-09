@@ -58,6 +58,7 @@ Example: "The output consists of topic distributions and representative words fo
 - Providing HowTos on the method for different types of usages
 - Describe how the method should be used, including installation, configuration, and any specific instructions for users.
 - *Following these steps should be sufficient to execute the method for sample input. Any one with non-technical background should be able to follow these steps.*
+- For reproducibility, preserve the original working environment, set random seed control and provide configurations in a JSON file
 
 ## Hardware Requirements (Optional)
 - The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
