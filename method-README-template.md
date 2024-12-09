@@ -15,7 +15,7 @@ An easy-to-use method for continuously collecting data from the 4Chan social med
 ## Keywords
 Few keywords placed after description highlighting the nature of the method 
 
-## Science Usecase(s)
+## Usecase(s)
 - Include one or more usecases from social sciences that would make this method applicable in a social science research scneario.
  
 For example,
@@ -37,27 +37,32 @@ Requires Python 3.10.2 or 3.11.4. Suitable for environments focused on data coll
 Dependencies are listed in requirements.txt and can be installed via pip install -r requirements.txt to ensure the tool functions correctly.
 
 
-## Hardware Requirements (Optional)
-- The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
-- The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.)
-- *Remove this section if it doesn't apply to your method otherwise remove the (optional) from the title* 
+## Digital Behavioral Data Applicability (Optional) 
+- Provide link to a public DBD dataset e.g., GESIS DBD datasets (https://www.gesis.org/en/institute/digital-behavioral-data)
 
+## Input Specification
+### User Query (if applicable): 
+This refers to the information the user provides to personalize or refine the process (e.g., a query for semantic search or a seed topic for topic modeling).
+Example: "User inputs a search query to identify similar social media posts."
+### Input Dataset/Corpus: 
+This refers to the dataset or text corpus the method operates on.
+Example: "The method processes a collection of social media posts in JSON format."
 
-## Input Data 
-- The input data has to be a Digital Behavioral Data (DBD) Dataset
-- You can provide link to a public DBD dataset. GESIS DBD datasets (https://www.gesis.org/en/institute/digital-behavioral-data)
-
-
-## Sample Input and Output Data
-- Show how the input data looks like through few sample instances
-- Providing a sample output on the sample input to help cross check
-- *The sample input and output should be meaningful values to demonstrate the use of the method on a smaller scale*
-
+### Output Description
+Providing a sample output on the sample input to help cross check.
+Example: "The output is a ranked list of posts saved in a JSON file, including the similarity score for each match."
+For methods without ranked results, describe what the user can expect.
+Example: "The output consists of topic distributions and representative words for each topic."
 
 ## How to Use
 - Providing HowTos on the method for different types of usages
 - Describe how the method should be used, including installation, configuration, and any specific instructions for users.
 - *Following these steps should be sufficient to execute the method for sample input. Any one with non-technical background should be able to follow these steps.*
+
+## Hardware Requirements (Optional)
+- The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
+- The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.)
+- *Remove this section if it doesn't apply to your method otherwise remove the (optional) from the title* 
 
 ## Contact Details
 - Provide contact information, such as your email or other means for users or contributors to reach out with questions or feedback.
