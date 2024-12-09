@@ -3,11 +3,16 @@ The title should be meaningful and easy to follow. It should reflect relevance t
 
 ## Description
 - Provide a brief and exact description of the method clearly mentioning its purpose i.e., what it does in non-technical terms. The focus should be to emphasize on the functionality and get non-technical users interested as well as in a position to understand what the method is doing. Write a sentence about the input and output format of the data and DBD datasets that the method can work with. Writing about noteworthy features of the method. It can be structured as:
+
+- 1st paragraph: It should emphasize the usefulness of the method as a blackbox 
 - 1 or 2 sentences on highlighting the functionality of the method to get non-technical users interested in the method
 - A sentence about the input and output format of the method
 - A sentence on the noteworthy functionality of the method
+
+- 2nd paragraph: It should highlight the reproducibility aspect of the method
 - A sentence about the demo example with sample input and output used with the method
-- A sentence mentioning (and adding links to) relevant resources that the method uses or works with. The social science papers using the method or similar methods can also be cited to highlight its importance.
+- A sentence mentioning (and adding links to) relevant resources that the method uses or works with.
+- The social science papers using the method or similar methods can also be cited to highlight its importance.
 
 For example,
 An easy-to-use method for continuously collecting data from the 4Chan social media platform. It collects all textual data (in JSON format) along with its metadata from all 4Chan discussion boards (live and archived ones), possibly updating every sec (recommended 10 sec).  The platform is popular as incubator for memes, viral content and political activism, and is known to have explicit, hateful and racist content across diverse topics. Users are mostly anonymous and threads comparably shortlived and focused on trending/recent issues. 
