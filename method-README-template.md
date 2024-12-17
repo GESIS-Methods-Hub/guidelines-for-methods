@@ -17,6 +17,7 @@ The title should be meaningful and easy to follow. It should reflect relevance t
 For example,
 An easy-to-use method for continuously collecting data from the 4Chan social media platform. It collects all textual data (in JSON format) along with its metadata from all 4Chan discussion boards (live and archived ones), possibly updating every sec (recommended 10 sec).  The platform is popular as incubator for memes, viral content and political activism, and is known to have explicit, hateful and racist content across diverse topics. Users are mostly anonymous and threads comparably shortlived and focused on trending/recent issues. 
 
+For more information on how to use the method and its reproducibility, please explore the following resources:
 - [How to use](https://github.com/GESIS-Methods-Hub/method-guidelines/blob/main/how_to_use.md): Detailed instructions for setting up the environment, configuring the method, and running the script.
 - [Reproducibility](https://github.com/GESIS-Methods-Hub/method-guidelines/blob/main/reproducibility.md): Information about the actual implementation and reproduction of the method.
 
