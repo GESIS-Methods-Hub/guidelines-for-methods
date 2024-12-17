@@ -50,4 +50,4 @@ For example,
 - *Remove this section if it doesn't apply to your method otherwise remove the (optional) from the title* 
 
 ## References (Optional)
-Provide references to any publications cited in the method documentation.
+Provide references *in APA style* to any publications cited in the method documentation.
