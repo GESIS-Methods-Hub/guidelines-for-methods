@@ -12,7 +12,7 @@ The title should be meaningful and easy to follow. It should reflect relevance t
 - 2nd paragraph: It should highlight the reproducibility aspect of the method
 - A sentence about the demo example with sample input and output used with the method
 - A sentence mentioning (and adding links to) relevant resources that the method uses or works with.
-- The social science papers using the method or similar methods can also be cited to highlight its importance.
+- The social science papers using the method or similar methods can also be cited to highlight its importance. 
 
 For example,
 An easy-to-use method for continuously collecting data from the 4Chan social media platform. It collects all textual data (in JSON format) along with its metadata from all 4Chan discussion boards (live and archived ones), possibly updating every sec (recommended 10 sec).  The platform is popular as incubator for memes, viral content and political activism, and is known to have explicit, hateful and racist content across diverse topics. Users are mostly anonymous and threads comparably shortlived and focused on trending/recent issues. 
@@ -25,7 +25,7 @@ For more information on how to use the method and its reproducibility, please ex
 Few keywords placed after description highlighting the nature of the method 
 
 ## Usecase(s)
-- Include one or more usecases from social sciences that would make this method applicable in a social science research scneario.
+- Include one or more usecases from social sciences that would make this method applicable in a social science research scneario.  
  
 For example,
 - A social scientist wants to collect 4Chan data on political discourse from dates 10.01.2024 to 10.06.2024.
@@ -49,3 +49,5 @@ For example,
 - Add any disclaimers, legal notices, or usage restrictions for the method, if necessary.
 - *Remove this section if it doesn't apply to your method otherwise remove the (optional) from the title* 
 
+## References (Optional)
+Provide references to any publications cited in the method documentation.
