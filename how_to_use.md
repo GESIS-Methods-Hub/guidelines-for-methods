@@ -1,3 +1,10 @@
+## Environment Setup
+- Setting up the envornment to run this method locally
+- Installing all the packages and libraries with specific versions required to run this method
+For example, 
+Requires Python 3.10.2 or 3.11.4. Suitable for environments focused on data collection and analysis.
+Dependencies are listed in requirements.txt and can be installed via pip install -r requirements.txt to ensure the tool functions correctly.
+
 ## How to Use
 - Providing HowTos on the method for different types of usages
 - Describe how the method should be used, including installation, configuration, and any specific instructions for users.
