@@ -22,3 +22,6 @@ To easily run and explore the method in a pre-configured environment, you can us
 
 ### Hardware Details
 Provide hardware and software specifications of the system on which the experiment was executed. Also provide additional information such as time taken/on data size to help users expect the method behavior.
+
+## References (Optional)
+Provide references to any publications cited in the method documentation.
