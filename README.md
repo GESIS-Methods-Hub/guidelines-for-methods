@@ -20,7 +20,7 @@ The Git repository with the method **must** have the following files
 - [`LICENSE.*`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 - [`CITATION.cff`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
-Additionally, the Git repository **must** also have the [necessary files for the interactive environment](https://repo2docker.readthedocs.io/en/latest/configuration/index.html). For example,
+Additionally, the Git repository **must** also have the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example,
 
 - `binder/postBuild`
 - `binder/environment.yml`
@@ -32,3 +32,5 @@ A template is provided at [`method-README-template.md`](method-README-template.m
 ## Further Reading
 
 - [Method Submission Guide](method-submission-guidelines.md)
+
+[^1]: That environment will be used for rendering the tutorial and for the interactive execution.
