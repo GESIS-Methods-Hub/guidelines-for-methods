@@ -2,60 +2,85 @@
 The title should be meaningful and easy to follow. It should reflect relevance to social science, if applicable 
 
 ## Description
-- Provide a brief and clear description of the method, its purpose, and what it aims to achieve. Add a link to a related paper from social science 
-domain and show how your method can be applied to solve that research question.  
-For example,
-4TCT is a specialized tool designed for the efficient collection of textual data from the 4chan platform. It automates the process of gathering posts from various boards, aiming to facilitate research and analysis in social science and computational linguistics.
-This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support studies on topics like meme culture, information dissemination, and the impact of anonymous social media on public opinion.
+Provide a brief and exact description of the method clearly mentioning its purpose i.e., what the method does in or aims to achieve in abstract terms (avoiding technical details). Focus should be to emphasize on the functionality as a blackbox, helping researchers with different levels of expertise and experience to understand what the method is doing. Brielfly explain the input and output of the method and its note worthy features. Provide link(s) to related papers from the social science domain using the method or similar methods for solving social science research questions. 
+
+A second paragraph may be provided to highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules. It should also provide different configuration parameters to assist in altering the behavior of the method for a related use case. 
+
+- Example
+This method helps uncover hidden themes within a collection of text documents, making it a valuable tool for exploring unfamiliar domains. For example, a social scientist analyzing public discussions on social media or academic papers on a particular topic can use this method to identify recurring themes or topics. The method assumes that each document contains a mixture of topics and each topic comprises a distinct set of words. By processing a text file with one document per line, the method generates two key outputs i.e., i) the probability of each topic appearing in each document ii) the most representative words for each topic, along with their probabilities.
+
+This approach is built on [Latent Dirichlet Allocation (LDA)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?ref=http://githubhelp.com), using a specialized technique called collapsed Gibbs sampling [(LDA with collapsed Gibbs sampling)](https://www.cs.cmu.edu/~wcohen/10-605/papers/fastlda.pdf). This enhances efficiency, producing a balanced topic distribution while allowing users control over the model’s internal workings.
+It uses [Markov chain Monti Carlo approach](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) to initialize the model with a random state. The method provides vanilla implementation (using only basic packages for loading data e.g., numpy, JSON, and random number generation) of Topic modeling with maximum control to customize its behavior. It gives users transparent control over internal decisions. The method is implemented as a class to extend its behavior easily. 
 
 ## Keywords
-Few keywords placed after description highlighting the nature of the method 
+Provide 3 to 5 keywords that highlight purpose of the method and help in finding it (as a comma separated list).  
 
-## Science Usecase(s)
-- Include usecases from social sciences that would make this method applicable in a certain scenario. 
-The use cases or research questions mentioned should arise from the latest social science literature cited in the description.
-For example,
-How to collect 4chan data from on political discourse from dates ..
+## Social Science Use Case(s)
+Include use case(s) from social sciences that would make this method applicable in a certain scenario. The use case(s) or research questions mentioned should arise from the latest social science literature cited in the description.
+
+- Example
+How to collect 4chan data from on political discourse from dates 2025.04.12 to 2025.08.12
  
 
 ## Repo Structure
-- Explain the overall structure of the method, including directories, key files, and their functions.
-For example,
-The tool's architecture includes a src/ directory for core scripts, with requester.py handling data collection, board.py managing board-specific requests, and utils.py for auxiliary functions. Data is stored in a data/ directory created upon initiation, and documentation is available in docs/.
+- List files and their purpose as a list (or a tree like structure)
+- Explain the score script files and their purpose
+- Explain the input, output and other intermediate files produced
+- Explain the configuration and other utility files
+  
+- Example
+- [data/](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/tree/master/data/)
+- [data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv) (BBC article headings, using only first 100 for demo)
 
+*generated by prepare-data.ipynb*
+- [data/integer-encoded-data.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/integer-encoded-data.txt)
+- [data/dictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/dictionary.json)
+- [data/revdictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/revdictionary.json)
+
+*scripts*
+- [LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb)
+- [LICENSE.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LICENSE.txt)
+- *requirements.txt not needed*
 
 ## Environment Setup
-- Setting up the envornment to run this method locally
+- Setting up the envornment to run the method locally
+- Deploy working environement from configuration files preserving dependencies i.e., Requirements.txt, install.R, configuration.yml etc.
 - Installing all the packages and libraries with specific versions required to run this method
-For example, 
-Requires Python 3.10.2 or 3.11.4. Suitable for environments focused on data collection and analysis.
-Dependencies are listed in requirements.txt and can be installed via pip install -r requirements.txt to ensure the tool functions correctly.
+- Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the paramters to alter the behavior of the method without directly interacting with the code.
 
+- Example
+It is the vanilla implementation of the Latent Dirichlet Allocation technique with everything built from scratch, therefore only basic libraries i.e., `numpy`, `pandas`, `random` and `string` are needed to read data and generate random numbers.
+- Update [config.json](config.json) to read method configurations in JSON format and update as desired. 
+- Setup the environment using [requirements.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/requirements.txt) through command `pip install -r requirements.txt`
+- Put your data in [data/input.csv](data/input.csv)
+- Execute the notebook [LDA-collapsed-gibbs-sampling.ipynb](LDA-collapsed-gibbs-sampling.ipynb) to get results
+
+## Input and Output Data
+- Explain the input data and provide links to the dataset that the method can work with. It should ideallay be [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data)
+- Explain the sample input data in the repo i.e., the data features and what they represent
+- Explain the sample output data in the repo i.e., how to interpret the output  
+
+## How to Use
+- Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed)
+- Explain which files or paramters need to be update dand how the alter the behavior of the method
+
+- Example
+- Put your data in [data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv)
+- Execute the first notebook [prepare-data.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/prepare-data.ipynb) to transform the data into integer encoding
+- Execute the main notebook `[LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb) to get results
 
 ## Hardware Requirements (Optional)
 - The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
 - The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.)
 
+## Method Publication (Optional)
+- Include information on publications or articles associated to the method, if applicable (formatted in APA style).
 
-## Input Data 
-- The input data has to be a Digital Behavioral Data (DBD) Dataset
-- You can provide link to a public DBD dataset. GESIS DBD datasets (https://www.gesis.org/en/institute/digital-behavioral-data)
-
-
-## Sample Input and Output Data
-- Show how the input data looks like through few sample instances
-- Providing a sample output on the sample input to help cross check 
-
-
-## How to Use
-- Providing HowTos on the method for different types of usages
-- Describe how the method should be used, including installation, configuration, and any specific instructions for users.
+## References (Optional)
+- Include references to explore and learn more about the method, if applicable (formatted in APA style).
 
 ## Contact Details
-- Provide contact information, such as your email or other means for users or contributors to reach out with questions or feedback.
-
-## Publication (Optional)
-- Include information on publications or articles related to the method, if applicable.
+- Provide contact information, having at least name and email address for users or contributors to reach out with questions or feedback.
 
 ## Acknowledgements (if any)
 - Acknowledgements if any
