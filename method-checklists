@@ -1,0 +1,60 @@
+# 2. Method preparation checklist
+
+The Methods checklist provides the minimum criteria that need to be met for the methods to be submitted to the Methods Hub. 
+
+Method Name: ____________________________________
+
+Method Developer & Email: ___________________________________
+
+Method repo URL: ______________________________________
+
+## 2.1. Checklists for Computer science and Social science methods submission
+1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
+   
+|   | Openness criteria|
+|---|------------------|
+| ☐ | Open-sourced programming language |
+| ☐ | Publicly accessible script |
+| ☐ | Open license for reuse | 
+
+2.	Relevance: Method Scope criteria (Chapter 4 in method guidelines)
+   
+|   | Relevance criteria|
+|---|-------------------|
+| ☐ | Providing social science use case(s) or citing social science publications |
+| ☐ | DBD applicability by citing DBD dataset or mentioning type of DBD data |
+| ☐ | Assign the method to appropriate task category(ies) |
+
+3.	Method documentation and code quality (Chapter 5 in method guidelines)
+   
+|   | Method documentation|
+|---|---------------------|
+|   | *3.1. Required documents* |
+| ☐ | Configuration file to recreate working environment. It can be requirements.txt, install.R, configuration.yml etc.|
+| ☐ | Open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. |
+| ☐ | [Citation file format](https://citation-file-format.github.io/) or its alternative to cite method |
+| ☐ | Method README describing working of the method for social science use cases and research questions. Also providing all details needed to reuse the method. |
+|   | *3.2. README file structure* |
+| ☐ | The README description cite relevant papers from social science domain demonstrating the use of the method or research questions for which the method can be used. |
+| ☐ | Mentioning use cases from social science domain where the method can be used |
+| ☐ | Reporting Repo structure  |
+| ☐ | Providing sample input data, sample output data and the environment setup to help recreate the environment and execute the method on sample data.  |
+
+*For detailed structure of the README file consult the README template.*
+
+## 2.2. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
+
+1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
+   
+|   | Openness criteria|
+|---|------------------|
+| ☐ | Open-sourced programming language |
+| ☐ | Publicly accessible script |
+| ☐ | Open license for reuse | 
+
+1.	Tutorial: Write a tutorial that elaborate on the use of the method with a social science use case or research questions as easy to follow stepwise guide)
+   
+|   | Alternate for scope and relevance |
+|---|-----------------------------------|
+| ☐ | Write a tutorial for the method by following the tutorial guidelines |
+
