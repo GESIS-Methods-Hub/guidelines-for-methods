@@ -26,7 +26,7 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 |---|-------------------|
 | ☐ | Providing social science use case(s) or citing social science publications of the method or similar methods |
 | ☐ | The method can be applied to Digital Behavioral Data by providing links to data sources and demonstrated through sample data in the repo |
-| ☐ | Assign the method fits into the defined task vocabulary for computational methods in social science |
+| ☐ | Assign the method fits into the defined task vocabulary for computational methods in social science ([method tasks](For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/methods-tasks.md)))|
 
 ## 3.	Method documentation and code quality 
 (Ref. [Method quality guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#4-method-quality-guidelines))
