@@ -1,3 +1,6 @@
+
+# Method Publishing Workflow
+
 Figure 1 provides the method submission workflow where the methods fulfilling the Methods Hub guidelines ready to submit through the portal. The method submission workflow is followed by the method review workflow that ensures adherence to the provided standards; however, the review workflow is out of the scope of this document.
 ```mermaid
 graph LR
