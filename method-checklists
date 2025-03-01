@@ -8,6 +8,8 @@ Method Developer & Email: ___________________________________
 
 Method repo URL: ______________________________________
 
+For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 and 3.
+
 ## 1. Method Submission Preconditions ([Method preconditions guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#2-method-preconditions)
    
 |   | Openness criteria|
@@ -35,12 +37,12 @@ Method repo URL: ______________________________________
 | ☐ | README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) |
 | ☐ | binder/postbuild file [file-link](file-link)
 
-## 4. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
+## *. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
   
 |   | Openness criteria|
 |---|------------------|
 | ☐ | Satisfies checklist 1 on openness |
-| ☐ | Has a tutorial for the method by following the tutorial guidelines that elaborate on the reuse of the method with a social science use case or research question |
+| ☐ | Has a tutorial for the method by following the tutorial guidelines that elaborate on the reuse of the method with a social science use case or research question OR the method is published by a trusted third party that review code and documentation for their published software |
 
 
 **Contact:** 
