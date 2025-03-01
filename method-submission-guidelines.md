@@ -91,7 +91,7 @@ The tasks that the method can perform is presented as loose vocabulary refering 
 
 **Data Visualization:** Data visualization involves presenting data in a visual format to aid understanding. This category includes network visualization for representing relationships and tabular data visualization for structured numerical information. Effective visualization enhances the communication of findings and patterns derived from the data. 
 
-*Note: The defined tasks vocabulary defined is not mutually exclusive and can be overlapping. Multiple fitting tasks can also be assigned to a method. The tasks here provides an overview where the subtasks within are excluded for simplicity.*
+*Note: The defined tasks vocabulary defined is not mutually exclusive and can be overlapping. Multiple fitting tasks can also be assigned to a method. The tasks here provides an overview where the subtasks within are excluded for simplicity. For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/methods-tasks.md)*
 
 # 4. Method Quality Guidelines
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent AI/ML methods in social science, while encouraging to develop reusable methods.
