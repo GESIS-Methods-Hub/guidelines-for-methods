@@ -10,7 +10,8 @@ Method repo URL: ______________________________________
 
 For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 and 3.
 
-## 1. Method Submission Preconditions ([Method preconditions guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#2-method-preconditions)
+## 1. Method Submission Preconditions 
+(Ref. [Method preconditions guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#2-method-preconditions))
    
 |   | Openness criteria|
 |---|------------------|
@@ -18,7 +19,8 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
 
-## 2.	Method Scope i.e., relevance to social science [Method scope guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#3-scoping-criteria) 
+## 2.	Method Scope i.e., relevance to social science 
+(Ref. [Method scope guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#3-scoping-criteria)) 
    
 |   | Relevance criteria|
 |---|-------------------|
@@ -26,7 +28,8 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 | ☐ | The method can be applied to Digital Behavioral Data by providing links to data sources and demonstrated through sample data in the repo |
 | ☐ | Assign the method fits into the defined task vocabulary for computational methods in social science |
 
-## 3.	Method documentation and code quality [Method quality guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#4-method-quality-guidelines)
+## 3.	Method documentation and code quality 
+(Ref. [Method quality guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#4-method-quality-guidelines))
    
 |   | Method documentation|
 |---|---------------------|
@@ -37,7 +40,8 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 | ☐ | README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) |
 | ☐ | binder/postbuild file [file-link](file-link)
 
-## *. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
+## *Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
+(Ref. [Trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#12trusted-third-party-review-bodies) and [Established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#13alternative-for-established-methods))
   
 |   | Openness criteria|
 |---|------------------|
