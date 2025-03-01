@@ -1,4 +1,4 @@
-*method-template-v2 (freezed till 25.06.31)*
+<div style="text-align: right"><em>method-template-v2 (freezed till 25.06.31)</em></div><br>
 
 # Method Title
 The title should be meaningful and easy to follow. It should reflect relevance to social science, if applicable 
