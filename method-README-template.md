@@ -1,3 +1,5 @@
+*method-template-v2 (freezed till 25.06.31)*
+
 # Method Title
 The title should be meaningful and easy to follow. It should reflect relevance to social science, if applicable 
 
