@@ -182,7 +182,7 @@ Researchers and practiioners working in computational social science, computer s
 
 Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
 
-# 7. Resources and Supporting Material
+# 6. Resources and Supporting Material
 - Social science software publishing venues: [prominent social science software publishing venues](prominent-venues.md)
 - Templates
   - [CFF-template](https://citation-file-format.github.io/)
@@ -193,5 +193,5 @@ Generally, a method coded for a research model would have specific settings acco
 - Code Reusability
   - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
 
-# 8. References
+# 7. References
 [https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2](https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2)
