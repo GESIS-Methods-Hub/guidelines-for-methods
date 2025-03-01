@@ -22,8 +22,13 @@ The Git repository with the method **must** have the following files
 
 Additionally, the Git repository **must** also have the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example,
 
-- `binder/postBuild`
+- `binder/postBuild` using [mybinder-link](mybinder-link)
 - `binder/environment.yml`
+
+Optional, however recommended to add workflow folder to verify that the basic requiements for submitting the method are already met
+- Add workflow folder to the root of your repo using [workflow-link](workflow-link)
+- Cross-check for the main branch name (main or master) and update in the file [file-link](file-link) accordingly
+- Review action and address the errors if any
 
 ## Template
 
