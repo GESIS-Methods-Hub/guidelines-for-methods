@@ -1,8 +1,5 @@
 # Method Submission Guide
-*Version 0.1*
-
-**Taimoor Khan, Hajira Jabeen**
-
+*Version 2*
 
 *This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through workflows, checklists, and guidelines to ensure conformance to the defined standards.*
 
@@ -10,19 +7,19 @@
 
 The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data (DBD). The bulk of methods will stem from computer science, notably showcasing cutting-edge AI/ML techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research. 
 
-*Note: This is a living document for content submission guidelines and therefore, the method submission scenarios, their definition and the checklist to adhere to are frozen for release 1 (June 2024). Additional changes in this regard will be considered for the next release.*
+*Note: This is a living document for content submission guidelines and therefore, the method submission scenarios, their definition and the checklist to adhere to are frozen for release 2 (July 2025). Additional changes in this regard will be considered for the next release.*
 
 **Methods Hub Content Goal**
 
-The Methods Hub content goal is to provide reusable, well-documented, and relevant content to social scientists that is appliable to Digital Behavioral Data.
+The goal of Methods Hub content is to provide reusable, reviewed and relevant methods to social scientists that are appliable to Digital Behavioral Data.
 
 
 **Methods Hub Content Objectives**
 
-Methods Hub content has the following objectives. 
-1. Enabling reuse of recent AI/ML models on Digital Behavioral Data in social science. 
-2.	Empower social scientists in using AI methods. 
-3.	Allows AI/ML method developers to reach a wider audience and contribute cross domain research challenges.
+Methods Hub content has the following objectives: 
+1. Enabling reuse of recent AI/ML models on Digital Behavioral Data in social science 
+2.	Empower social scientists in using AI methods 
+3.	Allows AI/ML method developers to reach a wider audience and contribute cross domain research challenges
 
 **Glossary**
 
@@ -39,102 +36,29 @@ Methods Hub content has the following objectives.
 | MH | Methods Hub |	
 | CFF | [Citation File Format](https://citation-file-format.github.io/) |
 | AI/ML | Artificial Intelligence/Machine Learning  |
+| SOTA | State-of-the art |
 
-## 1. Method Submission Workflow
-The Methods Hub contains state-of-the-art AI/ML methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain, however, there exists a vast array of untapped potential methods that could significantly provide benefits to the field. The method submission workflow guides to identify, develop and share existing advanced AI/ML methods specifically prepared for the social science community and offering them through Methods Hub as its niche platform. 
+## 1. Methods (Computational Method)
+Methods Hub contains state-of-the-art AI/ML methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced AI/ML methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
 
-This document serves as a roadmap for navigating the method submission process. The method submission workflow is aimed to empower developers/researchers to identify recent and interesting methods, resolve submission constraints if any, and make methods and tutorials Methods Hub ready i.e., developers and researchers can shape their methods for the Methods Hub users following these guidelines. It also encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. Alternate criteria are defined to facilitate such prominent methods while staying within scope of the Methods Hub. Figure 1 provides the method submission workflow where the methods fulfilling the Methods Hub guidelines ready to submit through the portal. The method submission workflow is followed by the method review workflow that ensures adherence to the provided standards; however, the review workflow is out of the scope of this document.
-
-```mermaid
-graph LR
-A[1. Identify method] -->B(2. Prepare using guidelines)
-    B --> C(3. Meet checklist criteria)
-    C --> D(4. Self report)
-```
-1. **Identify method:** Identify and develop a method that is in demand in social science.
-2. **Prepare using guidelines:** Refer to the guidelines and templates to document the method for the target audience.
-3. **Meet checklist criteria:** Ensure the method meets the Methods Hub scope criteria.
-4. **Self-report:** Self-report the method for review by submitting throughthe Methods Hub portal
+It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method repos that are highly desired by the community to be inclusive while staying within scope of the Methods Hub. 
 
 ## 1.1. Methods Dimensions
-Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is make publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
+Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is made publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
 
-1. Method relevance i.e., the method is applicable to social science use cases or research questions.
-2. Recent AI/ML methods i.e., the method is at present state-of-the-art method in the computer science or social science community.
-3. Method documentation quality i.e., the documentation quality is reviewed either by the Methods Hub team or is already reviewed by a trusted third party e.g., renowned software publishing venues to make sure that the method is well documented and require minimum effort to understand and reuse the method for new research questions and use cases.
+1. Method relevance i.e., the method is applicable to social science use cases or research questions. Can the method be used with DBD.
+2. Recent AI/ML methods i.e., a SOTA method in the computer science or social science community.
+3. Method quality i.e., good code and documentation quality. The code quality ensures that the code is easy reuse and modify if need be. The documentation quality that ensures that all necessary information to replicate results are correctly documented in an easy to follow manner. *Note: We follow a lightweight journal like review process to verify the method quality*. We also accept the review of trusted third parties e.g., renowned software publishing venues to make sure that the method is well documented and require minimum effort to understand and reuse for new research questions and use cases.
    
-The methods recently developed in the computer science community with AI/ML and NLP models are more often representing state-of-the-art research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using state-of-the-art AI/ML models. The method review process ensures that the methods shared through the Methods Hub platform are representing state-of-the-art AI/ML methods and have established relevance with social science use cases.
+The methods recently developed in the computer science community with AI/ML and NLP models are more often representing as SOTA research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using SOTA AI/ML models. The method review process ensures that the methods shared through the Methods Hub platform are representing SOTA AI/ML methods and have established relevance with social science use cases.
 
 ## 1.2.	Trusted Third-party Review Bodies
-There are journals and other software publishing venues that ensures the software is reusable and well-documented through a review process. Some of the trusted software publishing venues in computer science and social science venues are listed here ([prominent social science software publishing venues](supporting-documents/prominent-venues.md)). The list is expected to grow with newer venues identified and reported. These venues have well defined documentation requirements to make the code readable, understandable, and reusable. For example, [sweater: Speedy Word Embedding Association Test and Extras Using R](https://joss.theoj.org/papers/10.21105/joss.04036). The code is reviewed for its quality too; therefore, these methods already comply with the MH method submission requirements and can be submitted directly.
+There are journals and other software publishing venues that ensures the software is reusable and well-documented through a review process. Some of the trusted software publishing venues in computer science and social science venues are listed here ([prominent social science software publishing venues](supporting-documents/prominent-venues.md)). *The list is expected to grow with newer venues identified and reported*. These venues have well defined documentation requirements to make the code readable, understandable, and reusable. *For example, [sweater: Speedy Word Embedding Association Test and Extras Using R](https://joss.theoj.org/papers/10.21105/joss.04036)*. The code is reviewed for its quality too; therefore, these methods already comply with the MH method submission requirements and can be submitted directly.
 
 ## 1.3.	Alternative for Established Methods
-The prominent AI/ML methods that are applicable and of interest in the social science domain, having well established repositories with active communities can also be added to Methods Hub. As a bridge, Methods Hub expands the use of these methods to social science research community while offering the social science research community more methods to choose and modify for their research questions. Such established method repos e.g., [SANSA](https://sda.tech/author/hajirajabeen/) and [BERD-NFDI](https://github.com/BERD-NFDI/bear-ml/tree/main/bearml) are of value in the social science domain as well. To establish relevance for these methods, an alternative option is provided i.e., to write tutorials that demonstrate the use of these methods on a social science use case, as a stepwise easy to follow process. The [tutorial template](https://github.com/gesiscss/mh_tutorial/blob/v0.0/template.qmd) provides a content structure for writing tutorials with marked mandatory sections and suggestions for optional sections.
+The prominent AI/ML methods that are applicable and of interest in the social science domain, having well established repositories with active communities can also be added to Methods Hub. As a bridge, Methods Hub extends the use of these methods to social science research community allowing more methods to choose from and modify for their research questions. Such established method repos e.g., [SANSA](https://sda.tech/author/hajirajabeen/) and [BERD-NFDI](https://github.com/BERD-NFDI/bear-ml/tree/main/bearml) are of value in the social science domain as well. To establish relevance with these methods, an alternative option is provided i.e., to write tutorials that demonstrate the use of these methods on a social science use case, as a step-wise easy to follow process. The [tutorial template](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) provides details on writing a tutorial for MH. This also facilitates to indirectly include a variety of methods on different platforms through the tutorial. 
 
-*Note: Chapter 6 provides details of what to consider as a method and how to identify methods from research pipelines.*
-
-The remaining document is structured as follows. Chapter 2 provides checklists for method submission. Chapters 3 discusses scope of the Methods Hub content. Chapter 4 provide guidelines on preparing a method for Methods Hub submission. Chapter 5 discusses the documentation and code quality guidelines for the methods. Chapter 6 assists to identify methods from previous, current, or future research work and how to modularize it for the Methods Hub. Chapter 7 lists additional resources in following the guidelines and preparing the methods for submission.
-
-# 2. Methods Submission Checklist
-
-The Methods checklist provides the minimum criteria that need to be met for the methods to be submitted to the Methods Hub. 
-
-Method Name: ____________________________________
-
-Method Developer & Email: ___________________________________
-
-Method repo URL: ______________________________________
-
-## 2.1. Checklists for Computer science and Social science methods submission
-1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
-   
-|   | Openness criteria|
-|---|------------------|
-| ☐ | Open-sourced programming language |
-| ☐ | Publicly accessible script |
-| ☐ | Open license for reuse | 
-
-2.	Relevance: Method Scope criteria (Chapter 4 in method guidelines)
-   
-|   | Relevance criteria|
-|---|-------------------|
-| ☐ | Providing social science use case(s) or citing social science publications |
-| ☐ | DBD applicability by citing DBD dataset or mentioning type of DBD data |
-| ☐ | Assign the method to appropriate task category(ies) |
-
-3.	Method documentation and code quality (Chapter 5 in method guidelines)
-   
-|   | Method documentation|
-|---|---------------------|
-|   | *3.1. Required documents* |
-| ☐ | Configuration file to recreate working environment. It can be requirements.txt, install.R, configuration.yml etc.|
-| ☐ | Open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. |
-| ☐ | [Citation file format](https://citation-file-format.github.io/) or its alternative to cite method |
-| ☐ | Method README describing working of the method for social science use cases and research questions. Also providing all details needed to reuse the method. |
-|   | *3.2. README file structure* |
-| ☐ | The README description cite relevant papers from social science domain demonstrating the use of the method or research questions for which the method can be used. |
-| ☐ | Mentioning use cases from social science domain where the method can be used |
-| ☐ | Reporting Repo structure  |
-| ☐ | Providing sample input data, sample output data and the environment setup to help recreate the environment and execute the method on sample data.  |
-
-*For detailed structure of the README file consult the README template.*
-
-## 2.2. Special case: AI/ML Methods with established communities (Consult Methods Hub Team first)
-
-1.	Openness: Methods Hub Preconditions (Chapter3 in method guidelines)
-   
-|   | Openness criteria|
-|---|------------------|
-| ☐ | Open-sourced programming language |
-| ☐ | Publicly accessible script |
-| ☐ | Open license for reuse | 
-
-1.	Tutorial: Write a tutorial that elaborate on the use of the method with a social science use case or research questions as easy to follow stepwise guide)
-   
-|   | Alternate for scope and relevance |
-|---|-----------------------------------|
-| ☐ | Write a tutorial for the method by following the tutorial guidelines |
-
+*Note: Follow the method checklist to ensure all requirements for publishing method through the MH are already met.*
 
 # 3. Method Preconditions
 There are three preconditions following open access protocols. To fulfill preconditions, the methods must be scripted in open language, are publicly accessible and have an open license. The platform supports scripts in open languages e.g., Python, R and does not cover commercial tools e.g., MATLAB, SPSS etc. The code must be publicly accessible to all from popular code sharing platforms like GitHub or GitLab, Figure 3.
