@@ -1,5 +1,5 @@
 # Method Submission Guide
-*Version 2*
+*Version 2.0*
 
 *This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through workflows, checklists, and guidelines to ensure conformance to the defined standards.*
 
@@ -60,113 +60,107 @@ The prominent AI/ML methods that are applicable and of interest in the social sc
 
 *Note: Follow the method checklist to ensure all requirements for publishing method through the MH are already met.*
 
-# 3. Method Preconditions
-There are three preconditions following open access protocols. To fulfill preconditions, the methods must be scripted in open language, are publicly accessible and have an open license. The platform supports scripts in open languages e.g., Python, R and does not cover commercial tools e.g., MATLAB, SPSS etc. The code must be publicly accessible to all from popular code sharing platforms like GitHub or GitLab, Figure 3.
+# 2. Method Preconditions
+There are three preconditions following open access protocols. To fulfill preconditions, the methods must be scripted in open language, are publicly accessible and have an open license. The platform supports scripts in open languages e.g., Python, R etc. and does not cover commercial tools e.g., MATLAB, SPSS etc. The code must be publicly accessible to all from popular code sharing platforms like GitHub or GitLab.
 
-Licenses like MIT open license, Apache 2.0 open license and CC-BY 4.0 are popular open-source licenses widely used in the GitHub community. The MIT license is known for its simplicity and permissiveness, allowing developers to freely use, modify, and distribute the software while requiring them to include the original license and disclaimer in any substantial portions of the code. The Apache License 2.0 is a more comprehensive license that provides clear guidelines on contributions, patents, and liability. Although these three are suggested as the frequently used open-source licenses, it doesn’t limit the use of any other open-source license. 
+Licenses like [MIT open license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0 open license](https://github.com/apache/.github/blob/main/LICENSE) and CC-BY 4.0 are popular open-source licenses widely used in the GitHub community. The MIT license is known for its simplicity and permissiveness, allowing developers to freely use, modify, and distribute the software while requiring them to include the original license and disclaimer in any substantial portions of the code. The Apache License 2.0 is a more comprehensive license that provides clear guidelines on contributions, patents, and liability. Although these three are suggested as the frequently used open-source licenses, it doesn’t limit the use of any other open-source license. 
 
-# 4. Scoping Criteria
-Methods Hub is a method market for social science methods and, therefore, the content submitted in the Methods Hub portal must be relevant to social science. Therefore, the scope criteria are defined around relevance of the method to the social science domain. We are using the following three criteria to determine the scope of the method. 
+# 3. Scoping Criteria
+Methods Hub is a method market for social science methods and, therefore, the content submitted in the Methods Hub portal must be relevant to social science. Therefore, the scope criteria are defined around relevance of the method to the social science domain. The scope of the method is determined by; 
 
-## 4.1. Relevance to Social Science
-The scope or relevance to social science is resolved through method documentation as: 
-1. Write use case(s) in the README or research questions of a method that are directly related to social science. Providing multiple use cases offers the opportunity to perceive methods differently in diverse scenarios, therefore establishing a strong relevance with the social science audience. ([for help on writing social science use cases](supporting-documents/sample-use-cases.md)) 
-2.	Provide public DBD dataset (ideally providing link to the [GESIS DBD dataset](https://www.gesis.org/en/institute/digital-behavioral-data)) that can be used with the method. It also assists in demonstrating relevance to social science.  
-3.	The method must fall into the method/task category(ies) defined for Methods Hub.   
+## 3.1. Relevance to Social Science
+The method has relevance to social science demonstrated through method documentation as: 
+1. Write use case(s) or research questions in the README file of the method that are directly related to social science. Provide use cases that showcase how the method can be generalized to different scenarios, therefore establishing a strong relevance with the social science audience.  
+2.Provide evidence that the method can be used DBD datasets (ideally providing link to the [GESIS DBD dataset](https://www.gesis.org/en/institute/digital-behavioral-data)). It also assists in demonstrating relevance to social science through applicability to data from digital social platforms. More on this, along with sample data can be provided in the "Input Output Data" section in README.  
+3.	The method fits into the method tasks defined as loose vocabulary.   
 
-*Note: In case of any difficulty in assigning a method to method/task category(ies), please report to Methods Hub Team*
+*Note: In case of any difficulty in assigning a method to its relevant task, please report to Methods Hub Team*
 
-## 4.2. Method/Task Categories 
-Data Collection and Retrieval: This category encompasses methods for obtaining and gathering data from various sources. These methods serve as the foundation for acquiring diverse datasets for subsequent analysis. 
+## 3.2. Tasks 
+The tasks that the method can perform is presented as loose vocabulary refering tasks and subtasks in a hierarchical manner. The mthod submission expects the method to have a specific task (in the list) that the method performs. The broad tasks are:
 
-**Data Preprocessing:** Data preprocessing involves preparing raw data for analysis. This category includes methods to clean, structure, and enhance the quality of data. Tasks such as data cleaning, text preprocessing, data encryption, data anonymization, feature engineering, normalization, and data transformation fall under this category. 
+**Data Collection and Retrieval:** This task encompasses methods for obtaining and gathering data from various sources. These methods serve as the foundation for acquiring diverse datasets for subsequent analysis. 
 
-**Data Mining:** Data mining involves uncovering patterns, trends, and valuable insights from large datasets. This category includes various techniques such as text mining, sentiment analysis, topic modeling, named entity recognition, text classification, text clustering, graph mining, data classification, data clustering, data enrichment, and the utilization of large language models. These methods help in extracting meaningful information from structured and unstructured data. 
+**Data Preprocessing:** Data preprocessing involves preparing raw data for analysis. It includes methods to clean, structure, and enhance the quality of data such as data cleaning, text preprocessing, data encryption, data anonymization, feature engineering, normalization, and data transformation. 
 
-**Analysis:** The analysis category focuses on examining and interpreting data to derive meaningful conclusions. It includes methods such as social network analysis, spatial analysis, temporal analysis, time-series analysis, pattern recognition, community detection, outlier detection, anomaly detection, and the use of advanced language models. These methods provide insights into relationships, trends, and anomalies within the data. 
+**Data Mining:** Data mining involves uncovering patterns, trends, and valuable insights from large datasets. It includes various techniques such as text mining, sentiment analysis, topic modeling, named entity recognition, text classification, text clustering, graph mining, data classification, data clustering, data enrichment, and the utilization of large language models. These methods help in extracting meaningful information from structured and unstructured data. 
+
+**Analysis:** The analysis tasks focuses on examining and interpreting data to derive meaningful conclusions. It includes methods such as social network analysis, spatial analysis, temporal analysis, time-series analysis, pattern recognition, community detection, outlier detection, anomaly detection, and the use of advanced language models. These methods provide insights into relationships, trends, and anomalies within the data. 
 
 **Data Visualization:** Data visualization involves presenting data in a visual format to aid understanding. This category includes network visualization for representing relationships and tabular data visualization for structured numerical information. Effective visualization enhances the communication of findings and patterns derived from the data. 
 
-*Note: The task categories defined above are not mutually exclusive and can be overlapping. Multiple fitting categories can also be assigned to a method. The categories here provides an overview where the subcategories within are excluded for simplicity.*
+*Note: The defined tasks vocabulary defined is not mutually exclusive and can be overlapping. Multiple fitting tasks can also be assigned to a method. The tasks here provides an overview where the subtasks within are excluded for simplicity.*
 
-# 5. Method Quality Guidelines
-Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent AI/ML methods in social science, while encouraging to develop reusable workflows.
+# 4. Method Quality Guidelines
+Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent AI/ML methods in social science, while encouraging to develop reusable methods.
 
-This chapter provides guidelines for preparing method quality that is acceptable for Methods Hub. *Section 5.1* deals with the quality of the method documentation while *section 5.2* presents quality criteria for the method code.
-
-## 5.1. Method Documentation Quality
-### 5.1.1. Documents List 
+## 4.1. Method Documentation Quality
+### 4.1.1. Required Documents 
 The method documentation must contain at least the following four types of documents.  
-1. README file 
+1. README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md)
 2.	Configuration file i.e., Requirements.txt, install.R, configuration.yml etc.
 3.	[Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method 
-4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0) 
+4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
+5.	binder/postbuild file [file-link](file-link)
 
-*There must be only one of these files in the repo to avoid confusion. All the other files should be organized in subdirectories.*
+*There must be only one of these files in the repo to avoid confusion. All the other versions of these files should be organized in subdirectories. These files are expected to be in all repos along with the actual method files having code and data.*
 
-The **README file** facilitates determining the readability, understandability, and reusability of the method. It may also contain optional subsections of disclaimer, acknowledgements, or publication, if applies. However, it is very important to mention the developer contact details to help reach back to the developer if need be. 
-The next subsection provides details on the internal structure of the README document.
+The **README file** is crucial for the readability, understandability, and reusability of the method. It may also contain optional subsections of disclaimer, acknowledgements, or publication, if applies. However, it is very important to mention the developer contact details to help reach back to the developer if need be. 
 
 There must be a **[configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html)** that recreates the environment in which the method is used (i.e., requirements.txt, install.R, environment.yml etc.) file. It helps reusability of the method by executing it in the same environment it was originally created in. The [Turing Way](https://book.the-turing-way.org/index.html) provides a comprehensive guideline on how to produce this configuration file.
 
-
-***Chapter 6** provides relevant resources on how to freeze the environment by preserving the libraries and packages along with their versions, so that they can be easily deployed again for reusability.*
-
-**[Citation file formats (CFF)](https://citation-file-format.github.io/)** are standardized structures designed to capture and represent bibliographic information about scholarly references. These files typically contain metadata such as author names, publication titles, journal information, publication dates, and other relevant details. These formats enable researchers, academics, and writers to manage and exchange citation data seamlessly across various reference management tools and platforms. Additionally, citation file formats play a crucial role in ensuring accurate and consistent citation styles in academic writing, facilitating proper attribution of sources, and enhancing the reproducibility of scholarly work. Plain text citation files are also used in some cases having similar structure for citation information. The [citation(template).cff](https://citation-file-format.github.io/) can be used to update relevant parts for the method submitted.
+**[Citation file formats (CFF)](https://citation-file-format.github.io/)** are standardized structures designed to capture and represent bibliographic information about scholarly references. This file contains metadata such as author names, author ORCID, method title, method developed date etc. to help cite the method as a resource in scholarly articles. The [citation(template).cff](https://citation-file-format.github.io/) can be modified for a method.
 
 **Open licenses** like [MIT open license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0 open license](https://github.com/apache/.github/blob/main/LICENSE) and CC-BY 4.0 are popular open-source licenses widely used in the GitHub community. Although these three are suggested as the frequently used open-source licenses, it doesn’t limit the use of any other open-source license. 
 
-Providing these documents helps in boosting citations for the method and associated publication and may lead to new collaborations. Moreover, the open methods promote a culture of using and developing open methods.
+*Providing these files boost open research culture, attribution and may lead to newer collaborations.*
 
-### 5.1.2 README guidelines 
+### 4.1.2 README guidelines 
 The README document of the method needs to follow the documentation quality guidelines provided here. The methods submitted will undergo a review process to ensure compliance with the guidelines. It is also aligned with the objectives of the Methods Hub to keep high quality content only. 
 
-The most important aspect to consider in writing the README of a method is its user friendliness. It emphasizes the need for having easy to understand and easy to follow documentation. The README description should explain the working of the method with social science terminologies, link to specific publications at social science venues. The research questions and use cases for the method should also be from the social science domain. In general, social scientists from different backgrounds should be able to follow the guidelines and reuse the method, aligned with the objective of Methods Hub, lowering technical barriers. The main README guidelines are: 
-- Avoid jargon in the method name, description, and use cases to help understandability of the README file for social scientists. User studies are planned to ensure it.
+The most important aspect to consider in writing the README of a method is its user friendliness. It emphasizes the need for having easy to understand and easy to follow documentation. The README description should explain the working of the method with social science terminologies, link to specific publications at social science venues. The research questions and use cases for the method should also be from the social science domain. In general, social scientists from different backgrounds should be able to follow the guidelines and reuse the method, aligned with the objective of Methods Hub, i.e., lowering technical barriers. The main README suggestions are: 
+- Avoid jargon in the method name, description, and use cases to help understandability of the README file for social scientists. 
 - README should link to different code files where necessary.
   - Any external information e.g., on the terms of API used in the method should link to the original instead of copying those points to the README as they may change over time.
+  - Internal resources utilized by the method e.g., embeddings, preprocessing etc. should linked for transparency.
 - The description should link to relevant social science publication using similar method.
-  - The programming language of the repo should be mentioned earlier in the title or description.
 - README should have crisp use cases that help to highlight the purpose of the method e.g., identifying positive and negative sentiment scores of tweets.
 - The technical terms needed to help understand the method's purpose are to be explained separately as a list of definitions.
 - Use appealing subsection headings to attract the audience.
-  - Do not remove/change the existing subsections in the README template
-  - For each subsection to rename, use separator (-) after the name in the template and then provide your subsection name.
+  - Do not remove/change the original sections/subsections in the README template
+  - For each subsection to rename, use separator (-) after the name in the template and then provide your subsection name e.g., Description - Why Topic Modeling.
   - Remove (Optional) from the title of the subsections that applies for your method. Remove all other optional subsections that do not apply.
 - Show sample input and output of the method to help users understand the purpose of the method.
+  - A method repo must have a sample input data and output data to help replicate results.
   - The sample input and output should represent one of the use cases.
-  - There should be some explanation of what the output means in layman terms.
-  - The use cases may also be documented as research questions or research questions that the method addresses may be given separately.
+  - There should be some explanation of what the input and output means in layman terms.
+  - The use cases may also be documented as research questions.
 - The “How to use” section should have more details to elaborate on the use of the method
   - Providing a step-by-step guide to call the method and what to expect after each step.
-  - It should provide how to apply different filters or parameter settings for the method. For example, calling claims generator with different input data or specifying which input fields are mandatory. Or specifying filters on 4chan data collection.
+  - It should provide how to apply different filters or parameter settings for the method. For example, calling the method topic modeling with different input data and configurations to expect different number of topics and arrangement of words within.
 - In the “Repo Structure” subsection, provide structure of your repo in the form of a tree, to help navigate the repo directories easily.
 - Images used in the README e.g., data models, pipeline, schema structure etc. should be properly explained.
 - In the “Contact” subsection, mention your contact details that users can use to follow up in case of queries.
 - Provide a limitation subsection mentioning the limitations of the method, if any.
-- Optional subsections
-  - Provide a disclaimer if it applies to the method.
-  - Provide acknowledgements if needed.
-  - Provide relevant publication if applies. 
 
 The [README(template).md](method-README-template.md) has more on the structure of the document and how to write relevant information in each of these sections.
 
-## 5.2. Method Code Quality 
-### 5.2.1. Code Quality Guidelines 
-Writing code that is easy to (re)use, easy to maintain and easy to adapt is crucial for having methods that remain reusable over a longer period. Maintaining coding standards is highly desired and the following guidelines will assist in achieving it: 
+## 4.2. Method Code Quality 
+### 4.2.1. Code Quality Guidelines 
+Writing code that is easy to (re)use, easy to maintain and easy to adapt is crucial for having methods that remain reusable over a longer period of time. Maintaining coding standards is highly desired and the following guidelines will assist in achieving it: 
 - The method should follow basic coding standards provided in the document ([basic coding conventions](supporting-documents/naming-conventions-code.md)). It refreshes the concepts of using consistent naming conventions and readable coding structures. However, its purpose is not to restrict developers to a single coding style. 
-- The code must be well structured and sufficiently commented on. 
-- Similarly, pushing important decisions from the body of the method to the parameters to empower users alter the behavior of the method. The code should be flexible to follow different workflows within the body of the method based on the parameter settings of the users.  
+- The code must be well structured and sufficiently commented. 
+- Similarly, pushing important decisions from the body of the method to the parameters to empower users alter the behavior of the method. Such parameters should be read from a separate 'config.json' file. The code should be flexible to follow different reuse based on the parameter settings file.  
 - Unit tests should be provided to ensure the code is free from errors and all/most of the boundary conditions are checked.  
 - The method code, in case taken from a bigger pipeline, should be modularized with minimum/no coupling or external dependencies. 
-- Technical documentation for the code (generated through a tool e.g., sphinx)
+- Technical documentation for the code (generated through a tool e.g., sphinx) are desired
 
-*Standardizing the method input and output interfacing is also desired to facilitate users transfer their learning experience from one method to another. It also minimizes the effort required to switch methods for the same task. Sci-kit-learn is a very good example of it. However, it doesn’t mean we are standardizing the methods interfaces across the Methods Hub, which is out of our scope. However, the given coding guidelines by no means attempt to limit the coding styles and their freedom as far as the code is clearly readable, understandable, and reusable.*
+*Defining method input and output interfacing as defined for the other methods used for the same task will help eaiser switch among methods to experiment with. It minimize the effort for the user to try different methods for the same task in their pipeline. Sci-kit-learn is a very good example for it. However, since Methods Hub is driven by community, it doesn't mean to standardize method interfacing at the MH level. The diversity and freedom in coding style is also equally important as far as the code is clearly readable, understandable and reusable.* 
 
-### 5.2.2. Code Reusability	 
+### 4.2.2. Code Reusability	 
 The method code should be reusable so that social scientists can apply it to their research questions.   
-- The “Setup” or “How to Use” subsection should provide the environment with the required packages, libraries in versions needed to run the method. 
-- The method should produce output when given the sample input to execute in the given environment. 
+- The “Enviornmental Setup” or “How to Use” along with "Input and Output Data" subsections should be sufficient replicate the results for the sample data without any invovlement of the user in the code i.e., just by executing code files or cells of notebook. 
+- The sample output must be consistently produced across multiple runs. Define random seeds to ensure same results. 
 
 **Reusability Supporting material:** The supporting material document is an early-stage effort in assisting developers to know about the tools and techniques to develop reusable methods. At present it helps on: 
 1. Creating and using virtual environments 
@@ -177,12 +171,13 @@ This document is expected to grow with time through contributions from the metho
 
 *Note: For methods in release 1 (scheduled in June 2024), ensuring that the method reusability and code quality is the responsibility of the method developer. The method repo usage statistics (if available) are also considered e.g., watchers, downloads, forks, commits etc. In evaluating the code quality.*
 
-# 6. Method Identification Guidelines 
+# 5. Method Identification  
 
-The method identification process focuses on defining what qualifies to be a computational method for Methods Hub. There can be four possible forms of a method’s code: 
-1. A method can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library. 
-2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the developers freedom to pick different methods according to their requirements and structure them into the pipeline that suits their needs.  
-3. A method can also be a longer pipeline that has multiple code modules performing multiple steps in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing it to be used by an AI/ML model. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
+Researchers and practiioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data. 
+
+1. It can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library. 
+2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the users freedom to pick different methods according to their requirements and align them in the pipeline that suits their intended purpose.  
+3. It can also be a longer pipeline that has multiple code modules performing multiple tasks in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing which is then consumed by an AI/ML model for analysis. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
 4. Software application type of method, although not a common form of method represents software applications that can be downloaded and used directly, e.g., installing [ScienceLinker](https://git.gesis.org/sciencelinker/sciencelinker-development) through pip. 
 
 Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
@@ -191,15 +186,12 @@ Generally, a method coded for a research model would have specific settings acco
 - Social science software publishing venues: [prominent social science software publishing venues](prominent-venues.md)
 - Templates
   - [CFF-template](https://citation-file-format.github.io/)
-  - [MethodReadmeTemplate-V0.1](method-README-template.md)
-  - [TutorialTemplate0.2](tutorial-template.md)
+  - [method template](method-README-template.md)
+  - [tutorial-template.md](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials)
 - Social science relevance / DBD applicability:
-  - [Writing social science use cases](supporting-documents/sample-use-cases.md)
   - [GESIS DBD dataset](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)
-  - Methods Hub task categories
 - Code Reusability
   - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
-  - [Method environment virtualization, freezing requirements](supporting-documents/reusable-environment.md)
 
 # 8. References
-https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2
+[https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2](https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2)
