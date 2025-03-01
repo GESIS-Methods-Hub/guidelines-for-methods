@@ -9,6 +9,8 @@ The Methods Hub is an infrastructure project whose goal is to provide open and a
 
 *Note: This is a living document for content submission guidelines and therefore, the method submission scenarios, their definition and the checklist to adhere to are frozen for release 2 (July 2025). Additional changes in this regard will be considered for the next release.*
 
+*Verify conformance to the method guidelines using the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-checklists)*
+
 **Methods Hub Content Goal**
 
 The goal of Methods Hub content is to provide reusable, reviewed and relevant methods to social scientists that are appliable to Digital Behavioral Data.
