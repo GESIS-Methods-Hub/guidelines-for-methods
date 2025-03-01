@@ -1,65 +1,71 @@
 # Method Title
-The title should be meaningful and easy to follow. It should reflect relevance to social science, if applicable 
+1. The title should be meaningful and easy to follow.
+2. It should reflect relevance to social science, if applicable 
 
 ## Description
-- Provide a brief and clear description of the method, its purpose, and what it aims to achieve. Add a link to a related paper from social science 
-domain and show how your method can be applied to solve that research question.  
-For example,
-4TCT is a specialized tool designed for the efficient collection of textual data from the 4chan platform. It automates the process of gathering posts from various boards, aiming to facilitate research and analysis in social science and computational linguistics.
-This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support studies on topics like meme culture, information dissemination, and the impact of anonymous social media on public opinion.
+1. Provide a brief and exact description of the method clearly mentioning its purpose i.e., what the method does or aims to achieve in abstract terms (avoiding technical details).
+2. Focus should be to emphasize on the functionality as a blackbox, helping researchers with different levels of expertise and experience to understand what the method is doing.
+3. Brielfly explain the input and output of the method and its note worthy features.
+4. Provide link(s) to related papers from the social science domain using the method or similar methods for solving social science research questions. 
+5. In a separate paragrpah, highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules etc.
+6. It should also provide different configuration parameters to assist in altering the behavior of the method for a related use case. 
+
 
 ## Keywords
-Few keywords placed after description highlighting the nature of the method 
+- Keyword 1 (3 to 5 keywords highlighting the purpose of method)
+- Keyword 2
+- Keyword 3   
 
-## Science Usecase(s)
-- Include usecases from social sciences that would make this method applicable in a certain scenario. 
-The use cases or research questions mentioned should arise from the latest social science literature cited in the description.
-For example,
-How to collect 4chan data from on political discourse from dates ..
- 
+## Social Science Use Case(s)
+1. Include use case(s) or research question(s) from social sciences that would make this method applicable in a certain scenario.
+2. They should arise from the latest social science literature cited in the description. 
 
-## Repo Structure
-- Explain the overall structure of the method, including directories, key files, and their functions.
-For example,
-The tool's architecture includes a src/ directory for core scripts, with requester.py handling data collection, board.py managing board-specific requests, and utils.py for auxiliary functions. Data is stored in a data/ directory created upon initiation, and documentation is available in docs/.
-
+## Git Repository Structure
+1. List files and their purpose as a tree-like structure.
+2. Explain the script files and their purpose.
+3. Explain the input, output and other intermediate files produced.
+4. Explain the configuration and other utility files.
 
 ## Environment Setup
-- Setting up the envornment to run this method locally
-- Installing all the packages and libraries with specific versions required to run this method
-For example, 
-Requires Python 3.10.2 or 3.11.4. Suitable for environments focused on data collection and analysis.
-Dependencies are listed in requirements.txt and can be installed via pip install -r requirements.txt to ensure the tool functions correctly.
+1. Provide configuration files preserving dependencies i.e., `environment.yml`, `requirements.txt`, `install.R` (including specific versions).
+2. Provide steps/commands to install all dependencies required to run this method.
+3. Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the parameters to alter the behavior of the method without directly interacting with the code.
 
+## Input Data
+1. Explain the input data using sample instances as input data in the Git Repository i.e., the features and what they represent. These may be generated samples, staying within data restrictions.
+2. Provide links to the actual dataset that the method can work with, idealy [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data).
 
-## Hardware Requirements (Optional)
-- The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
-- The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.)
-
-
-## Input Data 
-- The input data has to be a Digital Behavioral Data (DBD) Dataset
-- You can provide link to a public DBD dataset. GESIS DBD datasets (https://www.gesis.org/en/institute/digital-behavioral-data)
-
-
-## Sample Input and Output Data
-- Show how the input data looks like through few sample instances
-- Providing a sample output on the sample input to help cross check 
-
+## Output Data
+1. Explain the sample output data in the Git Repository i.e., how to interpret the output.
 
 ## How to Use
-- Providing HowTos on the method for different types of usages
-- Describe how the method should be used, including installation, configuration, and any specific instructions for users.
+1. Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed).
+2. Explain which files or parameters need to be updated and how to alter the behavior of the method.
+
+## Hardware Requirements (Optional)
+1. The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
+2. The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.)
+
+## Method Publication (Optional)
+1. Include information on publications or articles associated to the method, if applicable.
+2. Format your publication citation using APA style.
+
+## References (Optional)
+1. Include references to explore and learn more about the method, if applicable.
+2. Format your references list using APA style.
 
 ## Contact Details
-- Provide contact information, such as your email or other means for users or contributors to reach out with questions or feedback.
-
-## Publication (Optional)
-- Include information on publications or articles related to the method, if applicable.
+1. Provide contact information, having at least name and email address.
+2. Those interested in the method may use this information to reach out with questions/feedback.
 
 ## Acknowledgements (if any)
-- Acknowledgements if any
+1. Acknowledgements if any
 
 ## Disclaimer (Optional)
-- Add any disclaimers, legal notices, or usage restrictions for the method, if necessary.
+1. Add any disclaimers, legal notices, or usage restrictions for the method, if necessary.
 
+## Help
+1. Remove optional sections that don't apply to your method.
+2. Remove "(Optional)" or "(if any)" from the section headings that apply to your method.
+3. Some good examples for Python methods are [4TCT: A 4chan Text Collection Tool](https://methodshub.gesis.org/method/4TCT/), [Discovering Themes in Text with Topic Modeling (Latent Dirichlet Allocation)](https://methodshub.gesis.org/method/latent_dirichlet_allocation/) and for R methods [oolong](https://methodshub.gesis.org/method/oolong/)
+4. Remove this section as well from the final version.

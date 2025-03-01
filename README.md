@@ -1,8 +1,6 @@
 # Methods Hub's Guidelines for Methods
 
-Here you will find the guidelines used by Methods Hub for methods.
-If you are preparing a tutorial,
-check the [guidelines used by Methods Hub for tutorials](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials).
+Here you will find the guidelines used by Methods Hub for methods. If you are preparing a tutorial, check the [guidelines used by Methods Hub for tutorials](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials).
 
 ## Accepted formats
 
@@ -11,6 +9,10 @@ check the [guidelines used by Methods Hub for tutorials](https://github.com/GESI
 | Python Package | |
 | R package | |
 | Jupyter Notebook | |
+
+## To publish your method
+- Fulfill the checklist requirements [Method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklist.md)
+- The method README must be in template [Method README template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md)
 
 ## Required Files
 
@@ -22,15 +24,14 @@ The Git repository with the method **must** have the following files
 
 Additionally, the Git repository **must** also have the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example,
 
-- `binder/postBuild`
+- `binder/postBuild` from [postBuild](https://methodshub.gesis.org/snippet/postBuild)
 - `binder/environment.yml`
 
-## Template
-
-A template is provided at [`method-README-template.md`](method-README-template.md).
+Optional,  
+- Verify rendering through Methods Hub, using [Methods Hub preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) *(Update the branch name as per your Git Repository)*
 
 ## Further Reading
+- For more on Methods, visit [Methods guide](method-submission-guidelines.md)
 
-- [Method Submission Guide](method-submission-guidelines.md)
 
 [^1]: That environment will be used for rendering the tutorial and for the interactive execution.
