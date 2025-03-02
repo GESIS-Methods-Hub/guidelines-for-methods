@@ -105,6 +105,11 @@ The method documentation must contain at least the following four types of docum
 4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
 5.	binder/postbuild file using [postBuild](https://methodshub.gesis.org/snippet/postBuild)
 
+Optional, however recommended to add workflow folder to verify that the basic requiements for submitting the method are already met
+- Add workflow folder to the root of your repo using [workflow-link](workflow-link)
+- Cross-check for the main branch name (main or master) and update in the file [file-link](file-link) accordingly
+- Review action and address the errors if any
+
 *There must be only one of these files in the repo to avoid confusion. All the other versions of these files should be organized in subdirectories. These files are expected to be in all repos along with the actual method files having code and data.*
 
 The **README file** is crucial for the readability, understandability, and reusability of the method. It may also contain optional subsections of disclaimer, acknowledgements, or publication, if applies. However, it is very important to mention the developer contact details to help reach back to the developer if need be. 
