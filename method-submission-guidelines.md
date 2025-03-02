@@ -103,7 +103,7 @@ The method documentation must contain at least the following four types of docum
 2.	Configuration file i.e., Requirements.txt, install.R, configuration.yml etc.
 3.	[Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method 
 4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
-5.	binder/postbuild file [file-link](file-link)
+5.	binder/postbuild file using [postBuild](https://methodshub.gesis.org/snippet/postBuild)
 
 *There must be only one of these files in the repo to avoid confusion. All the other versions of these files should be organized in subdirectories. These files are expected to be in all repos along with the actual method files having code and data.*
 
@@ -193,6 +193,7 @@ Generally, a method coded for a research model would have specific settings acco
 - Social science relevance / DBD applicability:
   - [GESIS DBD dataset](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)
 - Code Reusability
+  - [postBuild](https://methodshub.gesis.org/snippet/postBuild) 
   - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
 
 # 7. References
