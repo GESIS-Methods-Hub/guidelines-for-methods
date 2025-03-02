@@ -23,7 +23,7 @@ The Git repository with the method **must** have the following files
 
 Additionally, the Git repository **must** also have the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example,
 
-- `binder/postBuild` using [mybinder-link](mybinder-link)
+- `binder/postBuild` from [postBuild](https://methodshub.gesis.org/snippet/postBuild)
 - `binder/environment.yml`
 
 Optional, however recommended to add workflow folder to verify that the basic requiements for submitting the method are already met
