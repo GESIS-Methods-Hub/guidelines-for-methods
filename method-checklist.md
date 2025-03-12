@@ -1,6 +1,6 @@
 # Method preparation checklist
 
-The Methods checklist provides the minimum criteria that need to be met for the methods to be submitted to the Methods Hub. 
+Please comply with the checklists to ensure your content is ready for publishing on the [Methods Hub portal](https://methodshub.gesis.org/).
 
 Method Name: ____________________________________
 
