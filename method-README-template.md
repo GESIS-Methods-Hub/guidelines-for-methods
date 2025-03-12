@@ -8,10 +8,10 @@ Provide a brief and exact description of the method clearly mentioning its purpo
 
 A second paragraph may be provided to highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules. It should also provide different configuration parameters to assist in altering the behavior of the method for a related use case. 
 
-**Example:** This method helps uncover hidden themes within a collection of text documents, making it a valuable tool for exploring unfamiliar domains. For example, a social scientist analyzing public discussions on social media or academic papers on a particular topic can use this method to identify recurring themes or topics. The method assumes that each document contains a mixture of topics and each topic comprises a distinct set of words. By processing a text file with one document per line, the method generates two key outputs i.e., i) the probability of each topic appearing in each document ii) the most representative words for each topic, along with their probabilities.
+**Example:** *This method helps uncover hidden themes within a collection of text documents, making it a valuable tool for exploring unfamiliar domains. For example, a social scientist analyzing public discussions on social media or academic papers on a particular topic can use this method to identify recurring themes or topics. The method assumes that each document contains a mixture of topics and each topic comprises a distinct set of words. By processing a text file with one document per line, the method generates two key outputs i.e., i) the probability of each topic appearing in each document ii) the most representative words for each topic, along with their probabilities.*
 
-This approach is built on [Latent Dirichlet Allocation (LDA)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?ref=http://githubhelp.com), using a specialized technique called collapsed Gibbs sampling [(LDA with collapsed Gibbs sampling)](https://www.cs.cmu.edu/~wcohen/10-605/papers/fastlda.pdf). This enhances efficiency, producing a balanced topic distribution while allowing users control over the model’s internal workings.
-It uses [Markov chain Monti Carlo approach](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) to initialize the model with a random state. The method provides vanilla implementation (using only basic packages for loading data e.g., numpy, JSON, and random number generation) of Topic modeling with maximum control to customize its behavior. It gives users transparent control over internal decisions. The method is implemented as a class to extend its behavior easily. 
+*This approach is built on [Latent Dirichlet Allocation (LDA)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?ref=http://githubhelp.com), using a specialized technique called collapsed Gibbs sampling [(LDA with collapsed Gibbs sampling)](https://www.cs.cmu.edu/~wcohen/10-605/papers/fastlda.pdf). This enhances efficiency, producing a balanced topic distribution while allowing users control over the model’s internal workings.
+It uses [Markov chain Monti Carlo approach](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) to initialize the model with a random state. The method provides vanilla implementation (using only basic packages for loading data e.g., numpy, JSON, and random number generation) of Topic modeling with maximum control to customize its behavior. It gives users transparent control over internal decisions. The method is implemented as a class to extend its behavior easily.* 
 
 ## Keywords
 Provide 3 to 5 keywords that highlight purpose of the method and help in finding it (as a comma separated list).  
@@ -19,7 +19,7 @@ Provide 3 to 5 keywords that highlight purpose of the method and help in finding
 ## Social Science Use Case(s)
 Include use case(s) from social sciences that would make this method applicable in a certain scenario. The use case(s) or research questions mentioned should arise from the latest social science literature cited in the description.
 
-**Example:** How to collect 4chan data from on political discourse from dates 2025.04.12 to 2025.08.12
+**Example:** *How to collect 4chan data from on political discourse from dates 2025.04.12 to 2025.08.12*
  
 
 ## Repo Structure
@@ -30,17 +30,17 @@ Include use case(s) from social sciences that would make this method applicable 
   
 **Example:**
 
-- [data/](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/tree/master/data/)
-- [data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv) (BBC article headings, using only first 100 for demo)
+- *[data/](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/tree/master/data/)*
+- *[data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv) (BBC article headings, using only first 100 for demo)*
 
 *generated by prepare-data.ipynb*
-- [data/integer-encoded-data.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/integer-encoded-data.txt)
-- [data/dictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/dictionary.json)
-- [data/revdictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/revdictionary.json)
+- *[data/integer-encoded-data.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/integer-encoded-data.txt)*
+- *[data/dictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/dictionary.json)*
+- *[data/revdictionary.json](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/revdictionary.json)*
 
 *scripts*
-- [LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb)
-- [LICENSE.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LICENSE.txt)
+- *[LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb)*
+- *[LICENSE.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LICENSE.txt)*
 - *requirements.txt not needed*
 
 ## Environment Setup
@@ -49,11 +49,11 @@ Include use case(s) from social sciences that would make this method applicable 
 - Installing all the packages and libraries with specific versions required to run this method
 - Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the paramters to alter the behavior of the method without directly interacting with the code.
 
-**Example:** It is the vanilla implementation of the Latent Dirichlet Allocation technique with everything built from scratch, therefore only basic libraries i.e., `numpy`, `pandas`, `random` and `string` are needed to read data and generate random numbers.
-- Update [config.json](config.json) to read method configurations in JSON format and update as desired. 
-- Setup the environment using [requirements.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/requirements.txt) through command `pip install -r requirements.txt`
-- Put your data in [data/input.csv](data/input.csv)
-- Execute the notebook [LDA-collapsed-gibbs-sampling.ipynb](LDA-collapsed-gibbs-sampling.ipynb) to get results
+**Example:** *It is the vanilla implementation of the Latent Dirichlet Allocation technique with everything built from scratch, therefore only basic libraries i.e., `numpy`, `pandas`, `random` and `string` are needed to read data and generate random numbers.*
+- *Update [config.json](config.json) to read method configurations in JSON format and update as desired.* 
+- *Setup the environment using [requirements.txt](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/requirements.txt) through command `pip install -r requirements.txt`*
+- *Put your data in [data/input.csv](data/input.csv)*
+- *Execute the notebook [LDA-collapsed-gibbs-sampling.ipynb](LDA-collapsed-gibbs-sampling.ipynb) to get results*
 
 ## Input and Output Data
 - Explain the input data and provide links to the dataset that the method can work with. It should idealy be [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data)
@@ -66,9 +66,9 @@ Include use case(s) from social sciences that would make this method applicable 
 
 **Example:** 
 
-- Put your data in [data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv)
-- Execute the first notebook [prepare-data.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/prepare-data.ipynb) to transform the data into integer encoding
-- Execute the main notebook `[LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb) to get results
+- *Put your data in [data/input.csv](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/data/input.csv)*
+- *Execute the first notebook [prepare-data.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/prepare-data.ipynb) to transform the data into integer encoding*
+- *Execute the main notebook `[LDA-collapsed-gibbs-sampling.ipynb](https://github.com/taimoorkhan-nlp/latent_dirichlet_allocation/blob/master/LDA-collapsed-gibbs-sampling.ipynb) to get results*
 
 ## Hardware Requirements (Optional)
 - The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
