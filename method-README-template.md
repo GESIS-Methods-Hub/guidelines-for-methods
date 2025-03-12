@@ -89,4 +89,4 @@ Include use case(s) from social sciences that would make this method applicable 
 ## Disclaimer (Optional)
 - Add any disclaimers, legal notices, or usage restrictions for the method, if necessary.
 
-*Note: remove optional sections that don't apply to your method else remove "(Optional)" or "(if any)" from their titles.*
+***Note:** please remove optional sections that don't apply to your method else remove "(Optional)" or "(if any)" from their titles.*
