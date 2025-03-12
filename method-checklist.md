@@ -46,7 +46,9 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 |   | Openness criteria|
 |---|------------------|
 | ☐ | Satisfies checklist 1 on openness |
-| ☐ | Has a tutorial for the method by following the tutorial guidelines that elaborate on the reuse of the method with a social science use case or research question OR the method is published by a trusted third party that review code and documentation for their published software |
+| ☐ | Has a tutorial for the method by following the tutorial guidelines that elaborate on the reuse of the method with a social science use case or research question |
+|   | OR |
+|   | The method is published by a trusted third party that review code and documentation for their published software |
 
 
 **Contact:** 
