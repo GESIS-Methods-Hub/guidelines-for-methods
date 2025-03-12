@@ -105,10 +105,8 @@ The method documentation must contain at least the following four types of docum
 4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
 5.	binder/postbuild file using [postBuild](https://methodshub.gesis.org/snippet/postBuild)
 
-Optional, however recommended to add workflow folder to verify that the basic requiements for submitting the method are already met
-- Add workflow folder to the root of your repo using [workflow-link](workflow-link)
-- Cross-check for the main branch name (main or master) and update in the file [file-link](file-link) accordingly
-- Review action and address the errors if any
+Optional,
+- [For preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) (update the main/master branch as in Repo)
 
 *There must be only one of these files in the repo to avoid confusion. All the other versions of these files should be organized in subdirectories. These files are expected to be in all repos along with the actual method files having code and data.*
 
@@ -200,6 +198,7 @@ Generally, a method coded for a research model would have specific settings acco
 - Code Reusability
   - [postBuild](https://methodshub.gesis.org/snippet/postBuild) 
   - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
+  - [Method preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage)
 
 # 7. References
 [https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2](https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2)
