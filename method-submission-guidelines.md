@@ -202,3 +202,43 @@ Generally, a method coded for a research model would have specific settings acco
 
 # 7. References
 [https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2](https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2)
+
+# FAQs
+**What is the Methods Hub?**
+The Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with Digital Behavioral Data (DBD) in social science research.
+
+**Who can submit a method to the Methods Hub?**
+Researchers, practitioners, and developers in computational social science, computer science, natural language processing and related fields can submit methods.
+
+**Can I publish my computational method on Methods Hub?**
+Yes, only if it is open access and open licensed, applies to a social science use case/research question and is applicable to Digital behavioral data.
+
+**How can I increase my chances of getting my method published?**
+By providing well written documentation following README template, all necessary files and making the code reusable without/with minimal user involvement.
+
+**Which programming languages are supported?**
+The platform supports open languages such as Python and R, but not commercial tools like MATLAB or SPSS.
+
+**Can I publish my method using paid API or tool?**
+No, the methods on Methods Hub must be fully reproducible with all resources used by the method including APIs, packages being openly accessible to all.
+
+**What if my method is already published in a peer-reviewed journal?**
+Methods published in trusted third-party venues with proper documentation and code quality can be submitted directly.
+
+**Can I submit a method that is not AI/ML-based?**
+The focus is on state-of-the-art AI/ML methods, but methods that support social science research using Digital Behavioral Data in other ways may also be considered e.g., data cleansing, data preprocessing etc.
+
+**Should I write tutorial about my method?**
+Yes, tutorials increase the reach of a method to researchers and practitioners with limited practical experience with AI/ML methods. It is therefore, highly advised to write tutorial demonstrating the use of your method to a research question as step-by-step guide.
+
+**Can I write tutorial about someone else's method?**
+Yes, anyone can write a tutorial about a method by any one on Methods Hub. You can also write tutorials about methods not published on Methods Hub but are of interest to the Methods Hub audience. For more details, please visit the method guide and template.
+
+**Where should the method code be hosted?**
+The method must be publicly accessible GitHub.
+
+**What happens when I submit my method?**
+When the method is submitted, it is held for review. During this period the reviewer(s) can add issues to the Repo some modifications are needed. Once all the issues are resolved, the method is published on the portal.
+
+**What does it mean that a method is published?**
+When a method is published, it appears in the Methods Hub gallery and (from next day) is searchable through GESIS Search.
