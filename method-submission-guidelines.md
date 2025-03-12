@@ -9,7 +9,7 @@ The Methods Hub is an infrastructure project whose goal is to provide open and a
 
 *Note: This is a living document for content submission guidelines and therefore, the method submission scenarios, their definition and the checklist to adhere to are frozen for release 2 (July 2025). Additional changes in this regard will be considered for the next release.*
 
-*Verify conformance to the method guidelines using the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-checklists)*
+*Verify conformance to the method guidelines using the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklists)*
 
 **Methods Hub Content Goal**
 
@@ -91,7 +91,7 @@ The tasks that the method can perform is presented as loose vocabulary refering 
 
 **Data Visualization:** Data visualization involves presenting data in a visual format to aid understanding. This category includes network visualization for representing relationships and tabular data visualization for structured numerical information. Effective visualization enhances the communication of findings and patterns derived from the data. 
 
-*Note: The defined tasks vocabulary defined is not mutually exclusive and can be overlapping. Multiple fitting tasks can also be assigned to a method. The tasks here provides an overview where the subtasks within are excluded for simplicity. For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/methods-tasks.md).*
+*Note: The defined tasks vocabulary defined is not mutually exclusive and can be overlapping. Multiple fitting tasks can also be assigned to a method. The tasks here provides an overview where the subtasks within are excluded for simplicity. For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md).*
 
 # 4. Method Quality Guidelines
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent AI/ML methods in social science, while encouraging to develop reusable methods.
