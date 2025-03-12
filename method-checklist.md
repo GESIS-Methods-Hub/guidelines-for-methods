@@ -43,7 +43,7 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 | ☐ | [for preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) |
 
 ## checklist 4 (Special case): AI/ML Methods with established communities (Consult Methods Hub Team first)
-(Ref. [Trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#12trusted-third-party-review-bodies) and [Established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/methodguide-v2-25.07/method-submission-guidelines.md#13alternative-for-established-methods))
+(Ref. [Trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) and [Established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods))
   
 |   | Openness criteria|
 |---|------------------|
