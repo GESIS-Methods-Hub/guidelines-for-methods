@@ -39,7 +39,7 @@ For a method to be considered for Methods Hub, it must fulfill checklists 1, 2 a
 | ☐ | [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method |
 | ☐ | README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) |
 | ☐ | binder/postbuild file [postBuild](https://methodshub.gesis.org/snippet/postBuild) |
-| ☐ | *3.2 optional* |
+|  | *3.2 optional* |
 | ☐ | [for preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) |
 
 ## checklist 4 (Special case): AI/ML Methods with established communities (Consult Methods Hub Team first)
