@@ -1,6 +1,6 @@
 # Method publishing checklist
 
-Please comply with the checklists to ensure your content is ready for publishing on the [Methods Hub portal](https://methodshub.gesis.org/).
+Please comply with the following checklist to ensure your content is ready for publishing on the [Methods Hub portal](https://methodshub.gesis.org/).
 
 
 | | Method publishing checklist|
