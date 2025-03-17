@@ -2,6 +2,7 @@
 
 Please comply with the checklists to ensure your content is ready for publishing on the [Methods Hub portal](https://methodshub.gesis.org/).
 
+|--|------|
 | | Method publishing checklist|
 | Section 1  | Preconditions: openness criteria (ref. [method preconditions guide](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions))|
 | ☐ | Developed in open-sourced programming language |
