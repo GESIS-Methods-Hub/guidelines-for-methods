@@ -6,14 +6,14 @@ Please comply with the checklists to ensure your content is ready for publishing
 | | Method publishing checklist|
 |--|------|
 | **Sec1**  | Preconditions: openness criteria (ref. [method preconditions](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions))|
-| ☐ | Developed in open-sourced programming language |
+| ☐ | Developed in open-sourced programming language e.g., Python, R |
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
 | | |
 | **Sec2**  | Scope: relevance criteria (ref. [method scope](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#4-scoping-criteria))|
-| ☐ | Providing social science use case(s) or citing social science publications of the method or similar methods |
-| ☐ | The method can be applied to Digital Behavioral Data by providing links to data sources and demonstrated through sample data in the repo |
-| ☐ | Assign the method fits into the defined task vocabulary for computational methods in social science ([method tasks](For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md)))|
+| ☐ | Establishing social science relevance through use case, research question or citing relevant social science publications |
+| ☐ | The method is applicable to Digital Behavioral Data (DBD), also demonstrated through sample data in the repo |
+| ☐ | The method has a relevant task in the Methods Hub task vocabulary (for more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md))|
 | | |
 | **Sec3**   | Quality: code and documenation (ref. [method quality](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#5-method-quality-guidelines))|
 |   | *3.1. Required documents* |
@@ -26,7 +26,7 @@ Please comply with the checklists to ensure your content is ready for publishing
 | ☐ | [for preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) |
 
 ## AI/ML Methods with established communities or published by trusted third parties
-Methods that have [established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods) or are published by [trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) can also be considered for publishing through Methods Hub.
+Methods that have [established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods) or are published by [trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub.
 
 *Please consult Methods Hub Team first for further details.*
  
