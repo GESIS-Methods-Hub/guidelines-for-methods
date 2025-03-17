@@ -21,9 +21,9 @@ Please comply with the checklists to ensure your content is ready for publishing
 | ☐ | Open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. (for more on [GitHub licenses](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository))|
 | ☐ | [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method |
 | ☐ | README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) |
-| ☐ | Add binder/postbuild file to your repo for Methods Hub homepage rendering [postBuild](https://methodshub.gesis.org/snippet/postBuild) |
+| ☐ | Add binder/postbuild file to your repo for Methods Hub homepage rendering, by copying [postBuild](https://methodshub.gesis.org/snippet/postBuild) to repo |
 |  | *3.2 optional* |
-| ☐ | [for preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) |
+| ☐ | Verify Methods Hub rendering of your repo by [previewing as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) |
 
 ## AI/ML Methods with established communities or published by trusted third parties
 Methods that have [established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods) or are published by [trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub.
