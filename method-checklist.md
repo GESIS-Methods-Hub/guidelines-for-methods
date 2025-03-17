@@ -12,7 +12,7 @@ Please comply with the checklists to ensure your content is ready for publishing
 | | |
 | **Sec2**  | Scope: relevance criteria (ref. [method scope](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#4-scoping-criteria))|
 | ☐ | Establishing social science relevance through use case, research question or citing relevant social science publications |
-| ☐ | The method is applicable to Digital Behavioral Data (DBD), also demonstrated through sample data in the repo |
+| ☐ | The method is applicable to Digital Behavioral Data (DBD) (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)), also demonstrated through sample data in the repo |
 | ☐ | The method has a relevant task in the Methods Hub task vocabulary (for more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md))|
 | | |
 | **Sec3**   | Quality: code and documenation (ref. [method quality](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#5-method-quality-guidelines))|
