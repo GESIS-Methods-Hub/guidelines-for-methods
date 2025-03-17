@@ -5,17 +5,17 @@ Please comply with the checklists to ensure your content is ready for publishing
 
 | | Method publishing checklist|
 |--|------|
-| **Sec 1**  | Preconditions: openness criteria (ref. [method preconditions](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions))|
+| **Sec1**  | Preconditions: openness criteria (ref. [method preconditions](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions))|
 | ☐ | Developed in open-sourced programming language |
 | ☐ | Publicly accessible script |
 | ☐ | Open license for reuse | 
 | | |
-| **Sec 2**  | Scope: relevance criteria (ref. [method scope](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#4-scoping-criteria))|
+| **Sec2**  | Scope: relevance criteria (ref. [method scope](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#4-scoping-criteria))|
 | ☐ | Providing social science use case(s) or citing social science publications of the method or similar methods |
 | ☐ | The method can be applied to Digital Behavioral Data by providing links to data sources and demonstrated through sample data in the repo |
 | ☐ | Assign the method fits into the defined task vocabulary for computational methods in social science ([method tasks](For more on [method tasks](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md)))|
 | | |
-| **Sec 3**   | Quality: code and documenation (ref. [method quality](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#5-method-quality-guidelines))|
+| **Sec3**   | Quality: code and documenation (ref. [method quality](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#5-method-quality-guidelines))|
 |   | *3.1. Required documents* |
 | ☐ | Configuration file i.e., Requirements.txt, install.R, configuration.yml etc. |
 | ☐ | Open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. |
