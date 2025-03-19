@@ -1,6 +1,6 @@
 # Methods Hub's Guidelines for Methods
 
-Here you will find the guidelines used by Methods Hub for methods.
+Here you will find the guidelines used by Methods Hub for methods. If you are preparing a tutorial, check the [guidelines used by Methods Hub for tutorials](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials).
 
 ## Accepted formats
 
@@ -34,6 +34,6 @@ Optional,
 
 ## Further Reading
 - For more on Methods, visit [Methods guide](method-submission-guidelines.md)
-- If you are preparing a tutorial, check the [guidelines used by Methods Hub for tutorials](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials).
+
 
 [^1]: That environment will be used for rendering the tutorial and for the interactive execution.
