@@ -29,4 +29,6 @@ Methods that have [established communities](https://github.com/GESIS-Methods-Hub
 
 **Contact:** 
 
-Methods Hub Team (<a href="mailto:methodshub@gesis.org">methodshub@gesis.org</a>)
+Methods Hub Team &lt;[methodshub@gesis.org][methodshub-email]&gt;
+
+[methodshub-email]: mailto:methodshub@gesis.org
