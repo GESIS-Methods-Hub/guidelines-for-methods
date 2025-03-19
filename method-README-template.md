@@ -27,7 +27,7 @@
 4. Explain the configuration and other utility files.
 
 ## Environment Setup
-1. Provide configuration files preserving dependencies i.e., Requirements.txt, install.R, configuration.yml etc (including specific versions).
+1. Provide configuration files preserving dependencies i.e., `environment.yml`, `requirements.txt`, `install.R` (including specific versions).
 2. Provide steps/commands to install all dependencies required to run this method.
 3. Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the parameters to alter the behavior of the method without directly interacting with the code.
 
