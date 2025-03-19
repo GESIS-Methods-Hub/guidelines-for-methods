@@ -1,5 +1,3 @@
-<p style="text-align: right"><em>method-template-v2 (freezed till 25.06.31)</em></p><br>
-
 # Method Title
 The title should be meaningful and easy to follow. It should reflect relevance to social science, if applicable 
 
@@ -22,7 +20,7 @@ Include use case(s) from social sciences that would make this method applicable 
 **Example:** *How to collect 4chan data from on political discourse from dates 2025.04.12 to 2025.08.12*
  
 
-## Repo Structure
+## Repository Structure
 - List files and their purpose as a list (or a tree like structure)
 - Explain the score script files and their purpose
 - Explain the input, output and other intermediate files produced
@@ -57,8 +55,8 @@ Include use case(s) from social sciences that would make this method applicable 
 
 ## Input and Output Data
 - Explain the input data and provide links to the dataset that the method can work with. It should idealy be [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data)
-- Explain the sample input data in the repo i.e., the data features and what they represent
-- Explain the sample output data in the repo i.e., how to interpret the output  
+- Explain the sample input data in the repository i.e., the data features and what they represent
+- Explain the sample output data in the repository i.e., how to interpret the output  
 
 ## How to Use
 - Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed)
