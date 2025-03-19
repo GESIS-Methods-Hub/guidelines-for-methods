@@ -28,7 +28,7 @@ Additionally, the Git repository **must** also have the [necessary files for set
 - `binder/environment.yml`
 
 Optional,  
-- Verify rendering through Methods Hub, using [Methods Hub preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) *(Update the branch name as per your repository)*
+- Verify rendering through Methods Hub, using [Methods Hub preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) *(Update the branch name as per your Git Repository)*
 
 ## Further Reading
 - For more on Methods, visit [Methods guide](method-submission-guidelines.md)
