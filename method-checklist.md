@@ -8,7 +8,7 @@ Methods that have [established communities](https://github.com/GESIS-Methods-Hub
 **Section 1:  Preconditions as openness criteria (ref. [method preconditions](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions))**
 - [ ] Developed in open-sourced programming language e.g., Python, R 
 - [ ] Publicly accessible script 
-- [ ] Open license for reuse 
+- [ ] Open license  
 
 **Section 2:  Scope criteria as relevance to social science (ref. [method scope](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#4-scoping-criteria))**
 - [ ] Establishing social science relevance through use case, research question or citing relevant social science publications 
@@ -18,7 +18,7 @@ Methods that have [established communities](https://github.com/GESIS-Methods-Hub
 **Section 3:   Code and documenation quality (ref. [method quality](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#5-method-quality-guidelines))**
 
 *3.1. Documentation quality* 
-- [ ] Configuration file i.e., Requirements.txt, install.R, configuration.yml etc. 
+- [ ] Configuration file i.e., `environment.yml`, `requirements.txt`, `install.R`.
 - [ ] Open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. (for more on [GitHub licenses](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository))
 - [ ] [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method 
 - [ ] README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) 
