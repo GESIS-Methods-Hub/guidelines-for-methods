@@ -24,6 +24,7 @@ Methods that have [established communities](https://github.com/GESIS-Methods-Hub
 - [ ] README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md) 
 - [ ] Add binder/postbuild file to your repo for Methods Hub homepage rendering, by copying [postBuild](https://methodshub.gesis.org/snippet/postBuild) to repo 
 - [ ] Optional: Verify Methods Hub rendering of your repo by [previewing as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) 
+
 *3.2. Code quality*
 - [ ] The code is executable without requiring any information from the user (under default settings)
 - [ ] The method replicates the sample output using sample input in the Git Repository 
