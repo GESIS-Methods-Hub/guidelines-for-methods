@@ -29,7 +29,7 @@
 ## Environment Setup
 1. Provide configuration files preserving dependencies i.e., Requirements.txt, install.R, configuration.yml etc (including specific versions).
 2. Provide steps/commands to install all dependencies required to run this method.
-3. Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the paramters to alter the behavior of the method without directly interacting with the code.
+3. Load default configurations to execute the method without needing user envolvement e.g., for input or paths to resources. Store the configuration files separately (e.g., in config.json) where the users can change the parameters to alter the behavior of the method without directly interacting with the code.
 
 ## Input Data
 1. Explain the input data using sample instances as input data in the Git Repository i.e., the features and what they represent. These may be generated samples, staying within data restrictions.
@@ -40,7 +40,7 @@
 
 ## How to Use
 1. Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed).
-2. Explain which files or paramters need to be updated and how to alter the behavior of the method.
+2. Explain which files or parameters need to be updated and how to alter the behavior of the method.
 
 ## Hardware Requirements (Optional)
 1. The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power. 
