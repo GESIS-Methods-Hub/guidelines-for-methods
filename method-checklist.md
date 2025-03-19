@@ -2,7 +2,7 @@
 
 Please follow the checklist to ensure your content is ready for publishing on the [Methods Hub portal](https://methodshub.gesis.org/). *Note: the content submitted for publishing is held for review to crosscheck all requirements before publishing.*
 
-Methods that have [established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods) or are published by [trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub. *Please consult Methods Hub Team first by [email][methodshub@gesis.org] for further details.*
+Methods that have [established communities](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#13alternative-for-established-methods) or are published by [trusted third parties](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub. *Please consult Methods Hub Team first by [email](methodshub@gesis.org) for further details.*
 
 | | Method publishing checklist|
 |--|------|
