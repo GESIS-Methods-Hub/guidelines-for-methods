@@ -1,4 +1,4 @@
-# Method Tasks and subtasks taxonomy
+# Method Tasks Taxonomy
 
 - **Data Collection and Retrieval:** This category encompasses methods for obtaining and gathering data from various sources. These methods serve as the foundation for acquiring diverse datasets for subsequent analysis. This category includes:  
    - **Web scraping:** Web scraping involves the retrieval of information from web pages, usually in an automated manner, enabling the collection of diverse datasets that can be further analysed with other methods. 
