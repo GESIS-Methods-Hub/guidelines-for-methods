@@ -12,7 +12,7 @@
 
 
 ## Keywords
-- Keyword 1 (3 to 5 keywords highlighting the purpose of method)
+- Keyword 1 (3 to 5 keywords highlighting the purpose of the method)
 - Keyword 2
 - Keyword 3   
 
