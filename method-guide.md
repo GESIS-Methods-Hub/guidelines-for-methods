@@ -1,13 +1,11 @@
 # Method Submission Guide
-*Version 2.0*
 
-*This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through workflows, checklists, and guidelines to ensure conformance to the defined standards.*
+*This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through checklist, template and guidelines to ensure conformance to the defined standards.*
 
-**Abstract:**
+**Abstract**
 
 The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data (DBD). The bulk of methods will stem from computer science, notably showcasing cutting-edge AI/ML techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research. 
 
-*Note: This is a living document for content submission guidelines and therefore, the method submission scenarios, their definition and the checklist to adhere to are frozen for release 2 (July 2025). Additional changes in this regard will be considered for the next release.*
 
 *Verify conformance to the method guidelines using the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklists)*
 
@@ -36,14 +34,14 @@ Methods Hub content has the following objectives:
 |--------------|---------|
 | DBD | Digital behavioral data |
 | MH | Methods Hub |	
-| CFF | [Citation File Format](https://citation-file-format.github.io/) |
+| CFF | Citation File Format |
 | AI/ML | Artificial Intelligence/Machine Learning  |
 | SOTA | State-of-the art |
 
 ## 1. Methods (Computational Method)
 Methods Hub contains state-of-the-art AI/ML methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced AI/ML methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
 
-It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method repos that are highly desired by the community to be inclusive while staying within scope of the Methods Hub. 
+It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method Git Repositories that are highly desired by the community to be inclusive while staying within scope of the Methods Hub. 
 
 ## 1.1. Methods Dimensions
 Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is made publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
@@ -58,9 +56,9 @@ The methods recently developed in the computer science community with AI/ML and 
 There are journals and other software publishing venues that ensures the software is reusable and well-documented through a review process. Some of the trusted software publishing venues in computer science and social science venues are listed here ([prominent social science software publishing venues](supporting-documents/prominent-venues.md)). *The list is expected to grow with newer venues identified and reported*. These venues have well defined documentation requirements to make the code readable, understandable, and reusable. *For example, [sweater: Speedy Word Embedding Association Test and Extras Using R](https://joss.theoj.org/papers/10.21105/joss.04036)*. The code is reviewed for its quality too; therefore, these methods already comply with the MH method submission requirements and can be submitted directly.
 
 ## 1.3.	Alternative for Established Methods
-The prominent AI/ML methods that are applicable and of interest in the social science domain, having well established repositories with active communities can also be added to Methods Hub. As a bridge, Methods Hub extends the use of these methods to social science research community allowing more methods to choose from and modify for their research questions. Such established method repos e.g., [SANSA](https://sda.tech/author/hajirajabeen/) and [BERD-NFDI](https://github.com/BERD-NFDI/bear-ml/tree/main/bearml) are of value in the social science domain as well. To establish relevance with these methods, an alternative option is provided i.e., to write tutorials that demonstrate the use of these methods on a social science use case, as a step-wise easy to follow process. The [tutorial template](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) provides details on writing a tutorial for MH. This also facilitates to indirectly include a variety of methods on different platforms through the tutorial. 
+The prominent AI/ML methods that are applicable and of interest in the social science domain, having well established Git Repositories with active communities can also be added to Methods Hub. As a bridge, Methods Hub extends the use of these methods to social science research community allowing more methods to choose from and modify for their research questions. Such established method Git Repositories e.g., [SANSA](https://sda.tech/author/hajirajabeen/) and [BERD-NFDI](https://github.com/BERD-NFDI/bear-ml/tree/main/bearml) are of value in the social science domain as well. To establish relevance with these methods, an alternative option is provided i.e., to write tutorials that demonstrate the use of these methods on a social science use case, as a step-wise easy to follow process. The [tutorial template](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) provides details on writing a tutorial for MH. This also facilitates to indirectly include a variety of methods on different platforms through the tutorial. 
 
-*Note: Follow the method checklist to ensure all requirements for publishing method through the MH are already met.*
+*Note: Follow the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklists) to ensure all requirements for publishing method through the MH are already met.*
 
 # 2. Method Preconditions
 There are three preconditions following open access protocols. To fulfill preconditions, the methods must be scripted in open language, are publicly accessible and have an open license. The platform supports scripts in open languages e.g., Python, R etc. and does not cover commercial tools e.g., MATLAB, SPSS etc. The code must be publicly accessible to all from popular code sharing platforms like GitHub or GitLab.
@@ -103,12 +101,9 @@ The method documentation must contain at least the following four types of docum
 2.	Configuration file i.e., Requirements.txt, install.R, configuration.yml etc.
 3.	[Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method 
 4.	License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
-5.	binder/postbuild file using [postBuild](https://methodshub.gesis.org/snippet/postBuild)
+5.	The Git repository has the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example, adding `binder/postBuild` file, using [postBuild](https://methodshub.gesis.org/snippet/postBuild) to the Git Repository.
 
-Optional,
-- [For preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage) (update the main/master branch as in Repo)
-
-*There must be only one of these files in the repo to avoid confusion. All the other versions of these files should be organized in subdirectories. These files are expected to be in all repos along with the actual method files having code and data.*
+*There must be only one of these files in the Git Repository to avoid confusion. All the other versions of these files should be organized in subdirectories.*
 
 The **README file** is crucial for the readability, understandability, and reusability of the method. It may also contain optional subsections of disclaimer, acknowledgements, or publication, if applies. However, it is very important to mention the developer contact details to help reach back to the developer if need be. 
 
@@ -136,14 +131,14 @@ The most important aspect to consider in writing the README of a method is its u
   - For each subsection to rename, use separator (-) after the name in the template and then provide your subsection name e.g., Description - Why Topic Modeling.
   - Remove (Optional) from the title of the subsections that applies for your method. Remove all other optional subsections that do not apply.
 - Show sample input and output of the method to help users understand the purpose of the method.
-  - A method repo must have a sample input data and output data to help replicate results.
+  - A method Git Repository must have a sample input data and output data to help replicate results.
   - The sample input and output should represent one of the use cases.
   - There should be some explanation of what the input and output means in layman terms.
   - The use cases may also be documented as research questions.
 - The “How to use” section should have more details to elaborate on the use of the method
   - Providing a step-by-step guide to call the method and what to expect after each step.
   - It should provide how to apply different filters or parameter settings for the method. For example, calling the method topic modeling with different input data and configurations to expect different number of topics and arrangement of words within.
-- In the “Repo Structure” subsection, provide structure of your repo in the form of a tree, to help navigate the repo directories easily.
+- In the Git Repository Structure” subsection, provide structure of your Git Repository in the form of a tree, to help navigate the directories easily.
 - Images used in the README e.g., data models, pipeline, schema structure etc. should be properly explained.
 - In the “Contact” subsection, mention your contact details that users can use to follow up in case of queries.
 - Provide a limitation subsection mentioning the limitations of the method, if any.
@@ -174,7 +169,7 @@ The method code should be reusable so that social scientists can apply it to the
 
 This document is expected to grow with time through contributions from the method developers and reviewers towards building a resource for facilitating efficient method development. 
 
-*Note: For methods in release 1 (scheduled in June 2024), ensuring that the method reusability and code quality is the responsibility of the method developer. The method repo usage statistics (if available) are also considered e.g., watchers, downloads, forks, commits etc. In evaluating the code quality.*
+*Note: For methods in release 1 (scheduled in June 2024), ensuring that the method reusability and code quality is the responsibility of the method developer. The method Git Repository usage statistics (if available) are also considered e.g., watchers, downloads, forks, commits etc. In evaluating the code quality.*
 
 # 5. Method Identification  
 
@@ -238,7 +233,7 @@ Yes, you can write a tutorial about other developers methods as your contributio
 The method must be publicly accessible on GitHub.
 
 **What happens when I submit my method?**
-When the method is submitted, it is held for review. During this period the reviewer(s) can add issues to the Repo if modifications are needed. Once there is no issue to resolve, the method is published on the portal.
+When the method is submitted, it is held for review. During this period the reviewer(s) can add issues to the Git Repository if modifications are needed. Once there is no issue to resolve, the method is published on the portal.
 
 **What does it mean that a method is published?**
 When a method is published, it appears in the Methods Hub gallery and (from next day) is searchable through GESIS Search.

@@ -27,7 +27,6 @@ For more details check the [Scoping Criteria](https://github.com/GESIS-Methods-H
 - [ ] Has [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing the method. 
 - [ ] Has README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md). 
 - [ ] The Git repository has the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example, adding `binder/postBuild` file, using [postBuild](https://methodshub.gesis.org/snippet/postBuild) to the Git Repository. 
-- [ ] Optional: Verify Methods Hub rendering of your Git Repository by [previewing as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage). 
 
 #### Code quality
 - [ ] The code is executable using the information in README.
