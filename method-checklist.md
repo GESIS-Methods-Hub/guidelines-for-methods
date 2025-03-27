@@ -12,7 +12,7 @@ Methods that have [established communities](https://github.com/GESIS-Methods-Hub
 
 For more details check the [Method Preconditions](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-submission-guidelines.md#3-method-preconditions) section of the guidelines.
 
-### Scope criteria as relevance to social science
+### Scoping criteria as relevance to social science
 - [ ] Establishing social science relevance through use case, research question or citing relevant social science publications. 
 - [ ] The method is applicable to Digital Behavioral Data (DBD) (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)), also demonstrated through sample data in the Git Repository. 
 - [ ] The method has a relevant task in the [Method Tasks Taxonomy](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/methods-tasks.md).
