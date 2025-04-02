@@ -178,7 +178,7 @@ To initialize,
 ## Method Publication (Optional)
 <!--
 1. If any, include publications or articles associated to the method.
-2. Publications citation should be formatted using APA style.
+2. Publications citation should be formatted using APA 7th style.
 -->
 Culbert, J. H. (2023). 4TCT, A 4chan Text Collection Tool. *[arXiv preprint arXiv:2307.03556](https://arxiv.org/abs/2307.03556)*. (Users are encouraged to cite this paper when using the tool in research.)
 
@@ -218,7 +218,7 @@ Below official API rules have been made as default setting for this repository. 
 ## References (Optional)
 <!--
 1. If any, include references to explore and learn more about the method.
-2. Format your references list using APA style.
+2. References citation should be formatted using APA 7th style.
 -->
 
 ## Contact Details
