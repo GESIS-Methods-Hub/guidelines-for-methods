@@ -104,7 +104,7 @@ For explaination of the fields in the downloaded `.json` file, refer to [4chan A
 2. Explain which files or parameters need to be used. 
 3. Discuss how to alter the behavior of the method by changing parameters (if applicable).
 -->
-## How to Use
+
 - Run `python src/requester.py` to start data collection, with options `-b` for board selection and `-e` for board exclusion. Advanced usage includes adjusting request intervals and logging levels for detailed monitoring.
 - To use a configuration file instead of command-line arguments, add the `-c` flag without any other arguments. (i.e. `python src/requester.py -c`) This will read settings from a [config.json](https://github.com/BDA-KTS/4CTC/blob/main/config.json) file located the root folder. 
   The configuration file should be structured as follows:
