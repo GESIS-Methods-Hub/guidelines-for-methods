@@ -1,9 +1,8 @@
-# Method Title
+# 4TCT: A 4chan Text Collection Tool
 <!--
 1. The title should be meaningful and easy to follow.
 2. If applicable, it should reflect relevance to social science. 
 -->
-4TCT: A 4chan Text Collection Tool
 
 ## Description
 <!--
