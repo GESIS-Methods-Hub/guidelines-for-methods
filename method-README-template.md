@@ -17,6 +17,13 @@
 
 This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support research on topics such as hate speech, conspiracy theories, online extremism, meme culture, information dissemination, and the impact of anonymous social media on public opinion. The research paper [User unknown: 4chan, anonymity and contingency](https://firstmonday.org/ojs/index.php/fm/article/view/3665/8696) investigates anonymity and contingency aspects of 4chan in keeping its users unknown.
 
+## Technical Details (Optional)
+<!--
+1. Include as one paragraph an overview of how this method works.
+2. If applicable, tell what other methods it is build on or what data was used to train it.
+3. If a publication describes the method in details, cite it here.
+-->
+TODO
 
 ## Social Science Use Case(s)
 <!--
