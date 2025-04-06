@@ -89,7 +89,6 @@ Outputs include `.json` files containing collected posts, structured according t
 
 For explaination of the fields in the downloaded `.json` file, refer to [4chan API page](https://github.com/4chan/4chan-API/blob/master/pages/Threads.md)
 
-
 ## How to Use
 <!--
 1. Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed).
@@ -98,31 +97,33 @@ For explaination of the fields in the downloaded `.json` file, refer to [4chan A
 -->
 
 - Run `python src/requester.py` to start data collection, with options `-b` for board selection and `-e` for board exclusion. Advanced usage includes adjusting request intervals and logging levels for detailed monitoring.
-- To use a configuration file instead of command-line arguments, add the `-c` flag without any other arguments. (i.e. `python src/requester.py -c`) This will read settings from a [config.json](https://github.com/BDA-KTS/4CTC/blob/main/config.json) file located the root folder. 
+- To use a configuration file instead of command-line arguments, add the `-c` flag without any other arguments. (i.e. `python src/requester.py -c`) This will read settings from a [config.json](https://github.com/BDA-KTS/4CTC/blob/main/config.json) file located the root folder.
   The configuration file should be structured as follows:
-    ```json
-    {
-        "boards": [], 
-        "exclude_boards": false,
-        "request_time_limit": 1,
-        "output_path": "",
-        "save_log": false,
-        "clean_log": false
-    }
-    ```
-    - **`boards`**: A list of board short codes to monitor. If left as an empty list (`[]`), all boards will be monitored.
-    - **`exclude_boards`**: If `true`, the boards listed in `boards` will be excluded, and all others will be monitored.
-    - **`request_time_limit`**: The minimum time (in seconds) between requests to avoid overloading the server. Must be 1 or greater.
-    - **`output_path`**: Path to the directory where scraped threads and logs will be saved. A `data` folder will be created inside this path for storing results. If set to `""`, this will save the output `data` folder in the root folder of the repository.
-    - **`save_log`**: If `true`, logs will be saved in a `log` folder under the specified `output_path`.
-    - **`clean_log`**: If `true`, logs older than three days will be automatically cleaned up.
-      
+
+  ```json
+  {
+      "boards": [], 
+      "exclude_boards": false,
+      "request_time_limit": 1,
+      "output_path": "",
+      "save_log": false,
+      "clean_log": false
+  }
+  ```
+
+  - **`boards`**: A list of board short codes to monitor. If left as an empty list (`[]`), all boards will be monitored.
+  - **`exclude_boards`**: If `true`, the boards listed in `boards` will be excluded, and all others will be monitored.
+  - **`request_time_limit`**: The minimum time (in seconds) between requests to avoid overloading the server. Must be 1 or greater.
+  - **`output_path`**: Path to the directory where scraped threads and logs will be saved. A `data` folder will be created inside this path for storing results. If set to `""`, this will save the output `data` folder in the root folder of the repository.
+  - **`save_log`**: If `true`, logs will be saved in a `log` folder under the specified `output_path`.
+  - **`clean_log`**: If `true`, logs older than three days will be automatically cleaned up.
+
 **Where to Find Board Codes**:
   The short codes for 4chan boards can be found on the url of each [4chan boards page](https://boards.4chan.org). For example:
     - `/a/` for Anime & Manga
     - `/g/` for Technology
     - `/sci/` for Science & Math
-    
+
    Simply use the code without the slashes in the `boards` field or with the `-b` option. For instance:
     ```bash
     python src/requester.py -b a g sci
@@ -140,14 +141,14 @@ For explaination of the fields in the downloaded `.json` file, refer to [4chan A
     ```
 
 To initialize,
+
 - Two directories are created for logs, and the data (saves/"the current date")
 - The requester will first query the 4chan API to find the current list of boards, if present the include or exclude boards are selected or removed from the list. For every board resulting from this process, two subdirectories folder will be created in the data folder, one for storing the threads and one for the thread on each board.
 - The requester then goes through each board to find a list of threads on each board. These are saved to the threads_on_boards folder
 - The requester then requests the posts on each board. The data is saved to a subfolder of threads, with a name consisting of the thread id and the time of first observance.
-- The loop repeats by checking each board for new and dead threads, then querying the new and live threads.   
+- The loop repeats by checking each board for new and dead threads, then querying the new and live threads.
 - **Rerun:** The requester attempts to pick up from previous runs by observing the state of the saves directory. If this is deleted it will act as from fresh.
 - **Logs:** Debug logs are set to capture each API call and are as such, very detailed (approx 80 times as large as info). By default the info log is output to terminal.
-
 
 ## Git Repository Structure (Optional)
 <!--
@@ -192,14 +193,17 @@ The creators of 4TCT and GESIS are not affiliated with 4chan. The tool is intend
 
 Please ensure you follow the 4chan API Rules and Terms of Service found [here](https://github.com/4chan/4chan-API/blob/master/README.md).
 
-**API Rules**
+### API Rules
+
 Below official API rules have been made as default setting for this repository. They are listed here for those who are interested in modifying the repository.
+
 1. Do not make more than one request per second. To change the waiting time, use `--request-time-limit {your_ideal_value}` flag to set your ideal waiting time (only value above 1 will be accepted).
 2. Thread updating should be set to a minimum of 10 seconds, preferably higher.
 3. Use [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since) when doing your requests.
 4. Make API requests using the same protocol as the app. Only use SSL when a user is accessing your app over HTTPS.
 
-**API Terms of Service**
+### API Terms of Service
+
 1. You may not use "4chan" in the title of your application, product, or service.
 2. You may not use the 4chan name, logo, or brand to promote your application, product, or service.
 3. You must disclose the source of the information shown by your application, product, or service as 4chan, and provide a link.
@@ -218,7 +222,4 @@ Below official API rules have been made as default setting for this repository. 
 1. Provide contact information, having at least name and email address.
 2. It should be used to respond to queries/feedback.
 -->
-For questions or contributions, contact Jack H. Culbert at jack.culbert@gesis.org and Po-Chun Chang for maintenance issues at po-chun.chang@gesis.org.
-
-
-
+For questions or contributions, contact [Jack H. Culbert](mailto:jack.culbert@gesis.org) and for maintenance issues contact [Po-Chun Chang](mailto:po-chun.chang@gesis.org).

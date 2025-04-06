@@ -1,55 +1,38 @@
-# Reusable environment for Methods 
+# Reusable environment for Methods
 
- 
+## Virtual Environment
 
-**Virtual Environment** 
-
-Create and use python environment 
+Create and use python environment
 
 ```python -m venv /path/to/new/virtual/environment```
- 
-Create and use python environment 
 
-```C:\> <venv>\Scripts\activate.bat``` 
+Create and use python environment
 
- 
+```C:\> <venv>\Scripts\activate.bat```
 
-**Dockerize** 
+## Dockerize
 
- 
- 
-**Freezing requirements** 
+## Freezing requirements
 
-Generate requirements.txt document  
+Generate requirements.txt document.
 
-when all packages are installed and run   
+When all packages are installed and run
 
 ```pip freeze > requirements.txt```  
 
- 
-Loading all dependencies from the requirements.txt file 
+Loading all dependencies from the requirements.txt file
 
-```pip install -r requirements.txt``` 
+```pip install -r requirements.txt```
 
- 
-**Reproducibility measures** 
+## Reproducibility measures
 
-Using reproducibility tools e.g., 
+Using reproducibility tools e.g., use the [Python reproducible package](https://pypi.org/project/reproducible/).
 
-https://pypi.org/project/reproducible/ 
+## Generating random seeds
 
- 
-**Generating random seeds** 
+[Python random package](https://docs.python.org/3/library/random.html)
 
-https://docs.python.org/3/library/random.html 
+## Github reproducible project structures
 
- 
-**Github reproducible project structures** 
-
-https://github.com/calekochenour/project-structure 
-
-https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510 
-
- 
-
- 
+- [https://github.com/calekochenour/project-structure]
+- [https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510]
