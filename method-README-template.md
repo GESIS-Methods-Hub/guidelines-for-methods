@@ -17,10 +17,12 @@
 
 This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support research on topics such as hate speech, conspiracy theories, online extremism, meme culture, information dissemination, and the impact of anonymous social media on public opinion. The research paper [User unknown: 4chan, anonymity and contingency](https://firstmonday.org/ojs/index.php/fm/article/view/3665/8696) investigates anonymity and contingency aspects of 4chan in keeping its users unknown.
 
+
 ## Social Science Use Case(s)
 <!--
 1. Include use case(s) or research question(s) from social sciences that would make this method applicable in a certain scenario.
-2. They should arise from the latest social science literature cited in the description. 
+2. They should arise from the latest social science literature cited in the description.
+3. If you know papers that correspond to a use case (in the best case even use this method), add a citation.
 -->
 A **social scientist** analyzes the prevalence and evolution of hate speech and extremist narratives in online communities. They use 4TCT to collect posts from various 4chan boards to study patterns and triggers for such discourse.
 
