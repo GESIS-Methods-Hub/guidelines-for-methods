@@ -6,7 +6,7 @@ Here you will find the guidelines used by Methods Hub for methods. If you are pr
 
 Each method submitted to the [Methods Hub](https://methodshub.gesis.org/)  is checked for compliance with the following requirements before publication.
 
-Methods that have [established communities](method-guide.md#13alternative-for-established-methods) or are published by [trusted third parties](method-guide.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub. *Please consult Methods Hub Team first by [email][methodshub-email] for further details.*
+Methods that are published by [trusted third parties](method-guide.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub. *Please consult Methods Hub Team first by [email][methodshub-email] for further details.*
 
 ### Preconditions as openness criteria
 
