@@ -53,9 +53,15 @@ Methods Hub portal stands on the principles of open science only facilitating co
 
 The methods recently developed in the computer science community with AI/ML and NLP models are more often representing as SOTA research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using SOTA AI/ML models. The method review process ensures that the methods shared through the Methods Hub platform are representing SOTA AI/ML methods and have established relevance with social science use cases.
 
-### 1.2. Trusted Third-party Review Bodies
+### 1.2. Trusted Third-party Review Venues
 
-There are journals and other software publishing venues that ensures the software is reusable and well-documented through a review process. Some of the trusted software publishing venues in computer science and social science venues are listed here ([prominent social science software publishing venues](supporting-documents/prominent-venues.md)). *The list is expected to grow with newer venues identified and reported*. These venues have well defined documentation requirements to make the code readable, understandable, and reusable. *For example, [sweater: Speedy Word Embedding Association Test and Extras Using R](https://joss.theoj.org/papers/10.21105/joss.04036)*. The code is reviewed for its quality too; therefore, these methods already comply with the MH method submission requirements and can be submitted directly.
+For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [code and documentation check](README.md#code-and-documenation-quality) is skipped. These venues are:
+
+- [Journal of open source software](https://joss.theoj.org/)
+- [The R journal](https://journal.r-project.org/)
+- [R open science](https://ropensci.org/)
+
+You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
 ## 2. Method Preconditions
 
@@ -242,3 +248,5 @@ When the method is submitted, it is held for review. During this period the revi
 
 **What does it mean that a method is published?**
 When a method is published, it appears in the Methods Hub gallery and (from next day) is searchable through GESIS Search.
+
+[methodshub-email]: mailto:methodshub@gesis.org

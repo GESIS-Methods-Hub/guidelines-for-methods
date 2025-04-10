@@ -6,8 +6,6 @@ Here you will find the guidelines used by Methods Hub for methods. If you are pr
 
 Each method submitted to the [Methods Hub](https://methodshub.gesis.org/)  is checked for compliance with the following requirements before publication.
 
-Methods that are published by [trusted third parties](method-guide.md#12trusted-third-party-review-bodies) can be considered as special case (bypassing some of the documentation requirements) for publishing through Methods Hub. *Please consult Methods Hub Team first by [email][methodshub-email] for further details.*
-
 ### Preconditions as openness criteria
 
 - [ ] Developed in an open-source programming language e.g., Python, R.
@@ -25,6 +23,8 @@ For more details check the [Method Preconditions](method-guide.md#2-method-preco
 For more details check the [Scoping Criteria](method-guide.md#3-scoping-criteria) section of the guidelines.
 
 ### Code and documenation quality
+
+Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#12-trusted-third-party-review-venues).
 
 #### Documentation quality
 
