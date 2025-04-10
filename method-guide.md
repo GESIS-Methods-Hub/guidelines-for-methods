@@ -192,10 +192,6 @@ Generally, a method coded for a research model would have specific settings acco
   - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
   - [Method preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage)
 
-## 7. References
-
-[https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2](https://zis.gesis.org/submissionFiles/ZISPublicationGuideEnglishV2)
-
 ## FAQs
 
 **What is Methods Hub?**
