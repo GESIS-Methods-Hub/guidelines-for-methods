@@ -9,7 +9,7 @@ Methods that have [established communities](method-submission-guidelines.md#13al
 ### Preconditions as openness criteria
 
 - [ ] Developed in an open-source programming language e.g., Python, R.
-- [ ] The method is publicly accessible as a separate Git Repository.
+- [ ] The method is publicly accessible in a Git Repository not shared with other methods.
 - [ ] Has open license.
 
 For more details check the [Method Preconditions](method-submission-guidelines.md#3-method-preconditions) section of the guidelines.
