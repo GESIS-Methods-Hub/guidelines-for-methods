@@ -169,7 +169,7 @@ This document is expected to grow with time through contributions from the metho
 
 ## 5. Method Identification
 
-Researchers and practiioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
+Researchers and practitioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
 
 1. It can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library.
 2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the users freedom to pick different methods according to their requirements and align them in the pipeline that suits their intended purpose.  
@@ -194,8 +194,8 @@ Generally, a method coded for a research model would have specific settings acco
 
 ## FAQs
 
-**What is Methods Hub?**
-Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with digital behavioral data in social science research.
+**What is the Methods Hub?**
+The Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with digital behavioral data in social science research.
 
 **Who can submit a method to the Methods Hub?**
 Researchers, practitioners, and developers in computational social science, computer science, natural language processing and related fields can submit methods.
