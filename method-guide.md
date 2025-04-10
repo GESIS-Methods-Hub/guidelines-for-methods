@@ -180,7 +180,6 @@ Generally, a method coded for a research model would have specific settings acco
 
 ## 6. Resources and Supporting Material
 
-- Social science software publishing venues: [prominent social science software publishing venues](prominent-venues.md)
 - Templates
   - [CFF-template](https://citation-file-format.github.io/)
   - [method template](method-README-template.md)
