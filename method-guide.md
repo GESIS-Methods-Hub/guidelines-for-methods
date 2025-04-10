@@ -6,7 +6,7 @@
 
 The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data (DBD). The bulk of methods will stem from computer science, notably showcasing cutting-edge AI/ML techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research.
 
-*Verify conformance to the method guidelines using the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklists)*
+*Verify conformance to the method guidelines using the [method publishing checklist](README.md#method-publishing-checklist)*
 
 ## Methods Hub Content Goal
 
@@ -61,7 +61,7 @@ There are journals and other software publishing venues that ensures the softwar
 
 The prominent AI/ML methods that are applicable and of interest in the social science domain, having well established Git Repositories with active communities can also be added to Methods Hub. As a bridge, Methods Hub extends the use of these methods to social science research community allowing more methods to choose from and modify for their research questions. Such established method Git Repositories e.g., [SANSA](https://sda.tech/author/hajirajabeen/) and [BERD-NFDI](https://github.com/BERD-NFDI/bear-ml/tree/main/bearml) are of value in the social science domain as well. To establish relevance with these methods, an alternative option is provided i.e., to write tutorials that demonstrate the use of these methods on a social science use case, as a step-wise easy to follow process. The [tutorial template](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) provides details on writing a tutorial for MH. This also facilitates to indirectly include a variety of methods on different platforms through the tutorial.
 
-*Note: Follow the [method checklist](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-checklists) to ensure all requirements for publishing method through the MH are already met.*
+*Note: Follow the [method publishing checklist](README.md#method-publishing-checklist) to ensure all requirements for publishing method through the MH are already met.*
 
 ## 2. Method Preconditions
 
