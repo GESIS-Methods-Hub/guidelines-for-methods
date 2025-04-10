@@ -4,7 +4,7 @@
 
 ## Abstract
 
-The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data (DBD). The bulk of methods will stem from computer science, notably showcasing cutting-edge AI/ML techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research.
+The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data. The bulk of methods will stem from computer science, notably showcasing cutting-edge artificial intelligence techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research.
 
 *Verify conformance to the method guidelines using the [method publishing checklist](README.md#method-publishing-checklist)*
 
@@ -16,30 +16,20 @@ The goal of Methods Hub content is to provide reusable, reviewed and relevant me
 
 Methods Hub content has the following objectives:
 
-1. Enabling reuse of recent AI/ML models on Digital Behavioral Data in social science
-2. Empower social scientists in using AI methods
-3. Allows AI/ML method developers to reach a wider audience and contribute cross domain research challenges
+1. Enabling reuse of recent artificial intelligence models on Digital Behavioral Data in social science
+2. Empower social scientists in using artificial intelligence methods
+3. Allows artificial intelligence method developers to reach a wider audience and contribute cross domain research challenges
 
 ## Glossary
 
 | Term     | Explanation  |
 |----------|--------------|
-| Method   | Code snippets, one or more programming function , one or more programming classes or modularized software source code and its documentation. |
-| Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). Tutorials facilitate and enable researchers to work with SOTA methods. |
-
-## List of Abbreviations
-
-| Abbreviation | In full |
-|--------------|---------|
-| DBD   | Digital behavioral data |
-| MH    | Methods Hub |
-| CFF   | Citation File Format |
-| AI/ML | Artificial Intelligence/Machine Learning  |
-| SOTA  | State-of-the art |
+| Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
+| Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
 
 ## 1. Methods (Computational Methods)
 
-Methods Hub contains state-of-the-art AI/ML methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced AI/ML methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
+Methods Hub contains state-of-the-art artificial intelligence methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced artificial intelligence methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
 
 It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method Git Repositories that are highly desired by the community to be inclusive while staying within scope of the Methods Hub.
 
@@ -47,11 +37,11 @@ It encourages existing methods that are relevant and of interest to social scien
 
 Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is made publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
 
-1. Method relevance i.e., the method is applicable to social science use cases or research questions. Can the method be used with DBD.
-2. Recent AI/ML methods i.e., a SOTA method in the computer science or social science community.
+1. Method relevance i.e., the method is applicable to social science use cases or research questions. Can the method be used with digital behavioral data.
+2. Recent artificial intelligence methods i.e., a state-of-the-art method in the computer science or social science community.
 3. Method quality i.e., good code and documentation quality. The code quality ensures that the code is easy reuse and modify if need be. The documentation quality that ensures that all necessary information to replicate results are correctly documented in an easy to follow manner. *Note: We follow a lightweight journal like review process to verify the method quality*. We also accept the review of trusted third parties e.g., renowned software publishing venues to make sure that the method is well documented and require minimum effort to understand and reuse for new research questions and use cases.
 
-The methods recently developed in the computer science community with AI/ML and NLP models are more often representing as SOTA research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using SOTA AI/ML models. The method review process ensures that the methods shared through the Methods Hub platform are representing SOTA AI/ML methods and have established relevance with social science use cases.
+The methods recently developed in the computer science community with artificial intelligence models are more often representing as state-of-the-art research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using state-of-the-art artificial intelligence models. The method review process ensures that the methods shared through the Methods Hub platform are representing state-of-the-art artificial intelligence methods and have established relevance with social science use cases.
 
 ### 1.2. Trusted Third-party Review Venues
 
@@ -78,7 +68,7 @@ Methods Hub is a method market for social science methods and, therefore, the co
 The method has relevance to social science demonstrated through method documentation as:
 
 1. Write use case(s) or research questions in the README file of the method that are directly related to social science. Provide use cases that showcase how the method can be generalized to different scenarios, therefore establishing a strong relevance with the social science audience.  
-2. Provide evidence that the method can be used DBD datasets (ideally providing link to the [GESIS DBD dataset](https://www.gesis.org/en/institute/digital-behavioral-data)). It also assists in demonstrating relevance to social science through applicability to data from digital social platforms. More on this, along with sample data can be provided in the "Input Output Data" section in README.  
+2. Provide evidence that the method can be used on digital behavioral datasets (ideally providing link to the [GESIS DBD dataset](https://www.gesis.org/en/institute/digital-behavioral-data)). It also assists in demonstrating relevance to social science through applicability to data from digital social platforms. More on this, along with sample data can be provided in the "Input Output Data" section in README.  
 3. The method fits into the method tasks defined as loose vocabulary.
 
 Note: In case of any difficulty in assigning a method to its relevant task, please report to Methods Hub Team
@@ -89,7 +79,7 @@ The tasks that the method can perform is presented as loose vocabulary refering 
 
 ## 4. Method Quality Guidelines
 
-Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent AI/ML methods in social science, while encouraging to develop reusable methods.
+Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
 
 ### 4.1. Method Documentation Quality
 
@@ -160,7 +150,7 @@ Writing code that is easy to (re)use, easy to maintain and easy to adapt is cruc
 - The method code, in case taken from a bigger pipeline, should be modularized with minimum/no coupling or external dependencies.
 - Technical documentation for the code (generated through a tool e.g., sphinx) are desired
 
-*Defining method input and output interfacing as defined for the other methods used for the same task will help eaiser switch among methods to experiment with. It minimize the effort for the user to try different methods for the same task in their pipeline. Sci-kit-learn is a very good example for it. However, since Methods Hub is driven by community, it doesn't mean to standardize method interfacing at the MH level. The diversity and freedom in coding style is also equally important as far as the code is clearly readable, understandable and reusable.*
+*Defining method input and output interfacing as defined for the other methods used for the same task will help eaiser switch among methods to experiment with. It minimize the effort for the user to try different methods for the same task in their pipeline. Sci-kit-learn is a very good example for it. However, since Methods Hub is driven by community, it doesn't mean to standardize method interfacing at the Methods Hub level. The diversity and freedom in coding style is also equally important as far as the code is clearly readable, understandable and reusable.*
 
 #### 4.2.2. Code Reusability
 
@@ -185,7 +175,7 @@ Researchers and practiioners working in computational social science, computer s
 
 1. It can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library.
 2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the users freedom to pick different methods according to their requirements and align them in the pipeline that suits their intended purpose.  
-3. It can also be a longer pipeline that has multiple code modules performing multiple tasks in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing which is then consumed by an AI/ML model for analysis. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
+3. It can also be a longer pipeline that has multiple code modules performing multiple tasks in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing which is then consumed by an artificial intelligence model for analysis. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
 4. Software application type of method, although not a common form of method represents software applications that can be downloaded and used directly, e.g., installing [ScienceLinker](https://git.gesis.org/sciencelinker/sciencelinker-development) through pip.
 
 Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
@@ -197,7 +187,7 @@ Generally, a method coded for a research model would have specific settings acco
   - [CFF-template](https://citation-file-format.github.io/)
   - [method template](method-README-template.md)
   - [tutorial-template.md](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials)
-- Social science relevance / DBD applicability:
+- Social science relevance / digital behavioral data applicability:
   - [GESIS DBD dataset](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)
 - Code Reusability
   - [postBuild](https://methodshub.gesis.org/snippet/postBuild)
@@ -211,7 +201,7 @@ Generally, a method coded for a research model would have specific settings acco
 ## FAQs
 
 **What is Methods Hub?**
-Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with Digital Behavioral Data (DBD) in social science research.
+Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with digital behavioral data in social science research.
 
 **Who can submit a method to the Methods Hub?**
 Researchers, practitioners, and developers in computational social science, computer science, natural language processing and related fields can submit methods.
@@ -231,11 +221,11 @@ No, the methods on Methods Hub must be fully resusable with all resources used b
 **What if my method is already published in a peer-reviewed journal?**
 Methods published in trusted third-party venues with proper documentation and code quality can be submitted directly.
 
-**Can I submit a method that is not AI/ML-based?**
-The focus is on state-of-the-art AI/ML methods, but methods that support social science research using Digital Behavioral Data in other ways may also be considered e.g., data cleansing, data preprocessing etc.
+**Can I submit a method that is not artificial-intelligence-based?**
+The focus is on state-of-the-art artificial intelligence methods, but methods that support social science research using Digital Behavioral Data in other ways may also be considered e.g., data cleansing, data preprocessing etc.
 
 **Should I write tutorial about my method?**
-Yes, tutorials increase the reach of a method to researchers and practitioners with limited practical experience of AI/ML methods. It is therefore, highly advised to write tutorial demonstrating the use of your method to a research question as step-by-step guide.
+Yes, tutorials increase the reach of a method to researchers and practitioners with limited practical experience of artificial intelligence methods. It is therefore, highly advised to write tutorial demonstrating the use of your method to a research question as step-by-step guide.
 
 **Can I write tutorial about someone else's method?**
 Yes, you can write a tutorial about other developers methods as your contribution. You can also write tutorials about methods not published on Methods Hub but are of interest to the Methods Hub audience. For more details, please visit the method guide and template.
