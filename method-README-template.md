@@ -25,7 +25,7 @@ This tool is particularly useful for analyzing online discourse, community dynam
 -->
 TODO
 
-## Social Science Use Case(s)
+## Use Case(s)
 <!--
 1. Include use case(s) or research question(s) from social sciences that would make this method applicable in a certain scenario.
 2. They should arise from the latest social science literature cited in the description.
