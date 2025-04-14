@@ -19,7 +19,7 @@ This tool is particularly useful for analyzing online discourse, community dynam
 
 ## Technical Details (Optional)
 <!--
-1. Include as one paragraph an overview of how this method works.
+1. Include as one paragraph an overview of how this method works and how they could reproduce it.
 2. If applicable, tell what other methods it is build on or what data was used to train it.
 3. If a publication describes the method in details, cite it here.
 -->
