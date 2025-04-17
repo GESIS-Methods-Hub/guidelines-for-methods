@@ -220,9 +220,9 @@ Below official API rules have been made as default setting for this repository. 
 5. You may not clone 4chan or its existing features/functionality. Example: Don't suck down our JSON, host it elsewhere, and throw ads around it.
 6. These terms are subject to change without notice.
 
-## References (Optional)
+## References
 <!--
-1. If any, include references to explore and learn more about the method.
+1. Include references to explore and learn more about the method.
 2. References citation should be formatted using APA 7th style.
 -->
 
