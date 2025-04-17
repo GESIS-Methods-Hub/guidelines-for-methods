@@ -161,8 +161,8 @@ To initialize,
 
 ## Git Repository Structure (Optional)
 <!--
-1. If applicable, list files and their purpose as a tree-like structure.
-2. Provide the script file(s) input file(s), output file(s)and other intermediate or utility files (if any).
+1. If the repository contains more than one file (excluding README, Licence, configuration files, gitignore, ...), list these files and their purpose in a hierarchical list.
+2. Provide the script file(s) input file(s), output file(s) and other intermediate or utility files (if any).
 -->
 - The tool's architecture includes a [src/](https://github.com/BDA-KTS/4CTC/tree/main/src) directory for core scripts
   - With [requester.py](https://github.com/BDA-KTS/4CTC/blob/main/src/requester.py) handling data collection,
