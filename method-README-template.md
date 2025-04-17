@@ -228,7 +228,8 @@ Below official API rules have been made as default setting for this repository. 
 
 ## Contact Details
 <!-- 
-1. Provide contact information, having at least name and email address.
-2. It should be used to respond to queries/feedback.
+1. Tell how you want to be contacted for questions or feedback.
+2. For email: Provide at least name and email address.
+3. For GitHub: Provide an absolute link to the GitHub Issues or Discussion page.
 -->
 For questions or contributions, contact [Jack H. Culbert](mailto:jack.culbert@gesis.org) and for maintenance issues contact [Po-Chun Chang](mailto:po-chun.chang@gesis.org).
