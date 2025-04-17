@@ -173,8 +173,7 @@ To initialize,
 
 ## Hardware Requirements (Optional)
 <!--
-1. If applicable, provide hardware requirements in case the method is known to require more memory/compute power. 
-2. The method can only be executed on a specialized architecture (GPUs, Hadoop cluster etc.)
+In case the method needs more ressources than a typical laptop has (storage, memory, compute, GPUs), provide hardware requirements. 
 -->
 
 ## Method Publication (Optional)
