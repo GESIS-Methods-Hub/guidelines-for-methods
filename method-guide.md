@@ -13,16 +13,6 @@ To prepare methods for inclusion into the Methods Hub, follow the [method publis
 
 ## Quality Criteria
 
-### Trusted Third-party Review Venues
-
-For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [documentation and code quality check](README.md#quality-criteria) is skipped. These venues are:
-
-- [Journal of open source software](https://joss.theoj.org/)
-- [The R journal](https://journal.r-project.org/)
-- [R open science](https://ropensci.org/)
-
-You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
-
 ### Documentation Quality Criteria
 
 The quality criteria for documentation ensure that all information required for the application of a method and the reproducibility of results is documented in a standardized and easily comprehensible manner. To this end, the following sections provide recommendations that extend the mandatory [checklist items](README.md#documentation-quality-criteria).
@@ -53,6 +43,16 @@ The code quality criteria ensure that the code is easy to use and modify. To thi
 - The method code should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html)).
 - The method repository should contain unit tests that test for common, borderline and unusual cases to ensure that the method works as expected.
 - The method repository should allow for generating technical documentation (e.g., using [Sphinx](https://www.sphinx-doc.org) or similar tools).
+
+#### Trusted Third-party Review Venues
+
+For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [code quality criteria](README.md#code-quality-criteria) check is skipped. These venues are:
+
+- [Journal of open source software](https://joss.theoj.org/)
+- [The R journal](https://journal.r-project.org/)
+- [R open science](https://ropensci.org/)
+
+You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
 ## Method Identification
 

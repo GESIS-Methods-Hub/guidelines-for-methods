@@ -20,8 +20,6 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 
 ### Quality criteria
 
-Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
-
 #### Documentation quality criteria
 
 - [ ] The method repository contains the configuration files for installing all requirements (e.g., `environment.yml`, `requirements.txt`, `install.R`).
@@ -31,6 +29,8 @@ Can be skipped for methods for which a paper is published by [trusted third-part
 - [ ] The method repository contains the [postBuild](https://methodshub.gesis.org/snippet/postBuild) file.
 
 #### Code quality criteria
+
+The code quality criteria can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
 
 - [ ] By executing the code as described in the Methods Hub friendly README, the sample output described in the same file is generated with adequate fidelity (e.g., the output can be different for methods relying on randomness or external data sources).
 - [ ] The execution relies only on publicly available resources.
