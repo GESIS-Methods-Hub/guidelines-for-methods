@@ -12,7 +12,7 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/)  is ch
 - [ ] The method is publicly accessible in a Git Repository not shared with other methods.
 - [ ] Has open license.
 
-For more details check the [Method Preconditions](method-guide.md#2-method-preconditions) section of the guidelines.
+For more details check the [Method Preconditions](method-guide.md#method-preconditions) section of the guidelines.
 
 ### Scoping criteria as relevance to social science
 
@@ -20,11 +20,11 @@ For more details check the [Method Preconditions](method-guide.md#2-method-preco
 - [ ] The method is applicable to Digital Behavioral Data (DBD) (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)), also demonstrated through sample data in the Git Repository.
 - [ ] The method has a relevant task in the [Method Tasks Taxonomy](methods-tasks.md).
 
-For more details check the [Scoping Criteria](method-guide.md#3-scoping-criteria) section of the guidelines.
+For more details check the [Scoping Criteria](method-guide.md#scoping-criteria) section of the guidelines.
 
 ### Code and documenation quality
 
-Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#12-trusted-third-party-review-venues).
+Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
 
 #### Documentation quality
 
@@ -42,7 +42,7 @@ Can be skipped for methods for which a paper is published by [trusted third-part
 - [ ] The method is reproducible using only publicly available resources i.e., not using any commercial tools, packages, APIs etc.
 - [ ] The code is structured into modules (if need be) and is sufficiently commented to facilitate modification.
 
-For more details on documentation and code quality, check the [Method Quality Guidelines](method-guide.md#4-method-quality-guidelines) section of the guidelines.
+For more details on documentation and code quality, check the [Method Quality Guidelines](method-guide.md#method-quality-guidelines) section of the guidelines.
 
 ## Contact
 
