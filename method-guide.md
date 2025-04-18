@@ -11,10 +11,6 @@ To prepare methods for inclusion into the Methods Hub, follow the [method publis
 | Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
 | Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
 
-### Tasks
-
-The tasks that the method can perform is presented as loose vocabulary refering tasks and subtasks in a hierarchical manner. The method submission expects the method to have a specific task from the [Method Tasks Taxonomy](methods-tasks.md).
-
 ## Method Quality Guidelines
 
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
