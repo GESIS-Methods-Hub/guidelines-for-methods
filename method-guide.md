@@ -27,13 +27,13 @@ Methods Hub content has the following objectives:
 | Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
 | Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
 
-## 1. Methods (Computational Methods)
+## Methods (Computational Methods)
 
 Methods Hub contains state-of-the-art artificial intelligence methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced artificial intelligence methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
 
 It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method Git Repositories that are highly desired by the community to be inclusive while staying within scope of the Methods Hub.
 
-### 1.1. Methods Dimensions
+### Methods Dimensions
 
 Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is made publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
 
@@ -43,7 +43,7 @@ Methods Hub portal stands on the principles of open science only facilitating co
 
 The methods recently developed in the computer science community with artificial intelligence models are more often representing as state-of-the-art research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using state-of-the-art artificial intelligence models. The method review process ensures that the methods shared through the Methods Hub platform are representing state-of-the-art artificial intelligence methods and have established relevance with social science use cases.
 
-### 1.2. Trusted Third-party Review Venues
+### Trusted Third-party Review Venues
 
 For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [code and documentation check](README.md#code-and-documenation-quality) is skipped. These venues are:
 
@@ -53,17 +53,17 @@ For methods for which a paper is published at venues that ensure the methods reu
 
 You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
-## 2. Method Preconditions
+## Method Preconditions
 
 There are three preconditions following open access protocols. To fulfill preconditions, the methods must be scripted in open language, are publicly accessible and have an open license. The platform supports scripts in open languages e.g., Python, R etc. and does not cover commercial tools e.g., MATLAB, SPSS etc. The code must be publicly accessible to all from popular code sharing platforms like GitHub or GitLab.
 
 Licenses like [MIT open license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0 open license](https://github.com/apache/.github/blob/main/LICENSE) and CC-BY 4.0 are popular open-source licenses widely used in the GitHub community. The MIT license is known for its simplicity and permissiveness, allowing developers to freely use, modify, and distribute the software while requiring them to include the original license and disclaimer in any substantial portions of the code. The Apache License 2.0 is a more comprehensive license that provides clear guidelines on contributions, patents, and liability. Although these three are suggested as the frequently used open-source licenses, it doesn’t limit the use of any other open-source license.
 
-## 3. Scoping Criteria
+## Scoping Criteria
 
 Methods Hub is a method market for social science methods and, therefore, the content submitted in the Methods Hub portal must be relevant to social science. Therefore, the scope criteria are defined around relevance of the method to the social science domain. The scope of the method is determined by;
 
-### 3.1. Relevance to Social Science
+### Relevance to Social Science
 
 The method has relevance to social science demonstrated through method documentation as:
 
@@ -73,17 +73,17 @@ The method has relevance to social science demonstrated through method documenta
 
 Note: In case of any difficulty in assigning a method to its relevant task, please report to Methods Hub Team
 
-### 3.2. Tasks
+### Tasks
 
 The tasks that the method can perform is presented as loose vocabulary refering tasks and subtasks in a hierarchical manner. The method submission expects the method to have a specific task from the [Method Tasks Taxonomy](methods-tasks.md).
 
-## 4. Method Quality Guidelines
+## Method Quality Guidelines
 
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
 
-### 4.1. Method Documentation Quality
+### Method Documentation Quality
 
-#### 4.1.1. Required Documents
+#### Required Documents
 
 The method documentation must contain at least the following four types of documents.  
 
@@ -103,7 +103,7 @@ There must be a **[configuration file](https://mybinder.readthedocs.io/en/latest
 
 *Providing these files boost open research culture, attribution and may lead to newer collaborations.*
 
-#### 4.1.2 README guidelines
+#### README guidelines
 
 The README document of the method needs to follow the documentation quality guidelines provided here. The methods submitted will undergo a review process to ensure compliance with the guidelines. It is also aligned with the objectives of the Methods Hub to keep high quality content only.
 
@@ -135,9 +135,9 @@ The most important aspect to consider in writing the README of a method is its u
 
 The [README(template).md](method-README-template.md) has more on the structure of the document and how to write relevant information in each of these sections.
 
-### 4.2. Method Code Quality
+### Method Code Quality
 
-#### 4.2.1. Code Quality Guidelines
+#### Code Quality Guidelines
 
 Writing code that is easy to (re)use, easy to maintain and easy to adapt is crucial for having methods that remain reusable over a longer period of time. Maintaining coding standards is highly desired and the following guidelines will assist in achieving it:
 
@@ -150,7 +150,7 @@ Writing code that is easy to (re)use, easy to maintain and easy to adapt is cruc
 
 *Defining method input and output interfacing as defined for the other methods used for the same task will help eaiser switch among methods to experiment with. It minimize the effort for the user to try different methods for the same task in their pipeline. Sci-kit-learn is a very good example for it. However, since Methods Hub is driven by community, it doesn't mean to standardize method interfacing at the Methods Hub level. The diversity and freedom in coding style is also equally important as far as the code is clearly readable, understandable and reusable.*
 
-#### 4.2.2. Code Reusability
+#### Code Reusability
 
 The method code should be reusable so that social scientists can apply it to their research questions.
 
@@ -167,7 +167,7 @@ This document is expected to grow with time through contributions from the metho
 
 *Note: For methods in release 1 (scheduled in June 2024), ensuring that the method reusability and code quality is the responsibility of the method developer. The method Git Repository usage statistics (if available) are also considered e.g., watchers, downloads, forks, commits etc. In evaluating the code quality.*
 
-## 5. Method Identification
+## Method Identification
 
 Researchers and practitioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
 
@@ -178,7 +178,7 @@ Researchers and practitioners working in computational social science, computer 
 
 Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
 
-## 6. Resources and Supporting Material
+## Resources and Supporting Material
 
 - Templates
   - [CFF-template](https://citation-file-format.github.io/)
