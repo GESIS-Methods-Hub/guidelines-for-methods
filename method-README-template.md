@@ -41,6 +41,7 @@ A **computational linguist** leverages 4TCT to build a corpus for training model
 <!--
 1. Provide configuration file(s) preserving dependencies i.e., `environment.yml`, `requirements.txt`, `install.R` (including specific versions).
 2. Provide steps/commands to install all dependencies required to run this method.
+3. If the programming language supports it, use a virtual environment in your code below.
 -->
 It Requires Python>3.10.2 Suitable for environments focused on data collection and analysis.
 

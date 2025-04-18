@@ -71,23 +71,6 @@ The code quality criteria ensure that the code is easy to use and modify. To thi
 - The method repository should contain unit tests that test for common, borderline and unusual cases to ensure that the method works as expected.
 - The method repository should allow for generating technical documentation (e.g., using [Sphinx](https://www.sphinx-doc.org) or similar tools).
 
-#### Code Reusability
-
-The method code should be reusable so that social scientists can apply it to their research questions.
-
-- The “Enviornmental Setup” or “How to Use” along with "Input and Output Data" subsections should be sufficient replicate the results for the sample data without any invovlement of the user in the code i.e., just by executing code files or cells of notebook.
-- The sample output must be consistently produced across multiple runs. Define random seeds to ensure same results.
-
-**Reusability Supporting material:** The supporting material document is an early-stage effort in assisting developers to know about the tools and techniques to develop reusable methods. At present it helps on:
-
-1. Creating and using virtual environments
-2. Generating random seeds
-3. Suggesting useful reproducibility tools
-
-This document is expected to grow with time through contributions from the method developers and reviewers towards building a resource for facilitating efficient method development.
-
-*Note: For methods in release 1 (scheduled in June 2024), ensuring that the method reusability and code quality is the responsibility of the method developer. The method Git Repository usage statistics (if available) are also considered e.g., watchers, downloads, forks, commits etc. In evaluating the code quality.*
-
 ## Method Identification
 
 Researchers and practitioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
