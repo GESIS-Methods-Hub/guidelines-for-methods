@@ -70,7 +70,6 @@ The code quality criteria ensure that the code is easy to reuse and modify if ne
 Writing code that is easy to (re)use, easy to maintain and easy to adapt is crucial for having methods that remain reusable over a longer period of time. Maintaining coding standards is highly desired and the following guidelines will assist in achieving it:
 
 - The method should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html))
-- The code must be well structured and sufficiently commented.
 - Similarly, pushing important decisions from the body of the method to the parameters to empower users alter the behavior of the method. Such parameters should be read from a separate 'config.json' file. The code should be flexible to follow different reuse based on the parameter settings file.  
 - Unit tests should be provided to ensure the code is free from errors and all/most of the boundary conditions are checked.  
 - The method code, in case taken from a bigger pipeline, should be modularized with minimum/no coupling or external dependencies.
