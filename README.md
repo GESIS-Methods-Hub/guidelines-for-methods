@@ -38,7 +38,7 @@ Can be skipped for methods for which a paper is published by [trusted third-part
 
 - [ ] The code is executable using the information in README.
 - [ ] The method replicates the sample output using the sample input in the Git Repository (if applicable).
-- [ ] The Parameters and decisions used in the code are sufficiently commented to assist in updating the method behavior.
+- [ ] The parameters and decisions used in the code are sufficiently commented to assist in updating the method behavior.
 - [ ] The method is reproducible using only publicly available resources i.e., not using any commercial tools, packages, APIs etc.
 - [ ] The code is structured into modules (if need be) and is sufficiently commented to facilitate modification.
 
