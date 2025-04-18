@@ -39,25 +39,8 @@ The most important aspect to consider in writing the README of a method is its u
 - README should link to different code files where necessary.
   - Any external information e.g., on the terms of API used in the method should link to the original instead of copying those points to the README as they may change over time.
   - Internal resources utilized by the method e.g., embeddings, preprocessing etc. should linked for transparency.
-- The description should link to relevant social science publication using similar method.
-- README should have crisp use cases that help to highlight the purpose of the method e.g., identifying positive and negative sentiment scores of tweets.
 - The technical terms needed to help understand the method's purpose are to be explained separately as a list of definitions.
-- Use appealing subsection headings to attract the audience.
-  - Do not remove/change the original sections/subsections in the README template
-  - For each subsection to rename, use separator (-) after the name in the template and then provide your subsection name e.g., Description - Why Topic Modeling.
-  - Remove (Optional) from the title of the subsections that applies for your method. Remove all other optional subsections that do not apply.
-- Show sample input and output of the method to help users understand the purpose of the method.
-  - A method Git Repository must have a sample input data and output data to help replicate results.
-  - The sample input and output should represent one of the use cases.
-  - There should be some explanation of what the input and output means in layman terms.
-  - The use cases may also be documented as research questions.
-- The “How to use” section should have more details to elaborate on the use of the method
-  - Providing a step-by-step guide to call the method and what to expect after each step.
-  - It should provide how to apply different filters or parameter settings for the method. For example, calling the method topic modeling with different input data and configurations to expect different number of topics and arrangement of words within.
-- In the Git Repository Structure” subsection, provide structure of your Git Repository in the form of a tree, to help navigate the directories easily.
 - Images used in the README e.g., data models, pipeline, schema structure etc. should be properly explained.
-- In the “Contact” subsection, mention your contact details that users can use to follow up in case of queries.
-- Provide a limitation subsection mentioning the limitations of the method, if any.
 
 See the template for a [Methods Hub friendly README](method-README-template.md) for the structure of the document and how to write each of these sections.
 
