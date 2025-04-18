@@ -1,8 +1,8 @@
 # Method Submission Guidelines
 
-*This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through checklist, template and guidelines to ensure conformance to the defined standards.*
+The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts state-of-the-art methods that follow the principles of open science and that are available in a format that is accessible for social scientists.
 
-The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists.
+To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org).
 
 ## Glossary
 
@@ -10,32 +10,6 @@ The Methods Hub aims to provide high-quality and easy-to-use computer science me
 |----------|--------------|
 | Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
 | Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
-
-## Methods (Computational Methods)
-
-Methods Hub contains state-of-the-art artificial intelligence methods that can be applied to social science use cases and research questions. Only a fraction of these state-of-the-art methods is being used in the social science domain. However, there exists a vast array of untapped potential methods that can significantly provide benefits to the field. The community is encouraged to follow this guide to identify, develop and share advanced artificial intelligence methods specifically prepared for the social science community. Offering such content through the Methods Hub portal make them directly available to the target audience. This document serves as a guide for preparing methods to be Methods Hub ready.
-
-It encourages existing methods that are relevant and of interest to social scientists to be offered through the Methods Hub platform. New research modules cna be developed keeping these guidelines in mind to share them through the Methods Hub platform as well. Alternate criteria is also defined to facilitate prominant method Git Repositories that are highly desired by the community to be inclusive while staying within scope of the Methods Hub.
-
-### Methods Dimensions
-
-Methods Hub portal stands on the principles of open science only facilitating content that is developed with open resources and is made publicly available with open license. The methods submitted are reviewed from three overlapping dimensions to ensure that they meet the requirements of the Methods Hub. They are:
-
-1. Method relevance i.e., the method is applicable to social science use cases or research questions. Can the method be used with digital behavioral data.
-2. Recent artificial intelligence methods i.e., a state-of-the-art method in the computer science or social science community.
-3. Method quality i.e., good code and documentation quality. The code quality ensures that the code is easy reuse and modify if need be. The documentation quality that ensures that all necessary information to replicate results are correctly documented in an easy to follow manner. *Note: We follow a lightweight journal like review process to verify the method quality*. We also accept the review of trusted third parties e.g., renowned software publishing venues to make sure that the method is well documented and require minimum effort to understand and reuse for new research questions and use cases.
-
-The methods recently developed in the computer science community with artificial intelligence models are more often representing as state-of-the-art research. However, they need to establish relevance for applicability of the method in social science. The guidelines assist in crafting the method README for this purpose. Whereas the methods developed in the social science community are known to be relevant to the social science community already, but they may not always be using state-of-the-art artificial intelligence models. The method review process ensures that the methods shared through the Methods Hub platform are representing state-of-the-art artificial intelligence methods and have established relevance with social science use cases.
-
-### Trusted Third-party Review Venues
-
-For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [code and documentation check](README.md#code-and-documenation-quality) is skipped. These venues are:
-
-- [Journal of open source software](https://joss.theoj.org/)
-- [The R journal](https://journal.r-project.org/)
-- [R open science](https://ropensci.org/)
-
-You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
 ## Method Preconditions
 
@@ -64,6 +38,18 @@ The tasks that the method can perform is presented as loose vocabulary refering 
 ## Method Quality Guidelines
 
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
+
+The code quality ensures that the code is easy reuse and modify if need be. The documentation quality that ensures that all necessary information to replicate results are correctly documented in an easy to follow manner.
+
+### Trusted Third-party Review Venues
+
+For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [documentation and code quality check](README.md#quality-criteria) is skipped. These venues are:
+
+- [Journal of open source software](https://joss.theoj.org/)
+- [The R journal](https://journal.r-project.org/)
+- [R open science](https://ropensci.org/)
+
+You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
 ### Method Documentation Quality
 
@@ -164,16 +150,7 @@ Generally, a method coded for a research model would have specific settings acco
 
 ## Resources and Supporting Material
 
-- Templates
-  - [CFF-template](https://citation-file-format.github.io/)
-  - [method template](method-README-template.md)
-  - [tutorial-template.md](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials)
-- Social science relevance / digital behavioral data applicability:
-  - [GESIS DBD dataset](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)
-- Code Reusability
-  - [postBuild](https://methodshub.gesis.org/snippet/postBuild)
-  - [General code quality guidelines](supporting-documents/naming-conventions-code.md)
-  - [Method preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage)
+[Method preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage)
 
 ## FAQs
 
