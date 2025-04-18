@@ -25,33 +25,15 @@ You can suggest further venues by mail to the [Methods Hub team][methodshub-emai
 
 ### Documentation Quality Criteria
 
-The documentation quality criteria ensure that all necessary information to replicate results are correctly documented in an easy to follow manner.
+The quality criteria for documentation ensure that all information required for the application of a method and the reproducibility of results is documented in a standardized and easily comprehensible manner.
 
 #### Required Documents
 
-The method documentation must contain at least the following four types of documents.  
-
-1. README file in [method template](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/method-README-template.md)
-2. Configuration file i.e., Requirements.txt, install.R, configuration.yml etc.
-3. [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing method
-4. License file (e.g. [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0](https://github.com/apache/.github/blob/main/LICENSE), CC-BY 4.0)
-5. The Git repository has the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example, adding `binder/postBuild` file, using [postBuild](https://methodshub.gesis.org/snippet/postBuild) to the Git Repository
-
-The **README file** is crucial for the readability, understandability, and reusability of the method. It may also contain optional subsections of disclaimer, acknowledgements, or publication, if applies. However, it is very important to mention the developer contact details to help reach back to the developer if need be.
-
-There must be a **[configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html)** that recreates the environment in which the method is used (i.e., requirements.txt, install.R, environment.yml etc.) file. It helps reusability of the method by executing it in the same environment it was originally created in. The [Turing Way](https://book.the-turing-way.org/index.html) provides a comprehensive guideline on how to produce this configuration file.
-
-**[Citation file formats (CFF)](https://citation-file-format.github.io/)** are standardized structures designed to capture and represent bibliographic information about scholarly references. This file contains metadata such as author names, author ORCID, method title, method developed date etc. to help cite the method as a resource in scholarly articles. The [citation(template).cff](https://citation-file-format.github.io/) can be modified for a method.
-
-**Open licenses** like [MIT open license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), [Apache 2.0 open license](https://github.com/apache/.github/blob/main/LICENSE) and CC-BY 4.0 are popular open-source licenses widely used in the GitHub community. Although these three are suggested as the frequently used open-source licenses, it doesn’t limit the use of any other open-source license.
-
-*Providing these files boost open research culture, attribution and may lead to newer collaborations.*
+There must be a [configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html) that creates the environment in which the method is used (i.e., requirements.txt, install.R, environment.yml etc.). It helps reusability of the method by executing it in the same environment it was originally created in.
 
 #### README Guidelines
 
-The README document of the method needs to follow the documentation quality guidelines provided here. The methods submitted will undergo a review process to ensure compliance with the guidelines. It is also aligned with the objectives of the Methods Hub to keep high quality content only.
-
-The most important aspect to consider in writing the README of a method is its user friendliness. It emphasizes the need for having easy to understand and easy to follow documentation. The README description should explain the working of the method with social science terminologies, link to specific publications at social science venues. The research questions and use cases for the method should also be from the social science domain. In general, social scientists from different backgrounds should be able to follow the guidelines and reuse the method, aligned with the objective of Methods Hub, i.e., lowering technical barriers. The main README suggestions are:
+The most important aspect to consider in writing the README of a method is its user friendliness.
 
 - Avoid jargon in the method name, description, and use cases to help understandability of the README file for social scientists.
 - README should link to different code files where necessary.
@@ -77,11 +59,11 @@ The most important aspect to consider in writing the README of a method is its u
 - In the “Contact” subsection, mention your contact details that users can use to follow up in case of queries.
 - Provide a limitation subsection mentioning the limitations of the method, if any.
 
-The [README(template).md](method-README-template.md) has more on the structure of the document and how to write relevant information in each of these sections.
+See the template for a [Methods Hub friendly README](method-README-template.md) for the structure of the document and how to write each of these sections.
 
 ### Code Quality Criteria
 
-The code quality criteria ensuree that the code is easy reuse and modify if need be.
+The code quality criteria ensure that the code is easy to reuse and modify if need be.
 
 #### Code Quality Guidelines
 
