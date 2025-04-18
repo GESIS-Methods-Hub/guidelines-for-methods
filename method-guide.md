@@ -13,8 +13,6 @@ To prepare methods for inclusion into the Methods Hub, follow the [method publis
 
 ## Quality Criteria
 
-Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
-
 ### Trusted Third-party Review Venues
 
 For methods for which a paper is published at venues that ensure the methods reusability and documentation quality through a review process, the Methods Hub submission process is faster as the [documentation and code quality check](README.md#quality-criteria) is skipped. These venues are:
