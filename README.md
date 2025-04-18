@@ -37,7 +37,7 @@ Can be skipped for methods for which a paper is published by [trusted third-part
 - [ ] The method code contains documentation (comments) for parameters and decisions that allows one to adjust the method.
 - [ ] The method code is structured into modules (if need be).
 
-For more details on documentation and code quality, check the [Method Quality Guidelines](method-guide.md#method-quality-guidelines) section of the guidelines.
+For more details on documentation and code quality, check the [Quality Criteria](method-guide.md#quality-criteria) section of the guidelines.
 
 ## Contact
 

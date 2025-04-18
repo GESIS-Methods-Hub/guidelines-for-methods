@@ -11,11 +11,9 @@ To prepare methods for inclusion into the Methods Hub, follow the [method publis
 | Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
 | Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
 
-## Method Quality Guidelines
+## Quality Criteria
 
 Computational methods are the most common type of content on the Methods Hub. It aims to lower the technical barriers for using recent artificial intelligence methods in social science, while encouraging to develop reusable methods.
-
-The code quality ensures that the code is easy reuse and modify if need be. The documentation quality that ensures that all necessary information to replicate results are correctly documented in an easy to follow manner.
 
 ### Trusted Third-party Review Venues
 
@@ -27,7 +25,9 @@ For methods for which a paper is published at venues that ensure the methods reu
 
 You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
 
-### Method Documentation Quality
+### Documentation Quality Criteria
+
+The documentation quality criteria ensure that all necessary information to replicate results are correctly documented in an easy to follow manner.
 
 #### Required Documents
 
@@ -49,7 +49,7 @@ There must be a **[configuration file](https://mybinder.readthedocs.io/en/latest
 
 *Providing these files boost open research culture, attribution and may lead to newer collaborations.*
 
-#### README guidelines
+#### README Guidelines
 
 The README document of the method needs to follow the documentation quality guidelines provided here. The methods submitted will undergo a review process to ensure compliance with the guidelines. It is also aligned with the objectives of the Methods Hub to keep high quality content only.
 
@@ -81,7 +81,9 @@ The most important aspect to consider in writing the README of a method is its u
 
 The [README(template).md](method-README-template.md) has more on the structure of the document and how to write relevant information in each of these sections.
 
-### Method Code Quality
+### Code Quality Criteria
+
+The code quality criteria ensuree that the code is easy reuse and modify if need be.
 
 #### Code Quality Guidelines
 
