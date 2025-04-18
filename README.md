@@ -12,8 +12,6 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 - [ ] The method is publicly accessible in a Git Repository that it does not share with other methods.
 - [ ] The method is [published under an open license](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project).
 
-For more details check the [Method Preconditions](method-guide.md#method-preconditions) section of the guidelines.
-
 ### Scoping criteria
 
 - [ ] The method is relevant for the social sciences (shown through use cases in the [method README](#documentation-quality-criteria)).
