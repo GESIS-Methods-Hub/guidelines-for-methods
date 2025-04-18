@@ -63,19 +63,13 @@ See the template for a [Methods Hub friendly README](method-README-template.md) 
 
 ### Code Quality Criteria
 
-The code quality criteria ensure that the code is easy to reuse and modify if need be.
+The code quality criteria ensure that the code is easy to use and modify. To this end, we recommend the following in addition to the [checklist items](README.md#code-quality-criteria):
 
-#### Code Quality Guidelines
-
-Writing code that is easy to (re)use, easy to maintain and easy to adapt is crucial for having methods that remain reusable over a longer period of time. Maintaining coding standards is highly desired and the following guidelines will assist in achieving it:
-
-- The method should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html))
-- Similarly, pushing important decisions from the body of the method to the parameters to empower users alter the behavior of the method. Such parameters should be read from a separate 'config.json' file. The code should be flexible to follow different reuse based on the parameter settings file.  
-- Unit tests should be provided to ensure the code is free from errors and all/most of the boundary conditions are checked.  
-- The method code, in case taken from a bigger pipeline, should be modularized with minimum/no coupling or external dependencies.
-- Technical documentation for the code (generated through a tool e.g., sphinx) are desired
-
-*Defining method input and output interfacing as defined for the other methods used for the same task will help eaiser switch among methods to experiment with. It minimize the effort for the user to try different methods for the same task in their pipeline. Sci-kit-learn is a very good example for it. However, since Methods Hub is driven by community, it doesn't mean to standardize method interfacing at the Methods Hub level. The diversity and freedom in coding style is also equally important as far as the code is clearly readable, understandable and reusable.*
+- The method should not depend on certain other methods, but should use open formats for input and output. If there are standard formats for the particular task at hand, these should be used to ensure the interoperability of the methods.
+- The method should be easy to configure. A configuration through command line parameters and/or configuration files is preferable over having to edit the source code.
+- The method code should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html)).
+- The method repository should contain unit tests that test for common, borderline and unusual cases to ensure that the method works as expected.
+- The method repository should allow for generating technical documentation (e.g., using [Sphinx](https://www.sphinx-doc.org) or similar tools).
 
 #### Code Reusability
 
