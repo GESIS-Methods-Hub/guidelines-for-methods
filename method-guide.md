@@ -1,24 +1,8 @@
-# Method Submission Guide
+# Method Submission Guidelines
 
 *This document serves as a guide for developing and submitting methods to the Methods Hub. It assists in method preparation through checklist, template and guidelines to ensure conformance to the defined standards.*
 
-## Abstract
-
-The Methods Hub is an infrastructure project whose goal is to provide open and accessible computational methods to collect, access, and work with Digital Behavioral Data. The bulk of methods will stem from computer science, notably showcasing cutting-edge artificial intelligence techniques, alongside those originating from social sciences. It aims to serve as a pioneering platform designed to facilitate the propagation of computer science methodologies into social science research.
-
-*Verify conformance to the method guidelines using the [method publishing checklist](README.md#method-publishing-checklist)*
-
-## Methods Hub Content Goal
-
-The goal of Methods Hub content is to provide reusable, reviewed and relevant methods to social scientists that are appliable to Digital Behavioral Data.
-
-## Methods Hub Content Objectives
-
-Methods Hub content has the following objectives:
-
-1. Enabling reuse of recent artificial intelligence models on Digital Behavioral Data in social science
-2. Empower social scientists in using artificial intelligence methods
-3. Allows artificial intelligence method developers to reach a wider audience and contribute cross domain research challenges
+The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists.
 
 ## Glossary
 
