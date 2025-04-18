@@ -1,6 +1,6 @@
 # Method Submission Guidelines
 
-The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts state-of-the-art methods that follow the principles of open science and that are available in a format that is accessible for social scientists.
+The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts state-of-the-art methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research.
 
 To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org).
 
@@ -10,20 +10,6 @@ To prepare methods for inclusion into the Methods Hub, follow the [method publis
 |----------|--------------|
 | Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
 | Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
-
-## Scoping Criteria
-
-Methods Hub is a method market for social science methods and, therefore, the content submitted in the Methods Hub portal must be relevant to social science. Therefore, the scope criteria are defined around relevance of the method to the social science domain. The scope of the method is determined by;
-
-### Relevance to Social Science
-
-The method has relevance to social science demonstrated through method documentation as:
-
-1. Write use case(s) or research questions in the README file of the method that are directly related to social science. Provide use cases that showcase how the method can be generalized to different scenarios, therefore establishing a strong relevance with the social science audience.  
-2. Provide evidence that the method can be used on digital behavioral datasets (ideally providing link to the [GESIS DBD dataset](https://www.gesis.org/en/institute/digital-behavioral-data)). It also assists in demonstrating relevance to social science through applicability to data from digital social platforms. More on this, along with sample data can be provided in the "Input Output Data" section in README.  
-3. The method fits into the method tasks defined as loose vocabulary.
-
-Note: In case of any difficulty in assigning a method to its relevant task, please report to Methods Hub Team
 
 ### Tasks
 

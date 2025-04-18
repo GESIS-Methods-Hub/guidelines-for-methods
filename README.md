@@ -18,8 +18,6 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 - [ ] The method is applicable to Digital Behavioral Data (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data); shown through sample data in the Git Repository).
 - [ ] The method belongs to a relevant task type of the [Method Tasks Taxonomy](methods-tasks.md) (has to be selected in the submission form).
 
-For more details check the [Scoping Criteria](method-guide.md#scoping-criteria) section of the guidelines.
-
 ### Quality criteria
 
 Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
