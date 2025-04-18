@@ -4,7 +4,7 @@ Here you will find the guidelines used by Methods Hub for methods. If you are pr
 
 ## Method publishing checklist
 
-Each method submitted to the [Methods Hub](https://methodshub.gesis.org/)  is checked for compliance with the following requirements before publication.
+Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is checked for compliance with the following requirements before publication.
 
 ### Preconditions as openness criteria
 
