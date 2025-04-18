@@ -25,28 +25,28 @@ You can suggest further venues by mail to the [Methods Hub team][methodshub-emai
 
 ### Documentation Quality Criteria
 
-The quality criteria for documentation ensure that all information required for the application of a method and the reproducibility of results is documented in a standardized and easily comprehensible manner.
+The quality criteria for documentation ensure that all information required for the application of a method and the reproducibility of results is documented in a standardized and easily comprehensible manner. To this end, the following sections provide recommendations that extend the mandatory [checklist items](README.md#documentation-quality-criteria).
 
-#### Required Documents
+#### Configuration Files
 
-There must be a [configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html) that creates the environment in which the method is used (i.e., requirements.txt, install.R, environment.yml etc.). It helps reusability of the method by executing it in the same environment it was originally created in.
+If enabled in the submission form, methods on the Methods Hub can be executed in an interactive environment using [binder](https://mybinder.readthedocs.io/en/latest/index.html). For such methods, the repository needs to adhere to the [binder configuration file requirements](https://mybinder.readthedocs.io/en/latest/using/config_files.html) (which are mostly the same as for Methods Hub).
 
-#### README Guidelines
+#### Methods Hub Friendly README
 
-The most important aspect to consider in writing the README of a method is its user friendliness.
+Providing a [Methods Hub friendly README](method-README-template.md) ensures that the method is described in a standardized format that is accessible for social scientists. In addition to the specifics that the linked template file mentions for each section, we recommend the following:
 
-- Avoid jargon in the method name, description, and use cases to help understandability of the README file for social scientists.
-- README should link to different code files where necessary.
-  - Any external information e.g., on the terms of API used in the method should link to the original instead of copying those points to the README as they may change over time.
-  - Internal resources utilized by the method e.g., embeddings, preprocessing etc. should linked for transparency.
-- The technical terms needed to help understand the method's purpose are to be explained separately as a list of definitions.
-- Images used in the README e.g., data models, pipeline, schema structure etc. should be properly explained.
+- The README should contain as little computer science jargon as possible. Technical terms should be explained if they can not be avoided.
+- If the README mentions code files, it should also [link to them](https://daringfireball.net/projects/markdown/syntax#link).
+- The README should for each image (e.g., data models, pipeline, schema structure) also contain an explanation in text.
+- The README should not contain information of programming interfaces or similar if it could instead link to the authoritative source.
 
-See the template for a [Methods Hub friendly README](method-README-template.md) for the structure of the document and how to write each of these sections.
+#### postBuild File
+
+The postBuild file is used to render the Methods Hub friendly README to HTML. This process can be tested using Quarto, and can be automated on Github using the [preview action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage).
 
 ### Code Quality Criteria
 
-The code quality criteria ensure that the code is easy to use and modify. To this end, we recommend the following in addition to the [checklist items](README.md#code-quality-criteria):
+The code quality criteria ensure that the code is easy to use and modify. To this end, we recommend the following in addition to the mandatory [checklist items](README.md#code-quality-criteria):
 
 - The method should not depend on certain other methods, but should use open formats for input and output. If there are standard formats for the particular task at hand, these should be used to ensure the interoperability of the methods.
 - The method should be easy to configure. A configuration through command line parameters and/or configuration files is preferable over having to edit the source code.
@@ -64,10 +64,6 @@ Researchers and practitioners working in computational social science, computer 
 4. Software application type of method, although not a common form of method represents software applications that can be downloaded and used directly, e.g., installing [ScienceLinker](https://git.gesis.org/sciencelinker/sciencelinker-development) through pip.
 
 Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
-
-## Resources and Supporting Material
-
-[Method preview as GitHub Action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage)
 
 ## FAQs
 
