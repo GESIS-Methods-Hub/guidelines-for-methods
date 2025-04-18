@@ -4,43 +4,42 @@ Here you will find the guidelines used by Methods Hub for methods. If you are pr
 
 ## Method publishing checklist
 
-Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is checked for compliance with the following requirements before publication.
+Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is checked for compliance with the following criteria before publication.
 
-### Preconditions as openness criteria
+### Openness criteria
 
-- [ ] Developed in an open-source programming language e.g., Python, R.
-- [ ] The method is publicly accessible in a Git Repository not shared with other methods.
-- [ ] Has open license.
+- [ ] The method is developed in an open-source programming language (e.g., Python or R).
+- [ ] The method is publicly accessible in a Git Repository that it does not share with other methods.
+- [ ] The method is [published under an open license](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project).
 
 For more details check the [Method Preconditions](method-guide.md#method-preconditions) section of the guidelines.
 
-### Scoping criteria as relevance to social science
+### Scoping criteria
 
-- [ ] Establishing social science relevance through use case, research question or citing relevant social science publications.
-- [ ] The method is applicable to Digital Behavioral Data (DBD) (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data)), also demonstrated through sample data in the Git Repository.
-- [ ] The method has a relevant task in the [Method Tasks Taxonomy](methods-tasks.md).
+- [ ] The method is relevant for the social sciences (shown through use cases in the [method README](#documentation-quality-criteria)).
+- [ ] The method is applicable to Digital Behavioral Data (ideally [GESIS DBD](https://www.gesis.org/en/institute/about-us/digital-behavioral-data); shown through sample data in the Git Repository).
+- [ ] The method belongs to a relevant task type of the [Method Tasks Taxonomy](methods-tasks.md) (has to be selected in the submission form).
 
 For more details check the [Scoping Criteria](method-guide.md#scoping-criteria) section of the guidelines.
 
-### Code and documenation quality
+### Quality criteria
 
 Can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
 
-#### Documentation quality
+#### Documentation quality criteria
 
-- [ ] Has configuration files i.e., `environment.yml`, `requirements.txt`, `install.R`.
-- [ ] Has open license file e.g., MIT open license, Apache 2.0 open license and CC-BY 4.0 etc. (for more on [GitHub licenses](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)).
-- [ ] Has [Citation File Format (.CFF), CITATION file](https://citation-file-format.github.io/) or alternative for citing the method.
-- [ ] Has README file in [method template](method-README-template.md).
-- [ ] The Git repository has the [necessary files for setting up a binder environment](https://mybinder.readthedocs.io/en/latest/using/config_files.html)[^1]. For example, adding `binder/postBuild` file, using [postBuild](https://methodshub.gesis.org/snippet/postBuild) to the Git Repository.
+- [ ] The method repository contains the configuration files for installing all requirements (e.g., `environment.yml`, `requirements.txt`, `install.R`).
+- [ ] The method repository contains a `LICENSE` file (corresponding to an [open license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)).
+- [ ] The method repository contains a [`CITATION.cff`](https://citation-file-format.github.io/) file.
+- [ ] The method repository contains a [Methods Hub friendly README](method-README-template.md) (can be  `README.me` or another file; has to be selected in the submission form).
+- [ ] The method repository contains the [postBuild](https://methodshub.gesis.org/snippet/postBuild) file.
 
-#### Code quality
+#### Code quality criteria
 
-- [ ] The code is executable using the information in README.
-- [ ] The method replicates the sample output using the sample input in the Git Repository (if applicable).
-- [ ] The parameters and decisions used in the code are sufficiently commented to assist in updating the method behavior.
-- [ ] The method is reproducible using only publicly available resources i.e., not using any commercial tools, packages, APIs etc.
-- [ ] The code is structured into modules (if need be) and is sufficiently commented to facilitate modification.
+- [ ] By executing the code as described in the Methods Hub friendly README, the sample output described in the same file is generated with adequate fidelity (e.g., the output can be different for methods relying on randomness or external data sources).
+- [ ] The execution relies only on publicly available resources.
+- [ ] The method code contains documentation (comments) for parameters and decisions that allows one to adjust the method.
+- [ ] The method code is structured into modules (if need be).
 
 For more details on documentation and code quality, check the [Method Quality Guidelines](method-guide.md#method-quality-guidelines) section of the guidelines.
 
