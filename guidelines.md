@@ -23,7 +23,7 @@ If enabled in the submission form, methods on the Methods Hub can be executed in
 
 #### Methods Hub Friendly README
 
-Providing a [Methods Hub friendly README](method-README-template.md) ensures that the method is described in a standardized format that is accessible for social scientists. In addition to the specifics that the linked template file mentions for each section, we recommend the following:
+Providing a [Methods Hub friendly README](README-template.md) ensures that the method is described in a standardized format that is accessible for social scientists. In addition to the specifics that the linked template file mentions for each section, we recommend the following:
 
 - The README should contain as little computer science jargon as possible. Technical terms should be explained if they can not be avoided.
 - If the README mentions code files, it should also [link to them](https://daringfireball.net/projects/markdown/syntax#link).
