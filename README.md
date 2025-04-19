@@ -25,19 +25,19 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 - [ ] The method repository contains the configuration files for installing all requirements (e.g., `environment.yml`, `requirements.txt`, `install.R`).
 - [ ] The method repository contains a `LICENSE` file (corresponding to an [open license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)).
 - [ ] The method repository contains a [`CITATION.cff`](https://citation-file-format.github.io/) file.
-- [ ] The method repository contains a [Methods Hub friendly README](method-README-template.md) (can be  `README.me` or another file; has to be selected in the submission form).
+- [ ] The method repository contains a [Methods Hub friendly README](README-template.md) (can be  `README.me` or another file; has to be selected in the submission form).
 - [ ] The method repository contains the [postBuild](https://methodshub.gesis.org/snippet/postBuild) file.
 
 #### Code quality criteria
 
-The code quality criteria can be skipped for methods for which a paper is published by [trusted third-party review venues](method-guide.md#trusted-third-party-review-venues).
+The code quality criteria can be skipped for methods for which a paper is published by [trusted third-party review venues](guidelines.md#trusted-third-party-review-venues).
 
 - [ ] By executing the code as described in the Methods Hub friendly README, the sample output described in the same file is generated with adequate fidelity (e.g., the output can be different for methods relying on randomness or external data sources).
 - [ ] The execution relies only on publicly available resources.
 - [ ] The method code contains documentation (comments) for parameters and decisions that allows one to adjust the method.
 - [ ] The method code is structured into modules (if need be).
 
-For more details on documentation and code quality, check the [Quality Criteria](method-guide.md#quality-criteria) section of the guidelines.
+For more details on documentation and code quality, check the [Quality Criteria](guidelines.md#quality-criteria) section of the guidelines.
 
 ## Contact
 
