@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: Methods Hub's Guidelines for Methods
+message: >-
+  If you want to cite these guidelines, please cite it as below.
+type: software
+authors:
+  - name: Methods Hub Team
+    website: >-
+      https://www.gesis.org/en/services/processing-and-analyzing-data/analyzing-digital-behavioral-data/gesis-methods-hub
+    email: methodshub@gesis.org
+repository-code: >-
+  https://github.com/GESIS-Methods-Hub/guidelines-for-methods
+license: CC0-1.0
