@@ -28,7 +28,7 @@ The method takes as input the source code repository of another method (has to b
 
 ## Technical Details
 <!--
-1. In case a publication provides the details below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the technical details can be omitted.
+1. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the technical details can be omitted.
 2. The technical details section should list all information needed to reproduce the method, including a process overview, employed other methods, and selected parameters.
 3. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
 4. The technical details section should for employed machine learning models mention on what kind of data they were trained.
@@ -129,11 +129,8 @@ The template has no command line parameters. But if it would have some, we would
 
 ## Git Repository Structure
 <!--
-1. If the repository contains more than one file (excluding README, Licence, configuration files, gitignore, ...), list these files and their purpose in a hierarchical list.
-2. Provide the script file(s) input file(s), output file(s) and other intermediate or utility files (if any).
+1. The git repository structure section describes each file and directory - excluding README, Licence, environment configuration files, gitignore, and similar - in a hierarchical list
 -->
-The repository is organized as follows:
-
 - [guidelines.md](guidelines.md): Provides details beyond the checklist in the [README.md].
 - [README-template.md](README-template.md): Specifies and illustrates the Methods Hub friendly README.
 - [examples](examples): Does not exist, but illustrates in this list how a directory could be shown.
