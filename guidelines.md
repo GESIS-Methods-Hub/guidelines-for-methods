@@ -88,9 +88,6 @@ No, the methods on Methods Hub must be fully resusable with all resources used b
 **What if my method is already published in a peer-reviewed journal?**
 Methods published in trusted third-party venues with proper documentation and code quality can be submitted directly.
 
-**Can I submit a method that is not artificial-intelligence-based?**
-The focus is on state-of-the-art artificial intelligence methods, but methods that support social science research using Digital Behavioral Data in other ways may also be considered e.g., data cleansing, data preprocessing etc.
-
 **Should I write tutorial about my method?**
 Yes, tutorials increase the reach of a method to researchers and practitioners with limited practical experience of artificial intelligence methods. It is therefore, highly advised to write tutorial demonstrating the use of your method to a research question as step-by-step guide.
 
