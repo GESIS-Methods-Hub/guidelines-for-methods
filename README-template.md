@@ -129,7 +129,7 @@ The template has no command line parameters. But if it would have some, we would
 
 ## Git Repository Structure
 <!--
-1. The git repository structure section describes each file and directory - excluding README, Licence, environment configuration files, gitignore, and similar - in a hierarchical list
+1. The git repository structure section should describe each file and directory - excluding README, Licence, environment configuration files, gitignore, and similar - in a hierarchical list
 -->
 - [guidelines.md](guidelines.md): Provides details beyond the checklist in the [README.md].
 - [README-template.md](README-template.md): Specifies and illustrates the Methods Hub friendly README.
@@ -137,64 +137,39 @@ The template has no command line parameters. But if it would have some, we would
   - [input.txt](examples/input.txt): Does not exist, but could be an example input to illustrate the input format of this method (see sections [Input Data](#input-data) and [How to Use](#how-to-use))
   - [output.txt](examples/output.txt): Does not exist, but could be an example output to illustrate the output of this method (generated from the [input.txt](examples/input.txt); see sections [Output Data](#output-data) and [How to Use](#how-to-use))
 
-## Hardware Requirements (Optional)
+## Hardware Requirements
 <!--
-In case the method needs more ressources than a typical laptop has (storage, memory, compute, GPUs), provide hardware requirements. 
+1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs. cluster software, ...) that exceed the capabilities of a standard business laptop.
 -->
-
-## Method Publication (Optional)
-<!--
-1. If any, include publications or articles associated to the method.
-2. Publications citation should be formatted using APA 7th style.
--->
-Culbert, J. H. (2023). 4TCT, A 4chan Text Collection Tool. *[arXiv preprint arXiv:2307.03556](https://arxiv.org/abs/2307.03556)*. (Users are encouraged to cite this paper when using the tool in research.)
-
-## Acknowledgements (if any)
-<!--
-If any, add acknowledgements to express gratitude to those contributed, supported or guided.
--->
-Special thanks to **Jack Culbert**, the original creator of this repository, for laying the foundation of this project.  
-Deep appreciation to **Po-Chun Chang**, who, through iterative improvements, expanded the utility and structure ofthe repository, making it more robust and publishable.  
-Gratitude is also extended to the **[4chan API team](https://github.com/4chan)** for providing the foundational resources that enable this tool's functionality.  
-
-Thank you very much to the team behind the [4chan API](https://github.com/4chan/4chan-API)!
-
-## Disclaimer (Optional)
-<!--
-If necessary, add any disclaimers, legal notices, or usage restrictions for the method.
--->
-The creators of 4TCT and GESIS are not affiliated with 4chan. The tool is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
-
-Please ensure you follow the 4chan API Rules and Terms of Service found [here](https://github.com/4chan/4chan-API/blob/master/README.md).
-
-### API Rules
-
-Below official API rules have been made as default setting for this repository. They are listed here for those who are interested in modifying the repository.
-
-1. Do not make more than one request per second. To change the waiting time, use `--request-time-limit {your_ideal_value}` flag to set your ideal waiting time (only value above 1 will be accepted).
-2. Thread updating should be set to a minimum of 10 seconds, preferably higher.
-3. Use [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since) when doing your requests.
-4. Make API requests using the same protocol as the app. Only use SSL when a user is accessing your app over HTTPS.
-
-### API Terms of Service
-
-1. You may not use "4chan" in the title of your application, product, or service.
-2. You may not use the 4chan name, logo, or brand to promote your application, product, or service.
-3. You must disclose the source of the information shown by your application, product, or service as 4chan, and provide a link.
-4. You may not market your application, product, or service as being "official" in any way.
-5. You may not clone 4chan or its existing features/functionality. Example: Don't suck down our JSON, host it elsewhere, and throw ads around it.
-6. These terms are subject to change without notice.
+This method can be run on a standard business laptop.
 
 ## References
 <!--
-1. Include references to explore and learn more about the method.
-2. References citation should be formatted using APA 7th style.
+1. The references section is optional.
+2. The references section should provide references of publications related to this method.
 -->
+- To cite this method:
+  
+  Ample, E. X. & Obody, N. (2025). Getting into the Methods Hub. *Unpublished Papers*, 8(3), 42–43.
+
+## Acknowledgements
+<!--
+1. The acknowledgments section is optional.
+2. The acknowledgments section should list expressions of gratitude to people or organizations who contributed, supported or guided.
+-->
+Special thanks to the creators of the [Methods Hub friendly README specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1) for laying the foundation of this work.
+
+## Disclaimer
+<!--
+1. The disclaimer section is optional.
+2. The disclaimer section should list disclaimers, legal notices, or usage restrictions for the method.
+-->
+The tool is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
+
+Please ensure you follow the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) when using this method.
 
 ## Contact Details
 <!-- 
-1. Tell how you want to be contacted for questions or feedback.
-2. For email: Provide at least name and email address.
-3. For GitHub: Provide an absolute link to the GitHub Issues or Discussion page.
+1. The contact details section should specify whom to contact for questions or contributions and how (can be separate entitites; for example email addresses or links to the GitHub issue board).
 -->
-For questions or contributions, contact [Jack H. Culbert](mailto:jack.culbert@gesis.org) and for maintenance issues contact [Po-Chun Chang](mailto:po-chun.chang@gesis.org).
+For questions, contributions and bug reports, contact [the Methods Hub team](mailto:methodshub@gesis.org).
