@@ -7,7 +7,7 @@
 ## Description
 <!--
 1. Provide a brief and exact description of the method clearly mentioning its purpose i.e., what the method does or aims to achieve in abstract terms (avoiding technical details).
-2. Focus should be to emphasize on the functionality as a blackbox, helping researchers with different levels of expertise and experience to understand what the method is doing.
+2. The focus should be on explaining the method in a way that helps users with different levels of expertise understand what it does, without going into technical details. It should clearly describe what inputs are needed and what outputs can be expected.
 3. Briefly explain the input and output of the method and its note worthy features.
 4. Provide link(s) to related papers from the social science domain using the method or similar methods for solving social science research questions. 
 5. In a separate paragraph, highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules etc.
