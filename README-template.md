@@ -1,7 +1,18 @@
-# 4TCT: A 4chan Text Collection Tool
+# README Template: Specification and Illustration of the Methods Hub Friendly README
 <!--
-1. The title should be meaningful and easy to follow.
-2. If applicable, it should reflect relevance to social science. 
+General specifications:
+- This specification of the Methods Hub friendly README often uses the word 'should' to indicate the usual case. If you feel you need to do it differently, add a comment to argue for your case when you submit your method.
+- A Methods Hub friendly README should contain all sections below that are not marked as optional, and can contain more sections.
+- A Methods Hub friendly README should contain as few technical terms as possible and explain (or link to an explanation of) all used technical terms.
+- A Methods Hub friendly README should link to all code files that it mentions using the [text](URL) format.
+- A Methods Hub friendly README should contain an explanation for each image it contains (e.g., data models, pipeline, schema structure).
+- A Methods Hub friendly README should link to authoritative sources rather than containing a copy of the information (e.g., documentation).
+- A Methods Hub friendly README uses APA7 for all references: https://apastyle.apa.org/style-grammar-guidelines/references/examples
+
+The title:
+1. The title must be the README's only first-level heading (line starting with a single '#').
+2. The title should make the method's purpose clear.
+3. The title must be changed by you, but all other headings should be kept as they are.
 -->
 
 ## Description
@@ -13,164 +24,123 @@
 5. In a separate paragraph, highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules etc.
 6. It should also discuss the decisions and parameters controlling the behavior of the method.
 -->
-4TCT is a specialized tool designed for the efficient collection of textual data from the [4chan](https://www.4chan.org/) platform. It automates the process of gathering posts from various boards, aiming to facilitate research and analysis in social science and computational linguistics.
+The README template illustrates the Methods Hub friendly README. Though the README template is not a method, this document is written as if it were one for the sake of illustration.
 
-This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support research on topics such as hate speech, conspiracy theories, online extremism, meme culture, information dissemination, and the impact of anonymous social media on public opinion. The research paper [User unknown: 4chan, anonymity and contingency](https://firstmonday.org/ojs/index.php/fm/article/view/3665/8696) investigates anonymity and contingency aspects of 4chan in keeping its users unknown.
+The method takes as input the source code repository of another method (has to be applicable for social science research) and the knowledge of their programmer. It provides as output a Methods Hub friendly README that describes that other method in a unified and easily accessible way. Alternatively, it allows to check whether a README is Methods Hub friendly using the [specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1) (in `<!-- comment -->`s), as it is done after submitting a method to the Methods Hub. The method can use any OpenAI-compatible API (ChatGPT, Ollama, ...). The method placed 2nd in [NO competition](https:/example.com/). It has extremely low hardware requirements.
 
-## Technical Details (Optional)
+## Technical Details
 <!--
-1. Include as one paragraph an overview of how this method works and how they could reproduce it.
-2. If applicable, tell what other methods it is build on or what data was used to train it.
-3. If a publication describes the method in details, cite it here.
+1. In case a publication provides the details below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the technical details can be omitted.
+2. The technical details section should list all information needed to reproduce the method, including a process overview, employed other methods, and selected parameters.
+3. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+4. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
-TODO
+The README template uses [markdown](https://daringfireball.net/projects/markdown/syntax) to present a structured overview of a method and mark links. It takes the following steps:
 
-## Use Case(s)
+1. Copying. This document is copied into the repository of the method to be submitted. This step uses the pre-trained [best practices model](https:/example.com/) that was fine-tuned on the [responses](https:/example.com/) from an online survey with XXX participants as well as expert interviews with PyTorch [thresholded frequency optimizer](https:/example.com/) and a learning rate of 0.1 based on results from our preliminary tests (we tested learning rates 0.0001, 0.001, 0.01, 0.1, and 1). The learning rate can be changed using the `--learning-rate` command line parameter.
+2. Adapting. The template is then adapted so that it fits to the method of the repository. In our experiments we used [VIM](https://xkcd.com/378/) as a standard compromise between coolness and complexity, but the method can be configured to use any other text editor instead.
+3. Submitting. The respository, including the README (from step 1) is [submitted to Methods Hub](https://methodshub.gesis.org/dashboard/methods/add/) using the system web browser (default settings, we used Firefox 137.0.2 on Windows 10).
+
+See the [publication](https:/example.com/) for the reasoning behind the selected methods.
+
+## Use Cases
 <!--
-1. Include use case(s) or research question(s) from social sciences that would make this method applicable in a certain scenario.
-2. They should arise from the latest social science literature cited in the description.
-3. If you know papers that correspond to a use case (in the best case even use this method), add a citation.
+1. The use cases section should contain a list of use cases relevant to the social sciences.
+2. Each use case should start with a description of a person, continues with a description of a task the person has, and then details how the person uses the method to assist in the task.
+3. Each use case may list publications (in APA7 style) in which the use case occurs.
 -->
-A **social scientist** analyzes the prevalence and evolution of hate speech and extremist narratives in online communities. They use 4TCT to collect posts from various 4chan boards to study patterns and triggers for such discourse.
+- A computational social scientist wants to have their method being featured in the Methods Hub. The method code is already contained in a repository on GitHub. They then use the README template to create a new file, `README-methods-hub.md`, by copying the content of this document into the new file and adapting it to their own method.
 
-A **research team** investigates how conspiracy theories emerge and spread during political events. Using 4TCT, they gather data to identify key narratives and influential threads on 4chan boards.
+  Example publications that illustrate this use case:
 
-A **computational linguist** leverages 4TCT to build a corpus for training models on internet slang, meme-based text, and the language of conspiracy theories.
+  - Ample, E. X. & Obody, N. (2025). Getting into the Methods Hub. *Unpublished Papers*, 8(3), 42–43.
+
+- A computational social scientist has created a README for their own script and wants to check whether the README is Methods Hub friendly to ensure it contains all necessary information. They compare their own README with the README template, adjusting their own README as necessary to match the specification provided in the template.
 
 ## Environment Setup
 <!--
-1. Provide configuration file(s) preserving dependencies i.e., `environment.yml`, `requirements.txt`, `install.R` (including specific versions).
-2. Provide steps/commands to install all dependencies required to run this method.
-3. If the programming language supports it, use a virtual environment in your code below.
+1. The environment setup section should list all requirements and provide all further steps to prepare an environment for running the method (installing requirements, downloading files, creating directoriees, etc.).
+2. The environment setup section should recommend to use a virtual environment or similar if the programming language supports one.
 -->
-It Requires Python>3.10.2 Suitable for environments focused on data collection and analysis.
+The README template requires an arbitrary text editor compatible with Markdown version 0.31.2. If this were an actual Python method, you should do the following. To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html). Then install all requirements using:
 
-Dependencies are listed in [requirements.txt](https://github.com/BDA-KTS/4CTC/blob/main/requirements.txt) and can be installed via `pip install -r requirements.txt` to ensure the tool functions correctly.
+```{python}
+pip install -r requirements.txt
+```
+
+You do not need an API key to use the README template, but if you would need one, you would here find a link to documentation on how to get one and were to put it.
 
 ## Input Data
 <!--
-1. If applicable, explain the input data using sample instances as input data in the Git Repository i.e., the features and what they represent. These may be generated samples, staying within data restrictions.
-2. If applicable, Provide links to the actual dataset that the method can work with, idealy [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data).
+1. The input data section should illustrate the input data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
+2. The input data section should link to a small example input file in the same repository that can be used to test the method (this test should be described in the section "How to Use").
+3. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation (if no such page exists, a publication can be linked).
 -->
-Not applicable as 4TCT gathers data directly from 4chan.
+The README template takes as input information about a method, for example in [README-format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+Example input data ([README-template.md](README-template.md)):
+
+```{markdown}
+# README Template: Specification and Illustration of the Methods Hub Friendly README
+
+## Description
+The README template illustrates the Methods Hub friendly README. [...]
+```
 
 ## Output Data
 <!--
-1. Explain the sample output data in the Git Repository.
-2. Discuss how to interpret the output data.
+1. The output data section should illustrate the output data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
+2. The output data section should link to a small example output file in the same repository that can be re-created from the input data (as described in the section "How to Use").
 -->
-Outputs include `.json` files containing collected posts, structured according to 4chan's API documentation, with directories organized by date and board.
+The README template produces a README according to the [Methods Hub friendly README specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1).
 
-```json
-{
-  "posts": [
-    {
-      "no": 1990691,
-      "sticky": 1,
-      "closed": 1,
-      "now": "02/23/13(Sat)22:43",
-      "name": "Anonymous",
-      "sub": "/c/ board rules and guidelines",
-      "com": "Greetings, /c/itizens!<br><br>Just wanted to go over a couple of guidelines for posting on /c/ if you are new here and a friendly reminder for those who aren&#039;t. <br><br>Try to avoid making single-image requests. Making a single image thread deletes a previous thread from the last page. Please include 4 to 5 similar images in your thread to get it going. Use resources like danbooru, gelbooru or even Google Image Search. <br><br>Check the catalog to avoid making a duplicate thread. This way, we can share and contribute more images more effectively and efficiently. <br><br>If bumping a thread, please include a picture instead of just writing &#039;bump&#039; and please do not necrobump threads that have reached their image limit. This restricts the diversity and natural flow of the board. Threads are meant to come and go and sometimes they are even better the next time around.<br><br>Finally, as much as /a/ is a discussion board, /c/ is a board for sharing images. Please respect the threads of other users and they will do the same to yours as well!",
-      "filename": "1327087650882",
-      "ext": ".jpg",
-      "w": 662,
-      "h": 1000,
-      "tn_w": 165,
-      "tn_h": 250,
-      "tim": 1361677439762,
-      "time": 1361677439,
-      "md5": "gP8R0+qEv/MBLCVaFcKY9Q==",
-      "fsize": 325353,
-      "resto": 0,
-      "semantic_url": "c-board-rules-and-guidelines",
-      "replies": 0,
-      "images": 0,
-      "unique_ips": 1
-    }
-  ],
-  "last_modified": 1405561559,
-  "archived": false,
-  "post_time_UTC": "13_02_24_03_43_00",
-  "scraped_time_UTC": "23_11_24_13_03_09",
-  "board_code": "c"
-}
+Example output data ([README-template.md](README-template.md)):
+
+```{markdown}
+# README Template: Specification and Illustration of the Methods Hub Friendly README
+
+## Description
+The README template illustrates the Methods Hub friendly README. [...]
 ```
-
-For explaination of the fields in the downloaded `.json` file, refer to [4chan API page](https://github.com/4chan/4chan-API/blob/master/pages/Threads.md)
 
 ## How to Use
 <!--
-1. Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed).
-2. Explain which files or parameters need to be used. 
-3. Discuss how to alter the behavior of the method by changing parameters (if applicable).
+1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) from the example input file (see section Input Data), after having set up the environment (see section Environment Setup).
+2. The how to use section should explain how one can adapt the steps to one's needs, usually through configuration files or command line parameters.
 -->
+To prepare a method for the Methods Hub, use the README template as follows:
 
-- Run `python src/requester.py` to start data collection, with options `-b` for board selection and `-e` for board exclusion. Advanced usage includes adjusting request intervals and logging levels for detailed monitoring.
-- To use a configuration file instead of command-line arguments, add the `-c` flag without any other arguments. (i.e. `python src/requester.py -c`) This will read settings from a [config.json](https://github.com/BDA-KTS/4CTC/blob/main/config.json) file located the root folder.
-  The configuration file should be structured as follows:
+- Copy this document to your repository and adapt its text to your method. We recommend to name that copy as `README.md` and use it as the single method of your repository, but it is not required that your Methods Hub friendly README has this name for your method to be accepted into Methods Hub (e.g., if the `README.md` is intended for a different target audience).
+- A step can also be illustrated as code, for example:
 
-  ```json
-  {
-      "boards": [], 
-      "exclude_boards": false,
-      "request_time_limit": 1,
-      "output_path": "",
-      "save_log": false,
-      "clean_log": false
-  }
+  ```{bash}
+  python do-something.py README.md
   ```
 
-  - **`boards`**: A list of board short codes to monitor. If left as an empty list (`[]`), all boards will be monitored.
-  - **`exclude_boards`**: If `true`, the boards listed in `boards` will be excluded, and all others will be monitored.
-  - **`request_time_limit`**: The minimum time (in seconds) between requests to avoid overloading the server. Must be 1 or greater.
-  - **`output_path`**: Path to the directory where scraped threads and logs will be saved. A `data` folder will be created inside this path for storing results. If set to `""`, this will save the output `data` folder in the root folder of the repository.
-  - **`save_log`**: If `true`, logs will be saved in a `log` folder under the specified `output_path`.
-  - **`clean_log`**: If `true`, logs older than three days will be automatically cleaned up.
+- After following all steps in this list, the output file (see section Output Data) is reproduced from the input file
 
-**Where to Find Board Codes**:
-  The short codes for 4chan boards can be found on the url of each [4chan boards page](https://boards.4chan.org). For example:
-    - `/a/` for Anime & Manga
-    - `/g/` for Technology
-    - `/sci/` for Science & Math
+To adapt these steps to your needs, adapt the configuration file or use command line parameters:
 
-   Simply use the code without the slashes in the `boards` field or with the `-b` option. For instance:
-    ```bash
-    python src/requester.py -b a g sci
-    ```
-    or in the configuration file:
-    ```json
-    {
-        "boards": ["a", "g", "sci"],
-    }
-    ```
+The template does not use a configuration file. But if it would need one, we would here link to the file and explain how to change it to have certain effects or link to documentation that does the explanation.
 
-  For more information, run:
-    ```bash
-    python src/requester.py -h
-    ```
+- `example-option`: This is an example configuration option to illustrate how options could be described in a README. (default: "none")
 
-To initialize,
+The template has no command line parameters. But if it would have some, we would here explain how to use them to have certain effects, also saying when one parameter corresponds to some entry in the configuration file mentioned above. If there are many parameters and the method has a good `--help`, this text could also just detail the required parameters and then say: For more information, run `method-command --help`.
 
-- Two directories are created for logs, and the data (saves/"the current date")
-- The requester will first query the 4chan API to find the current list of boards, if present the include or exclude boards are selected or removed from the list. For every board resulting from this process, two subdirectories folder will be created in the data folder, one for storing the threads and one for the thread on each board.
-- The requester then goes through each board to find a list of threads on each board. These are saved to the threads_on_boards folder
-- The requester then requests the posts on each board. The data is saved to a subfolder of threads, with a name consisting of the thread id and the time of first observance.
-- The loop repeats by checking each board for new and dead threads, then querying the new and live threads.
-- **Rerun:** The requester attempts to pick up from previous runs by observing the state of the saves directory. If this is deleted it will act as from fresh.
-- **Logs:** Debug logs are set to capture each API call and are as such, very detailed (approx 80 times as large as info). By default the info log is output to terminal.
+- `--example-parameter`: This is an example parameter to illustrate how parameters could be described in a README. (default: "none"; overwrites configuration option `example-option`)
 
-## Git Repository Structure (Optional)
+## Git Repository Structure
 <!--
 1. If the repository contains more than one file (excluding README, Licence, configuration files, gitignore, ...), list these files and their purpose in a hierarchical list.
 2. Provide the script file(s) input file(s), output file(s) and other intermediate or utility files (if any).
 -->
-- The tool's architecture includes a [src/](https://github.com/BDA-KTS/4CTC/tree/main/src) directory for core scripts
-  - With [requester.py](https://github.com/BDA-KTS/4CTC/blob/main/src/requester.py) handling data collection,
-  - [board.py](https://github.com/BDA-KTS/4CTC/blob/main/src/board.py) managing board-specific requests, and
-  - [utils.py](https://github.com/BDA-KTS/4CTC/blob/main/src/utils.py) for auxiliary functions.
-- Data is stored in a `data/` directory created upon initiation, and
-- documentation is available in [docs/](https://github.com/BDA-KTS/4CTC/tree/main/docs).
+The repository is organized as follows:
+
+- [guidelines.md](guidelines.md): Provides details beyond the checklist in the [README.md].
+- [README-template.md](README-template.md): Specifies and illustrates the Methods Hub friendly README.
+- [examples](examples): Does not exist, but illustrates in this list how a directory could be shown.
+  - [input.txt](examples/input.txt): Does not exist, but could be an example input to illustrate the input format of this method (see sections [Input Data](#input-data) and [How to Use](#how-to-use))
+  - [output.txt](examples/output.txt): Does not exist, but could be an example output to illustrate the output of this method (generated from the [input.txt](examples/input.txt); see sections [Output Data](#output-data) and [How to Use](#how-to-use))
 
 ## Hardware Requirements (Optional)
 <!--
@@ -189,7 +159,7 @@ Culbert, J. H. (2023). 4TCT, A 4chan Text Collection Tool. *[arXiv preprint arXi
 If any, add acknowledgements to express gratitude to those contributed, supported or guided.
 -->
 Special thanks to **Jack Culbert**, the original creator of this repository, for laying the foundation of this project.  
-Deep appreciation to **Po-Chun Chang**, who, through iterative improvements, expanded the utility and structure of the repository, making it more robust and publishable.  
+Deep appreciation to **Po-Chun Chang**, who, through iterative improvements, expanded the utility and structure ofthe repository, making it more robust and publishable.  
 Gratitude is also extended to the **[4chan API team](https://github.com/4chan)** for providing the foundational resources that enable this tool's functionality.  
 
 Thank you very much to the team behind the [4chan API](https://github.com/4chan/4chan-API)!
