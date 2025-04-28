@@ -12,7 +12,7 @@ General specifications:
 The title:
 1. The title must be the README's only first-level heading (line starting with a single '#').
 2. The title should make the method's purpose clear.
-3. The title must be changed by you, but all other headings should be kept as they are.
+3. The title (line 1 of this file) must be changed by you, but all other headings should be kept as they are.
 -->
 
 ## Description
@@ -141,7 +141,7 @@ The template has no command line parameters. But if it would have some, we would
 
 ## Hardware Requirements
 <!--
-1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs. cluster software, ...) that exceed the capabilities of a standard business laptop.
+1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a standard business laptop.
 -->
 This method can be run on a standard business laptop.
 
