@@ -7,7 +7,7 @@ General specifications:
 - A Methods Hub friendly README should link to all code files that it mentions using the [text](URL) format.
 - A Methods Hub friendly README should contain an explanation for each image it contains (e.g., data models, pipeline, schema structure).
 - A Methods Hub friendly README should link to authoritative sources rather than containing a copy of the information (e.g., documentation).
-- A Methods Hub friendly README uses APA7 for all references: https://apastyle.apa.org/style-grammar-guidelines/references/examples
+- A Methods Hub friendly README should use a uniform citation style for all references, for example APA7 https://apastyle.apa.org/style-grammar-guidelines/references/examples
 
 The title:
 1. The title must be the README's only first-level heading (line starting with a single '#').
