@@ -21,15 +21,6 @@ The quality criteria for documentation ensure that all information required for 
 
 If enabled in the submission form, methods on the Methods Hub can be executed in an interactive environment using [binder](https://mybinder.readthedocs.io/en/latest/index.html). For such methods, the repository needs to adhere to the [binder configuration file requirements](https://mybinder.readthedocs.io/en/latest/using/config_files.html) (which are mostly the same as for Methods Hub).
 
-#### Methods Hub Friendly README
-
-Providing a [Methods Hub friendly README](README-template.md) ensures that the method is described in a standardized format that is accessible for social scientists. In addition to the specifics that the linked template file mentions for each section, we recommend the following:
-
-- The README should contain as little computer science jargon as possible. Technical terms should be explained if they can not be avoided.
-- If the README mentions code files, it should also [link to them](https://daringfireball.net/projects/markdown/syntax#link).
-- The README should for each image (e.g., data models, pipeline, schema structure) also contain an explanation in text.
-- The README should not contain information of programming interfaces or similar if it could instead link to the authoritative source.
-
 #### postBuild File
 
 The postBuild file is used to render the Methods Hub friendly README to HTML. This process can be tested using Quarto, and can be automated on Github using the [preview action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage).

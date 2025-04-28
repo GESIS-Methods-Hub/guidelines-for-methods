@@ -25,7 +25,7 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 - [ ] The method repository contains the configuration files for installing all requirements (e.g., `environment.yml`, `requirements.txt`, `install.R`).
 - [ ] The method repository contains a `LICENSE` file (corresponding to an [open license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)).
 - [ ] The method repository contains a [`CITATION.cff`](https://citation-file-format.github.io/) file.
-- [ ] The method repository contains a [Methods Hub friendly README](README-template.md) (can be  `README.me` or another file; has to be selected in the submission form).
+- [ ] The method repository contains a [Methods Hub friendly README](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1) (can be  `README.me` or another file; has to be selected in the submission form).
 - [ ] The method repository contains the [postBuild](https://methodshub.gesis.org/snippet/postBuild) file.
 
 #### Code quality criteria
