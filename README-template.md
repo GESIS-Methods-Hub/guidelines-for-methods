@@ -4,8 +4,8 @@ General specifications:
 - This specification of the Methods Hub friendly README often uses the word 'should' to indicate the usual case. If you feel you need to do it differently, add a comment to argue for your case when you submit your method.
 - A Methods Hub friendly README should contain all sections below that are not marked as optional, and can contain more sections.
 - A Methods Hub friendly README should contain as few technical terms as possible and explain (or link to an explanation of) all used technical terms.
-- A Methods Hub friendly README should link to all code files that it mentions using the [text](URL) format.
-- A Methods Hub friendly README should contain an explanation for each image it contains (e.g., data models, pipeline, schema structure).
+- A Methods Hub friendly README should link to all code files that it mentions using the [text](URL relative to this file) format. The relative URL (i.e., no "https://github.com") is neccessary for proper versioning in Methods Hub.
+- A Methods Hub friendly README should contain an explanation (in the text) and an alternative for each image it contains (e.g., data models, pipeline, schema structure). Format: ![alternative text that describes what is visible in the image](URL relative to this file).
 - A Methods Hub friendly README should link to authoritative sources rather than containing a copy of the information (e.g., documentation).
 - A Methods Hub friendly README should use a uniform citation style for all references, for example APA7 https://apastyle.apa.org/style-grammar-guidelines/references/examples
 
@@ -35,7 +35,7 @@ The method takes as input the source code repository of another method (has to b
 3. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
 4. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
-The README template uses [markdown](https://daringfireball.net/projects/markdown/syntax) to present a structured overview of a method and mark links. It takes the following steps:
+The README template uses [markdown](https://commonmark.org/) to present a structured overview of a method and mark links. It takes the following steps:
 
 1. Copying. This document is copied into the repository of the method to be submitted. This step uses the pre-trained [best practices model](https:/example.com/) that was fine-tuned on the [responses](https:/example.com/) from an online survey with XXX participants as well as expert interviews with PyTorch [thresholded frequency optimizer](https:/example.com/) and a learning rate of 0.1 based on results from our preliminary tests (we tested learning rates 0.0001, 0.001, 0.01, 0.1, and 1). The learning rate can be changed using the `--learning-rate` command line parameter.
 2. Adapting. The template is then adapted so that it fits to the method of the repository. In our experiments we used [VIM](https://xkcd.com/378/) as a standard compromise between coolness and complexity, but the method can be configured to use any other text editor instead.
@@ -131,7 +131,7 @@ The template has no command line parameters. But if it would have some, we would
 
 ## Git Repository Structure
 <!--
-1. The git repository structure section should describe each file and directory - excluding README, Licence, environment configuration files, gitignore, and similar - in a hierarchical list
+1. The git repository structure section should describe key files and directories in a hierarchical list. The following files should not be listed neither described: README, Licence, environment configuration files, gitignore, and similar.
 -->
 - [guidelines.md](guidelines.md): Provides details beyond the checklist in the [README.md].
 - [README-template.md](README-template.md): Specifies and illustrates the Methods Hub friendly README.
@@ -141,16 +141,16 @@ The template has no command line parameters. But if it would have some, we would
 
 ## Hardware Requirements
 <!--
-1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a standard business laptop.
+1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
 -->
-This method can be run on a standard business laptop.
+This method can run on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
 
 ## References
 <!--
 1. The references section is optional.
 2. The references section should provide references of publications related to this method.
 -->
-- To cite this method:
+- Dataset used for training:
   
   Ample, E. X. & Obody, N. (2025). Getting into the Methods Hub. *Unpublished Papers*, 8(3), 42–43.
 
