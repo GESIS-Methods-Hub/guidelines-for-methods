@@ -30,10 +30,11 @@ The method takes as input the source code repository of another method (has to b
 
 ## Technical Details
 <!--
-1. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the technical details can be omitted.
-2. The technical details section should list all information needed to reproduce the method, including a process overview, employed other methods, and selected parameters.
-3. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
-4. The technical details section should for employed machine learning models mention on what kind of data they were trained.
+2. The technical details section should proview a process overview, linking to key source code files at every step of the process.
+2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
+3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
+4. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+5. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
 The README template uses [markdown](https://commonmark.org/) to present a structured overview of a method and mark links. It takes the following steps:
 
