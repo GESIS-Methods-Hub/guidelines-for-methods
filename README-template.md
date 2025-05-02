@@ -71,13 +71,14 @@ Example input data XXX (excerpt of [example-input-file1.json](example-input-file
 }
 ```
 
-Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability):
+Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability; optional attributes: `key2`):
 
 ```{json}
 {
-  "key": [
+  "key1": [
     "value [...]"
-  ]
+  ],
+  "key2": "value"
 }
 ```
 
