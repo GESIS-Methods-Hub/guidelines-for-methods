@@ -173,7 +173,7 @@ METHOD requires a GPU (compute capability XXX, XXX GB VRAM) to run.
 
 ## References
 <!--
-1. The references section is optional.
+1. The references section is optional, especially if they are cited in a publication that explains the technical details (see section Technical Details).
 2. The references section should provide references of publications related to this method (e.g., in APA7 style, https://apastyle.apa.org/style-grammar-guidelines/references/examples).
 -->
 - Dataset used for training:
