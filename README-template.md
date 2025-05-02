@@ -9,10 +9,13 @@ General specifications:
 - A Methods Hub friendly README should link to authoritative sources rather than containing a copy of the information (e.g., documentation).
 - A Methods Hub friendly README should use a uniform citation style for all references, for example APA7 https://apastyle.apa.org/style-grammar-guidelines/references/examples
 
-The title:
+Title:
 1. The title must be the README's only first-level heading (line starting with a single '#').
 2. The title should make the method's purpose clear.
 3. The title (line 1 of this file) must be changed by you, but all other headings should be kept as they are.
+
+Section templates:
+The README template comes with text templates for each section (after each comment) that can be used, customized or removed as desired.
 -->
 
 ## Description
@@ -22,52 +25,70 @@ The title:
 3. The description should mention different ways of using the method and important parameters if they exist (details should be in the section `How to Use`).
 4. The description should mention what makes the method special (details, including how a model was trained, should be in the section 'Technical Details').
 -->
-The README template illustrates the Methods Hub friendly README. Though the README template is not a method, this document is written as if it were one for the sake of illustration.
+METHOD allows to do XXX.
 
-The method takes as input the source code repository of another method (has to be applicable for social science research) and the knowledge of their programmer. It provides as output a Methods Hub friendly README that describes that other method in a unified and easily accessible way. Alternatively, it allows to check whether a README is Methods Hub friendly using the [specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1) (in `<!-- comment -->`s), as it is done after submitting a method to the Methods Hub. The method can use any OpenAI-compatible API (ChatGPT, Ollama, ...). The method placed 2nd in [NO competition](https:/example.com/). It has extremely low hardware requirements.
+METHOD takes XXX in XXX format as input and provides XXX in XXX format as output.
+Alternatively, METHOD can also be configured to XXX.
+METHOD works with XXX data.
+METHOD can use any [XXX-compatible API](https://example.com).
+The output of METHOD is compatible with [XXX](https://example.com).
+
+METHOD placed Xth in the [XXX](https:/example.com) competition on XXX.
+METHOD is much faster than other methods.
+METHOD runs quickly on standard hardware.
+METHOD requires a GPU.
 
 ## Technical Details
 <!--
-2. The technical details section should proview a process overview, linking to key source code files at every step of the process.
+1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
 2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
 3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
 4. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
 5. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
-The README template uses [markdown](https://commonmark.org/) to present a structured overview of a method and mark links. It takes the following steps:
 
-1. Copying. This document is copied into the repository of the method to be submitted. This step uses the pre-trained [best practices model](https:/example.com/) that was fine-tuned on the [responses](https:/example.com/) from an online survey with XXX participants as well as expert interviews with PyTorch [thresholded frequency optimizer](https:/example.com/) and a learning rate of 0.1 based on results from our preliminary tests (we tested learning rates 0.0001, 0.001, 0.01, 0.1, and 1). The learning rate can be changed using the `--learning-rate` command line parameter.
-2. Adapting. The template is then adapted so that it fits to the method of the repository. In our experiments we used [VIM](https://xkcd.com/378/) as a standard compromise between coolness and complexity, but the method can be configured to use any other text editor instead.
-3. Submitting. The respository, including the README (from step 1) is [submitted to Methods Hub](https://methodshub.gesis.org/dashboard/methods/add/) using the system web browser (default settings, we used Firefox 137.0.2 on Windows 10).
+METHOD does XXX by performing the following steps:
 
-See the [publication](https:/example.com/) for the reasoning behind the selected methods.
+1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
+2. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+3. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+
+See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
 
 ## Use Cases
 <!--
 1. The use cases section should contain a list of use cases relevant to the social sciences.
 2. Each use case should start with a description of a person, continues with a description of a task the person has, and then details how the person uses the method to assist in the task.
-3. Each use case may list publications (in APA7 style) in which the use case occurs.
+3. Each use case may list publications in which the use case occurs (e.g., in APA7 style, https://apastyle.apa.org/style-grammar-guidelines/references/examples).
 -->
-- A computational social scientist wants to have their method being featured in the Methods Hub. The method code is already contained in a repository on GitHub. They then use the README template to create a new file, `README-methods-hub.md`, by copying the content of this document into the new file and adapting it to their own method.
+- A XXX wants to do XXX. Their situation is that XXX. They use METHOD by doing XXX to do XXX, which solves their original problem because XXX.
 
   Example publications that illustrate this use case:
 
-  - Ample, E. X. & Obody, N. (2025). Getting into the Methods Hub. *Unpublished Papers*, 8(3), 42–43.
-
-- A computational social scientist has created a README for their own script and wants to check whether the README is Methods Hub friendly to ensure it contains all necessary information. They compare their own README with the README template, adjusting their own README as necessary to match the specification provided in the template.
+  - XXX.
+  - XXX.
 
 ## Environment Setup
 <!--
 1. The environment setup section should list all requirements and provide all further steps to prepare an environment for running the method (installing requirements, downloading files, creating directoriees, etc.).
 2. The environment setup section should recommend to use a virtual environment or similar if the programming language supports one.
 -->
-The README template requires an arbitrary text editor compatible with Markdown version 0.31.2. If this were an actual Python method, you should do the following. To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html). Then install all requirements using:
+METHOD requires at least XXX version XXX.
+To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
 
-```{python}
+METHOD requires an XXX API key. Get one [here](https:/example.com/) and paste it into [example-key-file.txt](example-key-file.txt).
+
+Then install all requirements using:
+
+```{bash}
 pip install -r requirements.txt
 ```
 
-You do not need an API key to use the README template, but if you would need one, you would here find a link to documentation on how to get one and were to put it.
+Then install METHOD in R using:
+
+```{R}
+install.packages("METHOD")
+```
 
 ## Input Data
 <!--
@@ -75,102 +96,115 @@ You do not need an API key to use the README template, but if you would need one
 2. The input data section should link to a small example input file in the same repository that can be used to test the method (this test should be described in the section "How to Use").
 3. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation (if no such page exists, a publication can be linked).
 -->
-The README template takes as input information about a method, for example in [README-format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+METHOD takes as input XXX in [XXX format](https://example.com) and XXX in [XXX format](https://example.com).
 
-Example input data ([README-template.md](README-template.md)):
+Example input data XXX (excerpt of [example-input-file1.json](example-input-file1.json)):
 
-```{markdown}
-# README Template: Specification and Illustration of the Methods Hub Friendly README
+```{json}
+{
+  "key": [
+    "value [...]"
+  ]
+}
+```
 
-## Description
-The README template illustrates the Methods Hub friendly README. [...]
+Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability):
+
+```{json}
+{
+  "key": [
+    "value [...]"
+  ]
+}
 ```
 
 ## Output Data
 <!--
 1. The output data section should illustrate the output data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
-2. The output data section should link to a small example output file in the same repository that can be re-created from the input data (as described in the section "How to Use").
+2. The output data section should link to a small example output file in the same repository that can be re-created (as far as the method is non-random) from the input data (as described in the section "How to Use").
 -->
+METHOD produces XXX in [XXX format](https://example.com).
 The README template produces a README according to the [Methods Hub friendly README specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1).
 
-Example output data ([README-template.md](README-template.md)):
+Example output data (excerpt of [example-output-file.csv](example-output-file.csv)):
 
-```{markdown}
-# README Template: Specification and Illustration of the Methods Hub Friendly README
-
-## Description
-The README template illustrates the Methods Hub friendly README. [...]
+```{csv}
+header 1,header 2
+value 1-1,value 1-2
+value 2-1,value 2-2
 ```
 
 ## How to Use
 <!--
 1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) from the example input file (see section Input Data), after having set up the environment (see section Environment Setup).
-2. The how to use section should explain how one can adapt the steps to one's needs, usually through configuration files or command line parameters.
+2. The how to use section should explain how to customize the steps to one's own needs, usually through configuration files or command line parameters, or refer to the appropriate open documentation.
 -->
-To prepare a method for the Methods Hub, use the README template as follows:
+To apply METHOD to the [example input](#input-data) and generate the [example output](#output-data), proceed as follows:
 
-- Copy this document to your repository and adapt its text to your method. We recommend to name that copy as `README.md` and use it as the single method of your repository, but it is not required that your Methods Hub friendly README has this name for your method to be accepted into Methods Hub (e.g., if the `README.md` is intended for a different target audience).
-- A step can also be illustrated as code, for example:
+```{bash}
+python method.py example-input-file1.json example-input-file2.ndjson
+```
 
-  ```{bash}
-  python do-something.py README.md
-  ```
+To adapt these steps to your needs, see the [online documentation of METHOD](https://example.com).
 
-- After following all steps in this list, the output file (see section Output Data) is reproduced from the input file
+To adapt these steps to your needs, see the output of `python method.py --help`.
 
-To adapt these steps to your needs, adapt the configuration file or use command line parameters:
+To adapt these steps to your needs, adapt the [configuration file](example-configuration-file.conf):
 
-The template does not use a configuration file. But if it would need one, we would here link to the file and explain how to change it to have certain effects or link to documentation that does the explanation.
+- `xxx`: Controls XXX. (default: "XXX")
 
-- `example-option`: This is an example configuration option to illustrate how options could be described in a README. (default: "none")
+To adapt these steps to your needs, apply the following command line parameters:
 
-The template has no command line parameters. But if it would have some, we would here explain how to use them to have certain effects, also saying when one parameter corresponds to some entry in the configuration file mentioned above. If there are many parameters and the method has a good `--help`, this text could also just detail the required parameters and then say: For more information, run `method-command --help`.
+- `--xxx`: Controls XXX. (default: "XXX")
 
-- `--example-parameter`: This is an example parameter to illustrate how parameters could be described in a README. (default: "none"; overwrites configuration option `example-option`)
+To adapt these steps to your needs, adapt the [configuration file](example-configuration-file.conf) or apply the following command line parameters (overwriting respective settings in the configuration file):
 
-## Git Repository Structure
-<!--
-1. The git repository structure section should describe key files and directories in a hierarchical list. The following files should not be listed neither described: README, Licence, environment configuration files, gitignore, and similar.
--->
-- [guidelines.md](guidelines.md): Provides details beyond the checklist in the [README.md].
-- [README-template.md](README-template.md): Specifies and illustrates the Methods Hub friendly README.
-- [examples](examples): Does not exist, but illustrates in this list how a directory could be shown.
-  - [input.txt](examples/input.txt): Does not exist, but could be an example input to illustrate the input format of this method (see sections [Input Data](#input-data) and [How to Use](#how-to-use))
-  - [output.txt](examples/output.txt): Does not exist, but could be an example output to illustrate the output of this method (generated from the [input.txt](examples/input.txt); see sections [Output Data](#output-data) and [How to Use](#how-to-use))
+- `--xxx`: Controls XXX. (default: "XXX")
 
 ## Hardware Requirements
 <!--
 1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+2. If the method requires a GPU, the hardware requirements section must list the minimal GPU requirements (especially VRAM).
 -->
-This method can run on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+METHOD runs on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+METHOD requires a GPU (compute capability XXX, XXX GB VRAM) to run.
 
 ## References
 <!--
 1. The references section is optional.
-2. The references section should provide references of publications related to this method.
+2. The references section should provide references of publications related to this method (e.g., in APA7 style, https://apastyle.apa.org/style-grammar-guidelines/references/examples).
 -->
 - Dataset used for training:
   
-  Ample, E. X. & Obody, N. (2025). Getting into the Methods Hub. *Unpublished Papers*, 8(3), 42–43.
+  XXX.
+
+- Employed model:
+  
+  XXX.
+
+- Underlying infrastructure:
+  
+  XXX.
 
 ## Acknowledgements
 <!--
 1. The acknowledgments section is optional.
 2. The acknowledgments section should list expressions of gratitude to people or organizations who contributed, supported or guided.
 -->
-Special thanks to the creators of the [Methods Hub friendly README specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1) for laying the foundation of this work.
+Special thanks to the creators of [XXX](https://example.com) for providing XXX.
+Special thanks to [XXX](https://example.com) for XXX.
 
 ## Disclaimer
 <!--
 1. The disclaimer section is optional.
 2. The disclaimer section should list disclaimers, legal notices, or usage restrictions for the method.
 -->
-The tool is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
-
-Please ensure you follow the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) when using this method.
+METHOD is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
+Ensure you follow the [XXX Terms of Service](https://example.com) when using this method.
 
 ## Contact Details
 <!-- 
 1. The contact details section should specify whom to contact for questions or contributions and how (can be separate entitites; for example email addresses or links to the GitHub issue board).
 -->
-For questions, contributions and bug reports, contact [the Methods Hub team](mailto:methodshub@gesis.org).
+In case of questions, contact [XXX](mailto:XXX).
+For contributions and bug reports, open an issue at [XXX](https://example.com).
