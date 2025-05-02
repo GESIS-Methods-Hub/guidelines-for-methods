@@ -40,23 +40,6 @@ METHOD is much faster than other methods.
 METHOD runs quickly on standard hardware.
 METHOD requires a GPU.
 
-## Technical Details
-<!--
-1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
-2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
-3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
-4. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
-5. The technical details section should for employed machine learning models mention on what kind of data they were trained.
--->
-
-METHOD does XXX by performing the following steps:
-
-1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
-2. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
-3. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
-
-See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
-
 ## Use Cases
 <!--
 1. The use cases section should contain a list of use cases relevant to the social sciences.
@@ -69,28 +52,6 @@ See the [publication](https:/example.com/) for tested and selected models and pa
 
   - XXX.
   - XXX.
-
-## Environment Setup
-<!--
-1. The environment setup section should list all requirements and provide all further steps to prepare an environment for running the method (installing requirements, downloading files, creating directoriees, etc.).
-2. The environment setup section should recommend to use a virtual environment or similar if the programming language supports one.
--->
-METHOD requires at least XXX version XXX.
-To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
-
-METHOD requires an XXX API key. Get one [here](https:/example.com/) and paste it into [example-key-file.txt](example-key-file.txt).
-
-Then install all requirements using:
-
-```{bash}
-pip install -r requirements.txt
-```
-
-Then install METHOD in R using:
-
-```{R}
-install.packages("METHOD")
-```
 
 ## Input Data
 <!--
@@ -136,6 +97,36 @@ value 1-1,value 1-2
 value 2-1,value 2-2
 ```
 
+## Hardware Requirements
+<!--
+1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+2. If the method requires a GPU, the hardware requirements section must list the minimal GPU requirements (especially VRAM).
+-->
+METHOD runs on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+METHOD requires a GPU (compute capability XXX, XXX GB VRAM) to run.
+
+## Environment Setup
+<!--
+1. The environment setup section should list all requirements and provide all further steps to prepare an environment for running the method (installing requirements, downloading files, creating directoriees, etc.).
+2. The environment setup section should recommend to use a virtual environment or similar if the programming language supports one.
+-->
+METHOD requires at least XXX version XXX.
+To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
+
+METHOD requires an XXX API key. Get one [here](https:/example.com/) and paste it into [example-key-file.txt](example-key-file.txt).
+
+Then install all requirements using:
+
+```{bash}
+pip install -r requirements.txt
+```
+
+Then install METHOD in R using:
+
+```{R}
+install.packages("METHOD")
+```
+
 ## How to Use
 <!--
 1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) from the example input file (see section Input Data), after having set up the environment (see section Environment Setup).
@@ -163,13 +154,22 @@ To adapt these steps to your needs, adapt the [configuration file](example-confi
 
 - `--xxx`: Controls XXX. (default: "XXX")
 
-## Hardware Requirements
+## Technical Details
 <!--
-1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
-2. If the method requires a GPU, the hardware requirements section must list the minimal GPU requirements (especially VRAM).
+1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
+2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
+3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
+4. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+5. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
-METHOD runs on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
-METHOD requires a GPU (compute capability XXX, XXX GB VRAM) to run.
+
+METHOD does XXX by performing the following steps:
+
+1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
+2. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+3. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+
+See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
 
 ## References
 <!--
