@@ -56,8 +56,8 @@ METHOD requires a GPU.
 ## Input Data
 <!--
 1. The input data section should illustrate the input data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
-2. The input data section should link to a small example input file in the same repository that can be used to test the method (this test should be described in the section "How to Use").
-3. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation (if no such page exists, a publication can be linked).
+2. The input data section should specify which parts of the input data are optional and what effect it has to not provide these.
+3. The input data section should link to a small example input file in the same repository that can be used to test the method (this test should be described in the section "How to Use").
 -->
 METHOD takes as input XXX in [XXX format](https://example.com) and XXX in [XXX format](https://example.com).
 
@@ -67,20 +67,27 @@ Example input data XXX (excerpt of [example-input-file1.json](example-input-file
 {
   "key": [
     "value [...]"
+  ],
+  "key": "value"
+}
+```
+
+- `key`. A list of XXX. If missing or empty, then XXX.
+- `key`. XXX. One of XXX, XXX, or XXX. If missing, then XXX.
+- `key`. XXX. A number between XXX and XXX. If missing, then XXX.
+- `key`. XXX. Required.
+
+Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability):
+
+```{json}
+{
+  "key": [
+    "value [...]"
   ]
 }
 ```
 
-Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability; optional attributes: `key2`):
-
-```{json}
-{
-  "key1": [
-    "value [...]"
-  ],
-  "key2": "value"
-}
-```
+- `key`. XXX.
 
 ## Output Data
 <!--
@@ -115,6 +122,7 @@ METHOD requires at least XXX version XXX.
 To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
 
 METHOD requires an XXX API key. Get one [here](https:/example.com/) and paste it into [example-key-file.txt](example-key-file.txt).
+METHOD requires XXX in directory XXX. Download it from [here](https:/example.com/).
 
 Then install all requirements using:
 
@@ -160,15 +168,17 @@ To adapt these steps to your needs, adapt the [configuration file](example-confi
 1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
 2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
 3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
-4. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
-5. The technical details section should for employed machine learning models mention on what kind of data they were trained.
+4. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation.
+5. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+6. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
 
 METHOD does XXX by performing the following steps:
 
 1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
-2. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
-3. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+2. Downloading data. XXX data is fetched from [XXX](https:/example.com/).
+3. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+4. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
 
 See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
 
