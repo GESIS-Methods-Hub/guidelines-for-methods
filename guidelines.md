@@ -1,15 +1,10 @@
 # Method Submission Guidelines
 
-The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts state-of-the-art methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research.
+The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research.
 
-To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org).
+A method is a sequence of instructions that a computer should execute and that is bundled for reusability, as well as its documentation.
 
-## Glossary
-
-| Term     | Explanation  |
-|----------|--------------|
-| Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
-| Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
+To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org). Consider also to write and [submit a tutorial](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) for your method.
 
 ## Quality Criteria
 
