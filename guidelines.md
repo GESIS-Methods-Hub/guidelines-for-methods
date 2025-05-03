@@ -2,7 +2,7 @@
 
 The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research.
 
-A method is a sequence of instructions that a computer should execute and that is bundled for reusability, as well as its documentation.
+A method for the Methods Hub is a sequence of instructions that a computer should execute to perform a specific task and that is bundled for reusability, as well as its documentation. The task has to fall into one of the top level categories of the [Method Tasks Taxonomy](tasks.md).
 
 To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org). Consider also to write and [submit a tutorial](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) for your method.
 
@@ -39,17 +39,6 @@ For methods for which a paper is published at venues that ensure the methods reu
 - [R open science](https://ropensci.org/)
 
 You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
-
-## Method Identification
-
-Researchers and practitioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
-
-1. It can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library.
-2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the users freedom to pick different methods according to their requirements and align them in the pipeline that suits their intended purpose.  
-3. It can also be a longer pipeline that has multiple code modules performing multiple tasks in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing which is then consumed by an artificial intelligence model for analysis. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
-4. Software application type of method, although not a common form of method represents software applications that can be downloaded and used directly, e.g., installing [ScienceLinker](https://git.gesis.org/sciencelinker/sciencelinker-development) through pip.
-
-Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
 
 ## FAQs
 
