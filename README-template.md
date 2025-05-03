@@ -138,7 +138,7 @@ install.packages("METHOD")
 
 ## How to Use
 <!--
-1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) from the example input file (see section Input Data), after having set up the environment (see section Environment Setup).
+1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) after having set up the environment (see section Environment Setup).
 2. The how to use section should explain how to customize the steps to one's own needs, usually through configuration files or command line parameters, or refer to the appropriate open documentation.
 -->
 To apply METHOD to the [example input](#input-data) and generate the [example output](#output-data), proceed as follows:
