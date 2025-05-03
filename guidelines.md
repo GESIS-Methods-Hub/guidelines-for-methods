@@ -20,7 +20,7 @@ The postBuild file is used to render the Methods Hub friendly README to HTML. Th
 
 The code quality criteria ensure that the code is easy to use and modify. To this end, we recommend the following in addition to the mandatory [checklist items](README.md#code-quality-criteria):
 
-- The method should not depend on certain other methods, but should use open formats for input and output. If there are standard formats for the particular task at hand, these should be used to ensure the interoperability of the methods.
+- To ensure the interoperability of the methods, a method should use open formats for input and output, preferably ones that are considered standard for the respective task.
 - The method should be easy to configure. A configuration through command line parameters and/or configuration files is preferable over having to edit the source code.
 - The method code should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html)).
 - The method repository should contain unit tests that test for common, borderline and unusual cases to ensure that the method works as expected.
