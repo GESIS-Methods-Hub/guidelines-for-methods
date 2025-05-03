@@ -2,6 +2,12 @@
 
 Here you will find the guidelines used by Methods Hub for methods. If you are preparing a tutorial, check the [guidelines used by Methods Hub for tutorials](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials).
 
+The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research. A special focus of the Methods Hub is on methods that work on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data), but also other methods are welcome.
+
+A method for the Methods Hub is a sequence of instructions that a computer should execute to perform a specific task and that is bundled for reusability, as well as its documentation.
+
+To be included in the Methods Hub, a method is checked to see if it fulfils the criteria in the [method-publishing-checklist](#method-publishing-checklist) below. If you believe your method meets these criteria, submit it for review on the [Methods Hub Portal](https://methodshub.gesis.org). After acceptance, consider to [write and submit a tutorial](https://github.com/GESIS-Methods-Hub/guidelines-for-tutorials) for your method.
+
 ## Method publishing checklist
 
 Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is checked for compliance with the following criteria before publication.
