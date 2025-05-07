@@ -1,7 +1,21 @@
-# 4TCT: A 4chan Text Collection Tool
+# README Template: Specification and Illustration of the Methods Hub Friendly README
 <!--
-1. The title should be meaningful and easy to follow.
-2. If applicable, it should reflect relevance to social science. 
+General specifications:
+- This specification of the Methods Hub friendly README often uses the word 'should' to indicate the usual case. If you feel you need to do it differently, add a comment to argue for your case when you submit your method.
+- A Methods Hub friendly README should contain all sections below that are not marked as optional, and can contain more sections.
+- A Methods Hub friendly README should contain as few technical terms as possible and explain (or link to an explanation of) all used technical terms.
+- A Methods Hub friendly README should link to all code files that it mentions using the [text](URL relative to this file) format. The relative URL (i.e., no "https://github.com") is neccessary for proper versioning in Methods Hub.
+- A Methods Hub friendly README should contain an explanation (in the text) and an alternative for each image it contains (e.g., data models, pipeline, schema structure). Format: ![alternative text that describes what is visible in the image](URL relative to this file).
+- A Methods Hub friendly README should link to authoritative sources rather than containing a copy of the information (e.g., documentation).
+- A Methods Hub friendly README should use a uniform citation style for all references, for example APA7 https://apastyle.apa.org/style-grammar-guidelines/references/examples
+
+Title:
+1. The title must be the README's only first-level heading (line starting with a single '#').
+2. The title should make the method's purpose clear.
+3. The title (line 1 of this file) must be changed by you, but all other headings should be kept as they are.
+
+Section templates:
+The README template comes with text templates for each section (after each comment) that can be used, customized or removed as desired.
 -->
 
 ## Description
@@ -13,223 +27,197 @@
 5. In a separate paragraph, highlight the reproducibility aspect of the method providing details or references to the resources used by the method, the data used in building the pre-trained modules etc.
 6. It should also discuss the decisions and parameters controlling the behavior of the method.
 -->
-4TCT is a specialized tool designed for the efficient collection of textual data from the [4chan](https://www.4chan.org/) platform. It automates the process of gathering posts from various boards, aiming to facilitate research and analysis in social science and computational linguistics.
+METHOD allows to do XXX.
 
-This tool is particularly useful for analyzing online discourse, community dynamics, and trends within the 4chan ecosystem. It can support research on topics such as hate speech, conspiracy theories, online extremism, meme culture, information dissemination, and the impact of anonymous social media on public opinion. The research paper [User unknown: 4chan, anonymity and contingency](https://firstmonday.org/ojs/index.php/fm/article/view/3665/8696) investigates anonymity and contingency aspects of 4chan in keeping its users unknown.
+METHOD takes XXX in XXX format as input and provides XXX in XXX format as output.
+Alternatively, METHOD can also be configured to XXX.
+METHOD works with XXX data.
+METHOD can use any [XXX-compatible API](https://example.com).
+The output of METHOD is compatible with [XXX](https://example.com).
 
-## Technical Details (Optional)
+METHOD placed Xth in the [XXX](https:/example.com) competition on XXX.
+METHOD is much faster than other methods.
+METHOD runs quickly on standard hardware.
+METHOD requires a GPU.
+
+## Use Cases
 <!--
-1. Include as one paragraph an overview of how this method works and how they could reproduce it.
-2. If applicable, tell what other methods it is build on or what data was used to train it.
-3. If a publication describes the method in details, cite it here.
+1. The use cases section should contain a list of use cases relevant to the social sciences.
+2. Each use case should start with a description of a person, continues with a description of a task the person has, and then details how the person uses the method to assist in the task.
+3. Each use case may list publications in which the use case occurs (e.g., in APA7 style, https://apastyle.apa.org/style-grammar-guidelines/references/examples).
 -->
-TODO
+- A XXX wants to do XXX. Their situation is that XXX. They use METHOD by doing XXX to do XXX, which solves their original problem because XXX.
 
-## Use Case(s)
-<!--
-1. Include use case(s) or research question(s) from social sciences that would make this method applicable in a certain scenario.
-2. They should arise from the latest social science literature cited in the description.
-3. If you know papers that correspond to a use case (in the best case even use this method), add a citation.
--->
-A **social scientist** analyzes the prevalence and evolution of hate speech and extremist narratives in online communities. They use 4TCT to collect posts from various 4chan boards to study patterns and triggers for such discourse.
+  Example publications that illustrate this use case:
 
-A **research team** investigates how conspiracy theories emerge and spread during political events. Using 4TCT, they gather data to identify key narratives and influential threads on 4chan boards.
-
-A **computational linguist** leverages 4TCT to build a corpus for training models on internet slang, meme-based text, and the language of conspiracy theories.
-
-## Environment Setup
-<!--
-1. Provide configuration file(s) preserving dependencies i.e., `environment.yml`, `requirements.txt`, `install.R` (including specific versions).
-2. Provide steps/commands to install all dependencies required to run this method.
-3. If the programming language supports it, use a virtual environment in your code below.
--->
-It Requires Python>3.10.2 Suitable for environments focused on data collection and analysis.
-
-Dependencies are listed in [requirements.txt](https://github.com/BDA-KTS/4CTC/blob/main/requirements.txt) and can be installed via `pip install -r requirements.txt` to ensure the tool functions correctly.
+  - XXX.
+  - XXX.
 
 ## Input Data
 <!--
-1. If applicable, explain the input data using sample instances as input data in the Git Repository i.e., the features and what they represent. These may be generated samples, staying within data restrictions.
-2. If applicable, Provide links to the actual dataset that the method can work with, idealy [GESIS DBD data](https://www.gesis.org/en/institute/digital-behavioral-data).
+1. The input data section should illustrate the input data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
+2. The input data section should specify which parts of the input data are optional and what effect it has to not provide these.
+3. The input data section should link to a small example input file in the same repository that can be used to test the method (this test should be described in the section "How to Use").
 -->
-Not applicable as 4TCT gathers data directly from 4chan.
+METHOD takes as input XXX in [XXX format](https://example.com) and XXX in [XXX format](https://example.com).
 
-## Output Data
-<!--
-1. Explain the sample output data in the Git Repository.
-2. Discuss how to interpret the output data.
--->
-Outputs include `.json` files containing collected posts, structured according to 4chan's API documentation, with directories organized by date and board.
+Example input data XXX (excerpt of [example-input-file1.json](example-input-file1.json)):
 
-```json
+```{json}
 {
-  "posts": [
-    {
-      "no": 1990691,
-      "sticky": 1,
-      "closed": 1,
-      "now": "02/23/13(Sat)22:43",
-      "name": "Anonymous",
-      "sub": "/c/ board rules and guidelines",
-      "com": "Greetings, /c/itizens!<br><br>Just wanted to go over a couple of guidelines for posting on /c/ if you are new here and a friendly reminder for those who aren&#039;t. <br><br>Try to avoid making single-image requests. Making a single image thread deletes a previous thread from the last page. Please include 4 to 5 similar images in your thread to get it going. Use resources like danbooru, gelbooru or even Google Image Search. <br><br>Check the catalog to avoid making a duplicate thread. This way, we can share and contribute more images more effectively and efficiently. <br><br>If bumping a thread, please include a picture instead of just writing &#039;bump&#039; and please do not necrobump threads that have reached their image limit. This restricts the diversity and natural flow of the board. Threads are meant to come and go and sometimes they are even better the next time around.<br><br>Finally, as much as /a/ is a discussion board, /c/ is a board for sharing images. Please respect the threads of other users and they will do the same to yours as well!",
-      "filename": "1327087650882",
-      "ext": ".jpg",
-      "w": 662,
-      "h": 1000,
-      "tn_w": 165,
-      "tn_h": 250,
-      "tim": 1361677439762,
-      "time": 1361677439,
-      "md5": "gP8R0+qEv/MBLCVaFcKY9Q==",
-      "fsize": 325353,
-      "resto": 0,
-      "semantic_url": "c-board-rules-and-guidelines",
-      "replies": 0,
-      "images": 0,
-      "unique_ips": 1
-    }
+  "key": [
+    "value [...]"
   ],
-  "last_modified": 1405561559,
-  "archived": false,
-  "post_time_UTC": "13_02_24_03_43_00",
-  "scraped_time_UTC": "23_11_24_13_03_09",
-  "board_code": "c"
+  "key": "value"
 }
 ```
 
-For explaination of the fields in the downloaded `.json` file, refer to [4chan API page](https://github.com/4chan/4chan-API/blob/master/pages/Threads.md)
+- `key`. A list of XXX. If missing or empty, then XXX.
+- `key`. XXX. One of XXX, XXX, or XXX. If missing, then XXX.
+- `key`. XXX. A number between XXX and XXX. If missing, then XXX.
+- `key`. XXX. Required.
+
+Example input data XXX (one line of [example-input-file2.ndjson](example-input-file2.ndjson), formatted for readability):
+
+```{json}
+{
+  "key": [
+    "value [...]"
+  ]
+}
+```
+
+- `key`. XXX.
+
+## Output Data
+<!--
+1. The output data section should illustrate the output data format by showing a (possibly abbreviated) example item and explaining (or linking to an explanation of) the data fields.
+2. The output data section should link to a small example output file in the same repository that can be re-created (as far as the method is non-random) from the input data (as described in the section "How to Use").
+-->
+METHOD produces XXX in [XXX format](https://example.com).
+The README template produces a README according to the [Methods Hub friendly README specification](https://github.com/GESIS-Methods-Hub/guidelines-for-methods/blob/main/README-template.md?plain=1).
+
+Example output data (excerpt of [example-output-file.csv](example-output-file.csv)):
+
+```{csv}
+header 1,header 2
+value 1-1,value 1-2
+value 2-1,value 2-2
+```
+
+## Hardware Requirements
+<!--
+1. The hardware requirements section should list all requirements (storage, memory, compute, GPUs, cluster software, ...) that exceed the capabilities of a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+2. If the method requires a GPU, the hardware requirements section must list the minimal GPU requirements (especially VRAM).
+-->
+METHOD runs on a cheap virtual machine provided by cloud computing company (2 x86 CPU core, 4 GB RAM, 40GB HDD).
+METHOD requires a GPU (compute capability XXX, XXX GB VRAM) to run.
+
+## Environment Setup
+<!--
+1. The environment setup section should list all requirements and provide all further steps to prepare an environment for running the method (installing requirements, downloading files, creating directoriees, etc.).
+2. The environment setup section should recommend to use a virtual environment or similar if the programming language supports one.
+-->
+METHOD requires at least XXX version XXX.
+To avoid problems with your system's Python installation, create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
+
+METHOD requires an XXX API key. Get one [here](https:/example.com/) and paste it into [example-key-file.txt](example-key-file.txt).
+METHOD requires XXX in directory XXX. Download it from [here](https:/example.com/).
+
+Then install all requirements using:
+
+```{bash}
+pip install -r requirements.txt
+```
+
+Then install METHOD in R using:
+
+```{R}
+install.packages("METHOD")
+```
 
 ## How to Use
 <!--
-1. Provide list of steps to execute the method for its intended purpose (assuming the environment is deployed).
-2. Explain which files or parameters need to be used. 
-3. Discuss how to alter the behavior of the method by changing parameters (if applicable).
+1. The how to use section should provide the list of steps that are necessary to produce the example output file (see section Output Data) after having set up the environment (see section Environment Setup).
+2. The how to use section should explain how to customize the steps to one's own needs, usually through configuration files or command line parameters, or refer to the appropriate open documentation.
 -->
+To apply METHOD to the [example input](#input-data) and generate the [example output](#output-data), proceed as follows:
 
-- Run `python src/requester.py` to start data collection, with options `-b` for board selection and `-e` for board exclusion. Advanced usage includes adjusting request intervals and logging levels for detailed monitoring.
-- To use a configuration file instead of command-line arguments, add the `-c` flag without any other arguments. (i.e. `python src/requester.py -c`) This will read settings from a [config.json](https://github.com/BDA-KTS/4CTC/blob/main/config.json) file located the root folder.
-  The configuration file should be structured as follows:
+```{bash}
+python method.py example-input-file1.json example-input-file2.ndjson
+```
 
-  ```json
-  {
-      "boards": [], 
-      "exclude_boards": false,
-      "request_time_limit": 1,
-      "output_path": "",
-      "save_log": false,
-      "clean_log": false
-  }
-  ```
+To adapt these steps to your needs, see the [online documentation of METHOD](https://example.com).
 
-  - **`boards`**: A list of board short codes to monitor. If left as an empty list (`[]`), all boards will be monitored.
-  - **`exclude_boards`**: If `true`, the boards listed in `boards` will be excluded, and all others will be monitored.
-  - **`request_time_limit`**: The minimum time (in seconds) between requests to avoid overloading the server. Must be 1 or greater.
-  - **`output_path`**: Path to the directory where scraped threads and logs will be saved. A `data` folder will be created inside this path for storing results. If set to `""`, this will save the output `data` folder in the root folder of the repository.
-  - **`save_log`**: If `true`, logs will be saved in a `log` folder under the specified `output_path`.
-  - **`clean_log`**: If `true`, logs older than three days will be automatically cleaned up.
+To adapt these steps to your needs, see the output of `python method.py --help`.
 
-**Where to Find Board Codes**:
-  The short codes for 4chan boards can be found on the url of each [4chan boards page](https://boards.4chan.org). For example:
-    - `/a/` for Anime & Manga
-    - `/g/` for Technology
-    - `/sci/` for Science & Math
+To adapt these steps to your needs, adapt the [configuration file](example-configuration-file.conf):
 
-   Simply use the code without the slashes in the `boards` field or with the `-b` option. For instance:
-    ```bash
-    python src/requester.py -b a g sci
-    ```
-    or in the configuration file:
-    ```json
-    {
-        "boards": ["a", "g", "sci"],
-    }
-    ```
+- `xxx`: Controls XXX. (default: "XXX")
 
-  For more information, run:
-    ```bash
-    python src/requester.py -h
-    ```
+To adapt these steps to your needs, apply the following command line parameters:
 
-To initialize,
+- `--xxx`: Controls XXX. (default: "XXX")
 
-- Two directories are created for logs, and the data (saves/"the current date")
-- The requester will first query the 4chan API to find the current list of boards, if present the include or exclude boards are selected or removed from the list. For every board resulting from this process, two subdirectories folder will be created in the data folder, one for storing the threads and one for the thread on each board.
-- The requester then goes through each board to find a list of threads on each board. These are saved to the threads_on_boards folder
-- The requester then requests the posts on each board. The data is saved to a subfolder of threads, with a name consisting of the thread id and the time of first observance.
-- The loop repeats by checking each board for new and dead threads, then querying the new and live threads.
-- **Rerun:** The requester attempts to pick up from previous runs by observing the state of the saves directory. If this is deleted it will act as from fresh.
-- **Logs:** Debug logs are set to capture each API call and are as such, very detailed (approx 80 times as large as info). By default the info log is output to terminal.
+To adapt these steps to your needs, adapt the [configuration file](example-configuration-file.conf) or apply the following command line parameters (overwriting respective settings in the configuration file):
 
-## Git Repository Structure (Optional)
+- `--xxx`: Controls XXX. (default: "XXX")
+
+## Technical Details
 <!--
-1. If the repository contains more than one file (excluding README, Licence, configuration files, gitignore, ...), list these files and their purpose in a hierarchical list.
-2. Provide the script file(s) input file(s), output file(s) and other intermediate or utility files (if any).
--->
-- The tool's architecture includes a [src/](https://github.com/BDA-KTS/4CTC/tree/main/src) directory for core scripts
-  - With [requester.py](https://github.com/BDA-KTS/4CTC/blob/main/src/requester.py) handling data collection,
-  - [board.py](https://github.com/BDA-KTS/4CTC/blob/main/src/board.py) managing board-specific requests, and
-  - [utils.py](https://github.com/BDA-KTS/4CTC/blob/main/src/utils.py) for auxiliary functions.
-- Data is stored in a `data/` directory created upon initiation, and
-- documentation is available in [docs/](https://github.com/BDA-KTS/4CTC/tree/main/docs).
-
-## Hardware Requirements (Optional)
-<!--
-In case the method needs more ressources than a typical laptop has (storage, memory, compute, GPUs), provide hardware requirements. 
+1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
+2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
+3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
+4. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation.
+5. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+6. The technical details section should for employed machine learning models mention on what kind of data they were trained.
 -->
 
-## Method Publication (Optional)
-<!--
-1. If any, include publications or articles associated to the method.
-2. Publications citation should be formatted using APA 7th style.
--->
-Culbert, J. H. (2023). 4TCT, A 4chan Text Collection Tool. *[arXiv preprint arXiv:2307.03556](https://arxiv.org/abs/2307.03556)*. (Users are encouraged to cite this paper when using the tool in research.)
+METHOD does XXX by performing the following steps:
 
-## Acknowledgements (if any)
-<!--
-If any, add acknowledgements to express gratitude to those contributed, supported or guided.
--->
-Special thanks to **Jack Culbert**, the original creator of this repository, for laying the foundation of this project.  
-Deep appreciation to **Po-Chun Chang**, who, through iterative improvements, expanded the utility and structure of the repository, making it more robust and publishable.  
-Gratitude is also extended to the **[4chan API team](https://github.com/4chan)** for providing the foundational resources that enable this tool's functionality.  
+1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
+2. Downloading data. XXX data is fetched from [XXX](https:/example.com/).
+3. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+4. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
 
-Thank you very much to the team behind the [4chan API](https://github.com/4chan/4chan-API)!
-
-## Disclaimer (Optional)
-<!--
-If necessary, add any disclaimers, legal notices, or usage restrictions for the method.
--->
-The creators of 4TCT and GESIS are not affiliated with 4chan. The tool is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
-
-Please ensure you follow the 4chan API Rules and Terms of Service found [here](https://github.com/4chan/4chan-API/blob/master/README.md).
-
-### API Rules
-
-Below official API rules have been made as default setting for this repository. They are listed here for those who are interested in modifying the repository.
-
-1. Do not make more than one request per second. To change the waiting time, use `--request-time-limit {your_ideal_value}` flag to set your ideal waiting time (only value above 1 will be accepted).
-2. Thread updating should be set to a minimum of 10 seconds, preferably higher.
-3. Use [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since) when doing your requests.
-4. Make API requests using the same protocol as the app. Only use SSL when a user is accessing your app over HTTPS.
-
-### API Terms of Service
-
-1. You may not use "4chan" in the title of your application, product, or service.
-2. You may not use the 4chan name, logo, or brand to promote your application, product, or service.
-3. You must disclose the source of the information shown by your application, product, or service as 4chan, and provide a link.
-4. You may not market your application, product, or service as being "official" in any way.
-5. You may not clone 4chan or its existing features/functionality. Example: Don't suck down our JSON, host it elsewhere, and throw ads around it.
-6. These terms are subject to change without notice.
+See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
 
 ## References
 <!--
-1. Include references to explore and learn more about the method.
-2. References citation should be formatted using APA 7th style.
+1. The references section is optional, especially if they are cited in a publication that explains the technical details (see section Technical Details).
+2. The references section should provide references of publications related to this method (e.g., in APA7 style, https://apastyle.apa.org/style-grammar-guidelines/references/examples).
 -->
+- Dataset used for training:
+  
+  XXX.
+
+- Employed model:
+  
+  XXX.
+
+- Underlying infrastructure:
+  
+  XXX.
+
+## Acknowledgements
+<!--
+1. The acknowledgments section is optional.
+2. The acknowledgments section should list expressions of gratitude to people or organizations who contributed, supported or guided.
+-->
+Special thanks to the creators of [XXX](https://example.com) for providing XXX.
+Special thanks to [XXX](https://example.com) for XXX.
+
+## Disclaimer
+<!--
+1. The disclaimer section is optional.
+2. The disclaimer section should list disclaimers, legal notices, or usage restrictions for the method.
+-->
+METHOD is intended for academic research, and users are responsible for ensuring the legality and ethicality of their data use.
+Ensure you follow the [XXX Terms of Service](https://example.com) when using this method.
 
 ## Contact Details
 <!-- 
-1. Tell how you want to be contacted for questions or feedback.
-2. For email: Provide at least name and email address.
-3. For GitHub: Provide an absolute link to the GitHub Issues or Discussion page.
+1. The contact details section should specify whom to contact for questions or contributions and how (can be separate entitites; for example email addresses or links to the GitHub issue board).
 -->
-For questions or contributions, contact [Jack H. Culbert](mailto:jack.culbert@gesis.org) and for maintenance issues contact [Po-Chun Chang](mailto:po-chun.chang@gesis.org).
+In case of questions, contact [XXX](mailto:XXX).
+For contributions and bug reports, open an issue at [XXX](https://example.com).

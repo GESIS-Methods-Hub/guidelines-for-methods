@@ -1,15 +1,6 @@
 # Method Submission Guidelines
 
-The Methods Hub aims to provide high-quality and easy-to-use computer science methods to social scientists. A special focus of the Methods Hub is on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data). Offering such methods through the Methods Hub makes them directly available to the target audience. However, the Method Hub only accepts state-of-the-art methods that follow the principles of open science, that are available in a format that is accessible for social scientists and that are relevant for social science research.
-
-To prepare methods for inclusion into the Methods Hub, follow the [method publishing checklist](README.md#method-publishing-checklist). This checklist is also used to check whether a submitted method is ready for inclusion or whether further changes are required. The checklist links back to this document for details. After you checked all items in the list, continue with the submission process on the [Methods Hub portal](https://methodshub.gesis.org).
-
-## Glossary
-
-| Term     | Explanation  |
-|----------|--------------|
-| Method   | Code snippets, one or more programming function, one or more programming classes or modularized software source code and its documentation. |
-| Tutorial | A stepwise guide with or without code that explains working with an important tool, technology, or the available method(s). |
+This document expands on the information in the [README.md](README.md).
 
 ## Quality Criteria
 
@@ -21,15 +12,6 @@ The quality criteria for documentation ensure that all information required for 
 
 If enabled in the submission form, methods on the Methods Hub can be executed in an interactive environment using [binder](https://mybinder.readthedocs.io/en/latest/index.html). For such methods, the repository needs to adhere to the [binder configuration file requirements](https://mybinder.readthedocs.io/en/latest/using/config_files.html) (which are mostly the same as for Methods Hub).
 
-#### Methods Hub Friendly README
-
-Providing a [Methods Hub friendly README](README-template.md) ensures that the method is described in a standardized format that is accessible for social scientists. In addition to the specifics that the linked template file mentions for each section, we recommend the following:
-
-- The README should contain as little computer science jargon as possible. Technical terms should be explained if they can not be avoided.
-- If the README mentions code files, it should also [link to them](https://daringfireball.net/projects/markdown/syntax#link).
-- The README should for each image (e.g., data models, pipeline, schema structure) also contain an explanation in text.
-- The README should not contain information of programming interfaces or similar if it could instead link to the authoritative source.
-
 #### postBuild File
 
 The postBuild file is used to render the Methods Hub friendly README to HTML. This process can be tested using Quarto, and can be automated on Github using the [preview action](https://github.com/GESIS-Methods-Hub/preview?tab=readme-ov-file#usage).
@@ -38,7 +20,7 @@ The postBuild file is used to render the Methods Hub friendly README to HTML. Th
 
 The code quality criteria ensure that the code is easy to use and modify. To this end, we recommend the following in addition to the mandatory [checklist items](README.md#code-quality-criteria):
 
-- The method should not depend on certain other methods, but should use open formats for input and output. If there are standard formats for the particular task at hand, these should be used to ensure the interoperability of the methods.
+- To ensure the interoperability of the methods, a method should use open formats for input and output, preferably ones that are considered standard for the respective task.
 - The method should be easy to configure. A configuration through command line parameters and/or configuration files is preferable over having to edit the source code.
 - The method code should follow basic coding standards (e.g., of [Google](https://google.github.io/styleguide/) or [GNU](https://www.gnu.org/prep/standards/standards.html)).
 - The method repository should contain unit tests that test for common, borderline and unusual cases to ensure that the method works as expected.
@@ -53,17 +35,6 @@ For methods for which a paper is published at venues that ensure the methods reu
 - [R open science](https://ropensci.org/)
 
 You can suggest further venues by mail to the [Methods Hub team][methodshub-email].
-
-## Method Identification
-
-Researchers and practitioners working in computational social science, computer science and natural language processing can identify methods as computational modules performing a specific task in the context of a research or development project concerning digital behavioral data.
-
-1. It can be a few snippets of code that does something meaningful on the input data to give consistent and reliable output that is useful in the bigger picture. For example, POS tags or synonyms to words using built-in library.
-2. It may also be acquired through code modularization where each module can be seen as a specific method e.g., the data collection module will be a data collection method from a given source, the preprocessing module can be the preprocessing method offering certain preprocessing options on the input data. This is the most prevalent form of method that gives the users freedom to pick different methods according to their requirements and align them in the pipeline that suits their intended purpose.  
-3. It can also be a longer pipeline that has multiple code modules performing multiple tasks in a sequence. For example, collecting data from an online source, preprocessing it and vectorizing which is then consumed by an artificial intelligence model for analysis. It may also be complete end-to-end pipeline from data collection to analysis and visualizations. These methods are more helpful for getting quick results and proof of concept on a task. Both (2) and (3) have their own value and audience groups.  
-4. Software application type of method, although not a common form of method represents software applications that can be downloaded and used directly, e.g., installing [ScienceLinker](https://git.gesis.org/sciencelinker/sciencelinker-development) through pip.
-
-Generally, a method coded for a research model would have specific settings according to the data and research questions. However, generalizing the method to deal with more variety of data formats or to execute under different parameter settings would add a lot of value to the methods for some effort invested in this direction.
 
 ## FAQs
 
