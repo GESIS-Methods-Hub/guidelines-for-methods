@@ -21,7 +21,7 @@ Each method submitted to the [Methods Hub](https://methodshub.gesis.org/) is che
 ### Scoping criteria
 
 - [ ] The method is relevant for the social sciences (shown through use cases in the Methods Hub friendly README of the repository; see [documentation quality criteria](#documentation-quality-criteria)).
-- [ ] The method belongs to a relevant task type of the first (most abstract) level of the [Method Tasks Taxonomy](tasks.md) (it has to be selected in the submission form; if none of the current second-level types fits the method, contact us at [methodshub@gesis.org][methodshub-email] to extend the taxonomy).
+- [ ] The method belongs to a relevant task type of the first (most abstract) level of the [Tasks Taxonomy](https://methodshub.gesis.org/about/how-to-submit/taxonomy) (it has to be selected in the submission form; if none of the current second-level types fits the method, contact us at [methodshub@gesis.org][methodshub-email] to extend the taxonomy).
 
 ### Quality criteria
 
